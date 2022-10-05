@@ -1,5 +1,8 @@
+using AuctionApp.Contracts;
+
 namespace AuctionApp.Entities.Identity;
-public class User{
+public class User : BaseEntity 
+{
     public string Username {get; set;}
     public string FirstName {get; set;}
     public string LastName {get; set;}
