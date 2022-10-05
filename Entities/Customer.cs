@@ -10,5 +10,6 @@ namespace AuctionApp.Entities
     {
         public int UserId {get;set;}
         public User User {get;set;}
+        public List<Auction> Auctions {get;set;}
     }
 }
