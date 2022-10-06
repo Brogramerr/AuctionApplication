@@ -1,6 +1,6 @@
 using AuctionApp.Enum;
 
-namespace Dtos.AuctionDto
+namespace AuctionApplication.DTOs
 {
     public class AuctionDto
     {
