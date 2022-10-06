@@ -8,11 +8,19 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuctionApp
 build_property.RootNamespace = AuctionApp
+<<<<<<< HEAD
+build_property.ProjectDir = c:\Users\USER\Documents\MVC\AuctionApp\AuctionApplication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\USER\Documents\MVC\AuctionApp\AuctionApplication
+=======
 build_property.ProjectDir = c:\Users\Zafrullah\Documents\Auction\AuctionApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\Users\Zafrullah\Documents\Auction\AuctionApplication
+>>>>>>> b384decd37840a0eb20a9551e94857dbccd532f1
 build_property._RazorSourceGeneratorDebug = 
 
 [c:/Users/Zafrullah/Documents/Auction/AuctionApplication/Views/Home/Index.cshtml]
