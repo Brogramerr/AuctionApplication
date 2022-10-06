@@ -12,5 +12,6 @@ namespace AuctionApp.Entities
         public int CustomerId {get;set;}
         public Customer Customer {get;set;}
         public bool IsApproved { get; set; }
+        public List<Bidding> Biddings{get; set;} = new List<Bidding>();
     }
 }
