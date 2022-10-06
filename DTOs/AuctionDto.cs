@@ -8,5 +8,6 @@ namespace Dtos.AuctionDto
         public string AssetName { get; set; }
         public DateTime ExpiryDate { get;set; }
         public AuctionType AuctionType { get; set; }
+
     }
 }
