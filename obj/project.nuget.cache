@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ymCOSAtOwVhG8qFP33ysbEC8NtZDr/ZRfyNbOFeZv1e29uiv5JdV1UhxDYW9+yr1uPhNnCtiaDtiWywLLu6ABA==",
+  "dgSpecHash": "aik6tW36wKV1l2W+ssFY/k9iXagAOvt5240L9kOowEgpkbJvXHW9bHJj1kN40HOSOUksIV5WiaJFXQLnz7zXhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
