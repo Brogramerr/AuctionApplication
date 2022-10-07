@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AuctionApp.Entities.Identity;
+using AuctionApplication.Entities.Identity;
 
-namespace AuctionApp.Entities
+namespace AuctionApplication.Entities
 {
     public class Customer : User
     {

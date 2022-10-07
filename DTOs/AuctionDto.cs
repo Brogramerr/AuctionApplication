@@ -1,3 +1,4 @@
+using System;
 using AuctionApp.Enum;
 
 namespace AuctionApplication.DTOs

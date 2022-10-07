@@ -1,7 +1,9 @@
-﻿using AuctionApp.Contracts;
+﻿﻿using System;
+using System.Collections.Generic;
+using AuctionApp.Contracts;
 using AuctionApp.Enum;
 
-namespace AuctionApp.Entities
+namespace AuctionApplication.Entities
 {
     public class Auction: AuditableEntity
     {

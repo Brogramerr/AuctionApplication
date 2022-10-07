@@ -1,6 +1,6 @@
-using AuctionApp.Contracts;
+using AuctionApplication.Contracts;
 
-namespace AuctionApp.Entities;
+namespace AuctionApplication.Entities;
 public class Bidding : AuditableEntity
 {
     public decimal Price {get; set;}
