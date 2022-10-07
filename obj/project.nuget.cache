@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dnY4v8M9v2HRoVMSJ8wHfRFebpk93Fmpr7y5dfVhL7sc1OiDZg1ONlbUjwmUTC1EdBn5lu8JeqnF1gndtDX02g==",
+  "dgSpecHash": "QlFdSxJmqaMA0StgWP+3aT5yukRsbmcz+my9yohak0oWyM3bN0tLW1+OunzYuE0uATVc/enRGGbRvlTaGOzQWA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
+  "projectFilePath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HI\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HI\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

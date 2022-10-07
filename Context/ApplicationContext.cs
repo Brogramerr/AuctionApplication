@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AuctionApp.Entities;
-using AuctionApp.Entities.Identity;
+using AuctionApplication.Entities;
+using AuctionApplication.Entities.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace AuctionApp.Context
+namespace AuctionApplication.Context
 {
     public class ApplicationContext : DbContext 
     {
