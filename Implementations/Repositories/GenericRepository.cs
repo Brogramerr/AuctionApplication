@@ -2,14 +2,14 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using AuctionApp.Interface.Repositories;
-using AuctionApp.Context;
+using AuctionApplication.Interface.Repositories;
+using AuctionApplication.Context;
 using Microsoft.EntityFrameworkCore;
-using AuctionApp.Contracts;
+using AuctionApplication.Contracts;
 
 namespace Implementations.Repositories
 {
-    public class BaseRepository<T> : IGenericRepository<T> where T : BaseEntity, new()
+    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, new()
     {
         protected ApplicationContext _Context;
         public async Task<T> CreateAsync(T entity)

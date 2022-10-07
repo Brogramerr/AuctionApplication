@@ -1,4 +1,4 @@
-using AuctionApp.Context;
+using AuctionApplication.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

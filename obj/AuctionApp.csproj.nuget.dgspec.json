@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj": {}
+    "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj": {
+    "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj",
+        "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
         "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj",
+        "projectPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
         "packagesPath": "C:\\Users\\HI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HI\\Desktop\\App\\Auction\\obj\\",
+        "outputPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,8 @@
               "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
             },

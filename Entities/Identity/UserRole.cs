@@ -1,5 +1,5 @@
-using AuctionApp.Contracts;
-namespace AuctionApp.Entities.Identity;
+using AuctionApplication.Contracts;
+namespace AuctionApplication.Entities.Identity;
 public class UserRole: AuditableEntity
 {
     public int UserId {get; set;}
