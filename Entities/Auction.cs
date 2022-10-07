@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using AuctionApp.Contracts;
-using AuctionApp.Enum;
-=======
 ﻿using AuctionApplication.Contracts;
 using AuctionApplication.Enum;
->>>>>>> 825df9a3e599be0a1ebff0b3e3c1f651342e4395
 
 namespace AuctionApplication.Entities
 {

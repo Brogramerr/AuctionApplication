@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
-    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
+    public class CustomerRepository : BaseRepository<Customer>, ICustomerRepository
     {
 
         public CustomerRepository(ApplicationContext Context)

@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
->>>>>>> 825df9a3e599be0a1ebff0b3e3c1f651342e4395
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>

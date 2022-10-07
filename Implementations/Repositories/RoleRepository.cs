@@ -4,7 +4,10 @@ using AuctionApplication.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
+using AuctionApplication.Interface.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace Implementations.Repositories
 {
@@ -16,11 +19,7 @@ namespace Implementations.Repositories
         }
         public async Task<Role> GetRoleByNameAsync(string name)
         {
-             return _Context.Role
-            .Include(x => x.UserRole)
-            .Include(c => c.User)
-            .Where(x => x.Name == name)
-            .SingleOrDefault();
+             return await  _Context.Roles.Where(x => x.Name == name).SingleOrDefaultAsync();
         }
     }
 }
