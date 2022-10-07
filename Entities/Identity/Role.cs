@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AuctionApp.Contracts;
-namespace AuctionApp.Entities.Identity;
+using AuctionApplication.Contracts;
+namespace AuctionApplication.Entities.Identity;
 public class Role : AuditableEntity
 {
     public string Name {get; set;}

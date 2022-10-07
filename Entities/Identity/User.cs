@@ -1,6 +1,6 @@
-using AuctionApp.Contracts;
+using AuctionApplication.Contracts;
 
-namespace AuctionApp.Entities.Identity;
+namespace AuctionApplication.Entities.Identity;
 public class User : BaseEntity 
 {
     public string Username {get; set;}
