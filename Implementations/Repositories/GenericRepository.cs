@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using AuctionApp.Interface.Repositories; 
 namespace Implementations.Repositories
-{
+{ 
     public class BaseRepository<T>: IGenericRepository<T> where T : class, new()
     {
          public async Task<T> CreateAsync(T entity)
