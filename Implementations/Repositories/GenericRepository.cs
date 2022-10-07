@@ -2,7 +2,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using AuctionApp.Interface.Repositories; 
+using AuctionApp.Interface.Repositories;
+using System;
+
 namespace Implementations.Repositories
 {
     public class BaseRepository<T>: IGenericRepository<T> where T : class, new()

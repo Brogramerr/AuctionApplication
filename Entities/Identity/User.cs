@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using AuctionApp.Contracts;
 
 namespace AuctionApp.Entities.Identity;
