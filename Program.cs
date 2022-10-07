@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-=======
-using AuctionApplication.Context;
-using Microsoft.EntityFrameworkCore;
->>>>>>> 825df9a3e599be0a1ebff0b3e3c1f651342e4395
 
 var builder = WebApplication.CreateBuilder(args);
 
