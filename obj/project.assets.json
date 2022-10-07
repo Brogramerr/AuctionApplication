@@ -752,11 +752,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
+      "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj",
       "projectName": "AuctionApp",
-      "projectPath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
+      "projectPath": "C:\\Users\\HI\\Desktop\\App\\Auction\\AuctionApp.csproj",
       "packagesPath": "C:\\Users\\HI\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\",
+      "outputPath": "C:\\Users\\HI\\Desktop\\App\\Auction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -766,6 +766,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
