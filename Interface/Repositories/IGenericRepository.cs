@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-namespace AuctionApp.Interface.Repositories;
+namespace AuctionApplication.Interface.Repositories;
 public interface IGenericRepository <T>{
         
         Task<T> CreateAsync(T entity);

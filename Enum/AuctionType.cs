@@ -1,4 +1,4 @@
-﻿namespace AuctionApp.Enum
+﻿namespace AuctionApplication.Enum
 {
     public enum AuctionType
     {

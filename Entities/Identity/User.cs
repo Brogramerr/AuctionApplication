@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 using System.Collections.Generic;
 using AuctionApp.Contracts;
+=======
+using AuctionApplication.Contracts;
+>>>>>>> 825df9a3e599be0a1ebff0b3e3c1f651342e4395
 
-namespace AuctionApp.Entities.Identity;
+namespace AuctionApplication.Entities.Identity;
 public class User : BaseEntity 
 {
     public string Username {get; set;}
