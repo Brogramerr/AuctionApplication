@@ -1,4 +1,6 @@
-﻿namespace AuctionApp.Contracts
+﻿﻿using System;
+
+namespace AuctionApp.Contracts
 {
     public interface ISoftDelete
     {

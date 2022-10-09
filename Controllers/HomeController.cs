@@ -1,8 +1,9 @@
-﻿using AuctionApp.Models;
+﻿using AuctionApplication.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace AuctionApp.Controllers
+namespace AuctionApplication.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,4 +1,4 @@
-﻿namespace AuctionApp.DTOs.ResponseModels
+﻿namespace AuctionApplication.DTOs.ResponseModels
 {
     public class BaseResponse
     {

@@ -1,6 +1,7 @@
-﻿using AuctionApp.Enum;
+﻿using System;
+using AuctionApplication.Enum;
 
-namespace AuctionApplication.DTOs.RequestModels
+namespace AuctionApplicationlication.DTOs.RequestModels
 {
 
     public class UpdateAuctionRequestModels
