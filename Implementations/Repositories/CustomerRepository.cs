@@ -1,12 +1,19 @@
 ﻿using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
+<<<<<<< HEAD
 using Implementations.Repositories;
+=======
+>>>>>>> master
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
+<<<<<<< HEAD
     public class CustomerRepository : BaseRepository<Customer>, ICustomerRepository
+=======
+    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
+>>>>>>> master
     {
 
         public CustomerRepository(ApplicationContext Context)
