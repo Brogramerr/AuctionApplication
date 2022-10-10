@@ -1,11 +1,14 @@
 using AuctionApplication.Entities.Identity;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Implementations.Repositories;
+using AuctionApplication.Interface.Services;
+
 using Microsoft.EntityFrameworkCore;
 
-namespace AuctionApplication.Services
+
+namespace AuctionApplication.Implementation.Services
 {
-    public class UserService
+    public class UserService:IUserService
 
     {
         private readonly UserRepository _repository;
@@ -14,7 +17,7 @@ namespace AuctionApplication.Services
             _repository = repository;
         }
 
-        public string Login(string email, string passWord)
+        public UserResponseModel Login(string email, string passWord)
         {
 
             var user = _repository.ExistsByEmailAsync(email, passWord);
