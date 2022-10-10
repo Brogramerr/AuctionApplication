@@ -2,8 +2,8 @@ using AuctionApplication.DTOs;
 
 namespace AuctionApplication.DTOs.ResponseModels
 {
-    public class AuctionResponse : BaseResponse
+    public class CustomerResponse : BaseResponse
     {
-        public AuctionDto  Data {get;set;}
+        public CustomerDto  Data {get;set;}
     }
 }

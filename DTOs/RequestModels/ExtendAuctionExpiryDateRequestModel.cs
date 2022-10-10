@@ -1,3 +1,5 @@
+﻿﻿using System;
+
 ﻿namespace AuctionApplication.DTOs.RequestModels
 {
     public class ExtendAuctionExpiryDateRequestModel
