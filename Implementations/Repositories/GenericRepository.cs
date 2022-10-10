@@ -2,6 +2,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Context;
 using Microsoft.EntityFrameworkCore;
@@ -32,7 +33,7 @@ namespace Implementations.Repositories
         }
         public async Task<T> GetAsync(int id)
         {
-            return await _Context.Set<T>().FirstOrDefaultAsync(x => x.Id == id);
+            return await _Context.Set<T>().FindAsync(id);
         }
         public async Task<T> GetAsync(Expression<Func<T, bool>> expression)
         {
