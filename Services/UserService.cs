@@ -1,4 +1,3 @@
-using AuctionApplication.Entities;
 using AuctionApplication.Entities.Identity;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Implementations.Repositories;
