@@ -1,13 +1,7 @@
 ﻿using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
-<<<<<<< HEAD
-<<<<<<< HEAD
-using Implementations.Repositories;
-=======
->>>>>>> master
-=======
->>>>>>> master
+
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
