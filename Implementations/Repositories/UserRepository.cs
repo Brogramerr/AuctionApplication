@@ -24,7 +24,5 @@ namespace AuctionApplication.Implementations.Repositories
             var result = await _Context.Users.Include(user => user.UserRoles).ThenInclude(x => x.Role).FirstOrDefaultAsync(x => x.Id == id && x.UserRoles.Any(y => y.Role.Name == role));
             return result;
         }
-
-         
     }
 }
