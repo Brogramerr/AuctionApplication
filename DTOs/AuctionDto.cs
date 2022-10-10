@@ -1,6 +1,7 @@
-using AuctionApp.Enum;
+using System;
+using AuctionApplication.Enum;
 
-namespace Dtos.AuctionDto
+namespace AuctionApplication.DTOs
 {
     public class AuctionDto
     {
