@@ -6,6 +6,7 @@ namespace AuctionApplication.DTOs
 {
     public class BiddingDto
     {
+        public int Id {get; set;}
         public decimal Price { get; set; }
         public string AssetName { get; set; }
         public DateTime ExpiryDate { get; set;}
