@@ -3,7 +3,10 @@ using AuctionApplication.Entities;
 using AuctionApplication.Entities.Identity;
 using AuctionApplication.Interface.Repositories;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Implementations.Repositories;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +26,11 @@ namespace AuctionApplication.Implementations.Repositories
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public async Task<User> GetUserbyIdRoleAsync(int id, string role)
+=======
+        public async Task<User> GetUserByRoleName(int id, string role)
+>>>>>>> master
 =======
         public async Task<User> GetUserByRoleName(int id, string role)
 >>>>>>> master
@@ -32,8 +39,11 @@ namespace AuctionApplication.Implementations.Repositories
             return result;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
          
+=======
+>>>>>>> master
 =======
 >>>>>>> master
     }

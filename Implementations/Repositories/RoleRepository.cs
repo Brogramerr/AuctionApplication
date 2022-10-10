@@ -10,9 +10,15 @@ using AuctionApplication.Interface.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Implementations.Repositories
 {
     public class RoleRepository : BaseRepository<Role>, IRoleRepository
+=======
+namespace AuctionApplication.Implementations.Repositories
+{
+    public class RoleRepository : GenericRepository<Role>, IRoleRepository
+>>>>>>> master
 =======
 namespace AuctionApplication.Implementations.Repositories
 {
@@ -26,7 +32,11 @@ namespace AuctionApplication.Implementations.Repositories
         public async Task<Role> GetRoleByNameAsync(string name)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
              return await  _Context.Roles.Where(x => x.Name == name).SingleOrDefaultAsync();
+=======
+            return await  _Context.Roles.Where(x => x.Name == name).SingleOrDefaultAsync();
+>>>>>>> master
 =======
             return await  _Context.Roles.Where(x => x.Name == name).SingleOrDefaultAsync();
 >>>>>>> master

@@ -2,7 +2,10 @@
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Implementations.Repositories;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +13,11 @@ using Microsoft.EntityFrameworkCore;
 namespace AuctionApplication.Implementations.Repositories
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public class CustomerRepository : BaseRepository<Customer>, ICustomerRepository
+=======
+    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
+>>>>>>> master
 =======
     public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
 >>>>>>> master
