@@ -1,5 +1,6 @@
-using AuctionApp.Entities;
-using AuctionApp.Enum;
+﻿using System;
+using AuctionApplication.Entities;
+using AuctionApplication.Enum;
 
 namespace AuctionApplication.DTOs
 {

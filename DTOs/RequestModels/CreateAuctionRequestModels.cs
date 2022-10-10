@@ -1,4 +1,4 @@
-using AuctionApp.Enum;
+using AuctionApplication.Enum;
 
 namespace AuctionApplication.DTOs.RequestModels
 {

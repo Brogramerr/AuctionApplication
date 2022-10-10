@@ -1,6 +1,6 @@
 using AuctionApplication.DTOs;
 
-namespace AuctionApp.DTOs.ResponseModels
+namespace AuctionApplication.DTOs.ResponseModels
 {
     public class BiddingResponse : BaseResponse
     {
