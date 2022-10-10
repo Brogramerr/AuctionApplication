@@ -5,10 +5,11 @@ using AuctionApplication.Interface.Services;
 
 using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
+using AuctionApplication.Interface.Repositories;
 
 namespace AuctionApplication.Implementation.Services
 {
-    public class UserService:IUserService
+    public class UserService : IUserService
 
     {
         private readonly IUserRepository _repository;
@@ -17,15 +18,15 @@ namespace AuctionApplication.Implementation.Services
             _repository = repository;
         }
 
-        public async Task<UserResponse> Login(string email, string passWord)
+        public async Task<UserResponseModel> Login(string email, string passWord)
         {
 
             var user = await _repository.ExistsByEmailAsync(email, passWord);
             if (user != null)
             {
-                return new UserResponse
+                return new UserResponseModel
                 {
-                        Data = new UserDto{
+                    Data = new UserDto{
                         Email = user.Email,
                         FirstName = user.FirstName,
                         LastName = user.LastName,
@@ -36,7 +37,7 @@ namespace AuctionApplication.Implementation.Services
                     Message = "Sucessfully logged in",
                 };
             }
-            return new UserResponse
+            return new UserResponseModel
             {
                 Success = true,
                 Message = "User not found",
