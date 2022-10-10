@@ -10,7 +10,7 @@ using AuctionApplication.Contracts;
 
 namespace AuctionApplication.Implementations.Repositories
 { 
-    public class GenericRepository<T>: IGenericRepository<T> where T : class, new()
+    public class BaseRepository<T>: IGenericRepository<T> where T : class, new()
     {
         protected ApplicationContext _Context;
         public async Task<T> CreateAsync(T entity)

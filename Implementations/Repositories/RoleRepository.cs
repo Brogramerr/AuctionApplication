@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
-    public class RoleRepository : GenericRepository<Role>, IRoleRepository
+    public class RoleRepository : BaseRepository<Role>, IRoleRepository
     {
         public RoleRepository(ApplicationContext Context)
         {
@@ -19,7 +19,7 @@ namespace AuctionApplication.Implementations.Repositories
         }
         public async Task<Role> GetRoleByNameAsync(string name)
         {
-            return await  _Context.Roles.Where(x => x.Name == name).SingleOrDefaultAsync();
+             return await  _Context.Roles.Where(x => x.Name == name).SingleOrDefaultAsync();
         }
     }
 }

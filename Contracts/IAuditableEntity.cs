@@ -1,6 +1,6 @@
 ﻿﻿using System;
 
-namespace AuctionApplication.Contracts
+namespace AuctionApp.Contracts
 {
     public interface IAuditableEntity
     {
