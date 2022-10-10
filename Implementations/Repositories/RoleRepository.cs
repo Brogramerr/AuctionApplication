@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using AuctionApplication.Interface.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Implementations.Repositories
+namespace AuctionApplication.Implementations.Repositories
 {
     public class RoleRepository : GenericRepository<Role>, IRoleRepository
     {
