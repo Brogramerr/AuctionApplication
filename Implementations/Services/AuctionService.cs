@@ -117,5 +117,25 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Type Update Failed",
             };
         }
+        public BaseResponse CloseAuction(int id)
+        {
+
+            var auction = _repository.GetAsync(id);
+            if (action = !null)
+            {
+                auction.IsClosed = true;
+                _repository.UpdateAsync(auction);
+                return new BaseResponse
+                {
+                    Success = true,
+                    Message = "Auction Closed Sucessfully",
+                };
+            }
+            return new BaseResponse
+            {
+                Success = false,
+                Message = "Auction Closure Failed",
+            };
+        }
     }
 }
