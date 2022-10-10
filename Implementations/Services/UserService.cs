@@ -4,7 +4,7 @@ using AuctionApplication.Implementations.Repositories;
 using AuctionApplication.Interface.Services;
 
 using Microsoft.EntityFrameworkCore;
-using AuctionApplication.DTOs;
+
 
 namespace AuctionApplication.Implementation.Services
 {
@@ -20,8 +20,8 @@ namespace AuctionApplication.Implementation.Services
         public async Task<UserResponseModel> Login(string email, string passWord)
         {
 
-            var user = await _repository.ExistsByEmailAsync(email, passWord);
-            if (user != null)
+            var user = _repository.ExistsByEmailAsync(email, passWord);
+            if (user = !null)
             {
                 return new UserResponseModel
                 {
@@ -38,8 +38,8 @@ namespace AuctionApplication.Implementation.Services
             }
             return new UserResponseModel
             {
-                Success = true,
-                Message = "User not found",
+                Success = false,
+                Message = "Loggin Failed",
             };
         }
     }
