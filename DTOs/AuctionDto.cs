@@ -1,4 +1,5 @@
-using AuctionApp.Enum;
+using System;
+using AuctionApplication.Enum;
 
 namespace Dtos.AuctionDto
 {

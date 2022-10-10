@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AuctionApp.Entities.Identity;
+using AuctionApplication.Entities.Identity;
 
-namespace AuctionApp.Entities
+namespace AuctionApplication.Entities
 {
     public class Customer : User
     {
         public int UserId {get;set;}
         public User User {get;set;}
+        public List<Bidding> Biddings {get;set;}
         public List<Auction> Auctions {get;set;}
     }
 }
