@@ -77,5 +77,25 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Expiry Date Extention Failed",
             };
         }
+        public BaseResponse UpdateAsset(int id, string AssetName)
+        {
+
+            var auction = _repository.GetAsync(id);
+            if (action = !null)
+            {
+                auction.AssetName = AssetName;
+                _repository.UpdateAsync(auction);
+                return new BaseResponse
+                {
+                    Success = true,
+                    Message = "Auction Expiry Date Extended Sucessfully",
+                };
+            }
+            return new BaseResponse
+            {
+                Success = false,
+                Message = "Auction Expiry Date Extention Failed",
+            };
+        }
     }
 }
