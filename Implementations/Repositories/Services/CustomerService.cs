@@ -25,7 +25,7 @@ namespace AuctionApplication.Implementation.Services
             var customer = await _customerRepository.GetAsync(customer => customer.User.Email == model.Email);
             if(customer != null)
             {
-                 return new BaseResponse()
+                return new BaseResponse()
                 {
                     Message = "Email Already Exist",
                     Success = false,
