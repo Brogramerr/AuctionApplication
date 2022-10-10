@@ -4,7 +4,7 @@ namespace AuctionApplication.Interface.Services
 {
     public interface IUserService
     {
-        UserResponseModel Login(string email, string passWord);
+        Task<UserResponseModel> Login(string email, string passWord);
      
     }
 }
