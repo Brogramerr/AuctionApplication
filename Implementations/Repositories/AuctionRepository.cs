@@ -20,4 +20,4 @@ namespace AuctionApplication.Implementations.Repositories
             .SingleOrDefaultAsync(x => x.Id == id);
         } 
     }
-}
+} 
