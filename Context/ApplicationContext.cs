@@ -20,6 +20,7 @@ namespace AuctionApplication.Context
         public DbSet<UserRole> UserRoles{get;set;}
         public DbSet<Auction> Auctions{get;set;}
         public DbSet<Customer> Customers{get;set;}
+        public DbSet<Bidding> Biddings {get; set;}
         
         
         

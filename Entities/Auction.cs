@@ -1,6 +1,6 @@
 ﻿﻿using System;
 using System.Collections.Generic;
-﻿using AuctionApplication.Contracts;
+using AuctionApplication.Contracts;
 using AuctionApplication.Enum;
 
 namespace AuctionApplication.Entities
