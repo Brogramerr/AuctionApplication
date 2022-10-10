@@ -1,5 +1,5 @@
 ﻿using System;
-using AuctionApp.Enum;
+using AuctionApplication.Enum;
 
 namespace AuctionApplicationlication.DTOs.RequestModels
 {

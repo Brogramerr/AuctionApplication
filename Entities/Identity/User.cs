@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using AuctionApp.Contracts;
+using AuctionApplication.Contracts;
 
 namespace AuctionApplication.Entities.Identity;
-public class User : BaseEntity 
+public class User : AuditableEntity
 {
     public string Username {get; set;}
     public string FirstName {get; set;}
