@@ -49,7 +49,7 @@ namespace AuctionApplication.Implementation.Services
             var custom = await _customerRepository.CreateAsync(custm);
             if(custom == null)
             {
-                 return new BaseResponse()
+                return new BaseResponse()
                 {
                     Message = "Unable To Register Customer",
                     Success = false,
