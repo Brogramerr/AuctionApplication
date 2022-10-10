@@ -138,5 +138,110 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Closure Failed",
             };
         }
+
+        public async Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModel model)
+        {
+            var auction = await _repository.GetAsync(model => model.AssetName == model.AssetName);
+            if (auction != null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Already Exist",
+                    Success = false,
+                };
+            }
+
+            var auc = new Auction
+            {
+                AssetName = model.AssetName,
+                AuctionType = model.AuctionType,
+                ExpiryDate = model.ExpiryDate,
+                IsApproved = false,
+                IsClosed = false,
+                StartDate = model.StartDate,
+                UserId = model.UserId,
+            };
+
+            var result = await _repository.AddAsync(auc);
+            if (result == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Creation Failed",
+                    Success = false,
+                };
+            }
+            else
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Created Successfully",
+                    Success = true,
+                };
+            }
+        }
+
+        public async Task<BaseResponse> DeleteAuctionAsync(int id)
+        {
+            var auction = await _repository.GetAsync(id);
+            if (auction == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Not Found",
+                    Success = false,
+                };
+            }
+
+            var result = await _repository.DeleteAsync(auction);
+            if (result == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Deletion Failed",
+                    Success = false,
+                };
+            }
+            else
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Deleted Successfully",
+                    Success = true,
+                };
+            }
+        }
+
+        public async Task<BaseResponse> ChangeAuctionPriceAsync(int id, decimal price)
+        {
+            var auction = await _repository.GetAsync(id);
+            if (auction == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Not Found",
+                    Success = false,
+                };
+            }
+
+            auction.CurrentPrice = price;
+            var result = await _repository.UpdateAsync(auction);
+            if (result == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Price Change Failed",
+                    Success = false,
+                };
+            }
+            else
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Price Changed Successfully",
+                    Success = true,
+                };
+            }
+        }
     }
 }
