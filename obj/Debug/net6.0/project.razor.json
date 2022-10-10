@@ -16296,6 +16296,7 @@
     "CSharpLanguageVersion": 1000
   },
   "RootNamespace": "AuctionApp",
+<<<<<<< HEAD
   "Documents": [
     {
       "FilePath": "c:\\Users\\USER\\Documents\\MVC\\AuctionApp\\AuctionApplication\\Views\\Shared\\_Layout.cshtml",
@@ -16333,5 +16334,8 @@
       "FileKind": "mvc"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> master
   "SerializationFormat": "0.2"
 }
