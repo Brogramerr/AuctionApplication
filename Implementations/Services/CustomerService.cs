@@ -84,14 +84,11 @@ namespace AuctionApplication.Implementation.Services
                 Success = false,
                 Data = new CustomerDto()
                 {
-                    UserDto = new UserDto()
-                    {
                         FirstName = customer.User.FirstName,
                         LastName = customer.User.LastName,
                         Username = customer.User.Username,
                         Email = customer.User.Email,
                         PhoneNumber = customer.User.PhoneNumber,
-                    }
                 }
             };
         }

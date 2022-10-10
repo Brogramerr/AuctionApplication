@@ -4,27 +4,28 @@ using AuctionApplication.Implementations.Repositories;
 using AuctionApplication.Interface.Services;
 using System;
 using Microsoft.EntityFrameworkCore;
-
+using AuctionApplication.Interface.Repositories;
+using AuctionApplication.Enum;
 
 namespace AuctionApplication.Implementation.Services
 {
     public class AuctionService : IAuctionService
 
     {
-        private readonly AuctionRepository _repository;
-        public AuctionService(AuctionRepository repository)
+        private readonly IAuctionRepository _repository;
+        public AuctionService(IAuctionRepository repository)
         {
             _repository = repository;
         }
 
-        public BaseResponse ApproveAuction(int id)
+        public async Task<BaseResponse> ApproveAuction(int id)
         {
 
-            var auction = _repository.GetAsync(id);
-            if (action = !null)
+            var auction = await _repository.GetAsync(id);
+            if (auction != null)
             {
                 auction.IsApproved = true;
-                _repository.UpdateAsync(auction);
+              await  _repository.UpdateAsync(auction);
                 return new BaseResponse
                 {
                     Success = true,
@@ -37,14 +38,14 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Approval Failed",
             };
         }
-        public BaseResponse DisApproveAuction(int id)
+        public async Task<BaseResponse> DisApproveAuction(int id)
         {
 
-            var auction = _repository.GetAsync(id);
-            if (action = !null)
+            var auction = await _repository.GetAsync(id);
+            if (auction != null)
             {
                 auction.IsApproved = false;
-                _repository.UpdateAsync(auction);
+                await _repository.UpdateAsync(auction);
                 return new BaseResponse
                 {
                     Success = true,
@@ -57,14 +58,14 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction DisApproval Failed",
             };
         }
-        public BaseResponse ExtendAuctionExpiryDate(int id, DateTime ExpiryDate)
+        public async Task<BaseResponse> ExtendAuctionExpiryDate(int id, DateTime ExpiryDate)
         {
 
-            var auction = _repository.GetAsync(id);
-            if (action = !null)
+            var auction = await _repository.GetAsync(id);
+            if (auction != null)
             {
                 auction.ExpiryDate = ExpiryDate;
-                _repository.UpdateAsync(auction);
+                await _repository.UpdateAsync(auction);
                 return new BaseResponse
                 {
                     Success = true,
@@ -77,14 +78,14 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Expiry Date Extention Failed",
             };
         }
-        public BaseResponse UpdateAsset(int id, string AssetName)
+        public async Task<BaseResponse> UpdateAsset(int id, string AssetName)
         {
 
-            var auction = _repository.GetAsync(id);
-            if (action = !null)
+            var auction = await _repository.GetAsync(id);
+            if (auction != null)
             {
                 auction.AssetName = AssetName;
-                _repository.UpdateAsync(auction);
+                await _repository.UpdateAsync(auction);
                 return new BaseResponse
                 {
                     Success = true,
@@ -97,14 +98,14 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Asset Update Failed",
             };
         }
-        public BaseResponse ChangeAuctionType(int id, AuctionType AuctionType)
+        public async Task<BaseResponse> ChangeAuctionType(int id, AuctionType AuctionType)
         {
 
-            var auction = _repository.GetAsync(id);
-            if (action = !null)
+            var auction = await _repository.GetAsync(id);
+            if (auction != null)
             {
                 auction.AuctionType = AuctionType;
-                _repository.UpdateAsync(auction);
+                await _repository.UpdateAsync(auction);
                 return new BaseResponse
                 {
                     Success = true,
@@ -117,14 +118,14 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Auction Type Update Failed",
             };
         }
-        public BaseResponse CloseAuction(int id)
+        public async Task<BaseResponse> CloseAuction(int id)
         {
 
-            var auction = _repository.GetAsync(id);
-            if (action = !null)
+            var auction = await _repository.GetAsync(id);
+            if (auction != null)
             {
                 auction.IsClosed = true;
-                _repository.UpdateAsync(auction);
+                await _repository.UpdateAsync(auction);
                 return new BaseResponse
                 {
                     Success = true,

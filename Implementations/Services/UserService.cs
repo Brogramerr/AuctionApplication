@@ -5,14 +5,15 @@ using AuctionApplication.Interface.Services;
 
 using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
+using AuctionApplication.Interface.Repositories;
 
 namespace AuctionApplication.Implementation.Services
 {
-    public class UserService:IUserService
+    public class UserService : IUserService
 
     {
-        private readonly UserRepository _repository;
-        public UserService(UserRepository repository)
+        private readonly IUserRepository _repository;
+        public UserService(IUserRepository repository)
         {
             _repository = repository;
         }
