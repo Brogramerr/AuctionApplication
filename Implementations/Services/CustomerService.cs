@@ -13,11 +13,10 @@ namespace AuctionApplication.Implementation.Services
 {
     public class CustomerService : ICustomerService
     {
-        private readonly ICustomerRepository _customerService;
         private readonly ICustomerRepository _customerRepository;
         public CustomerService(ICustomerRepository customerRepository)
         {
-            _customerService = customerRepository;
+            _customerRepository = customerRepository;
         }
 
         public async Task<BaseResponse> Register(CreateCustomerRequestModel model)
@@ -85,14 +84,11 @@ namespace AuctionApplication.Implementation.Services
                 Success = false,
                 Data = new CustomerDto()
                 {
-                    UserDto = new UserDto()
-                    {
                         FirstName = customer.User.FirstName,
                         LastName = customer.User.LastName,
                         Username = customer.User.Username,
                         Email = customer.User.Email,
                         PhoneNumber = customer.User.PhoneNumber,
-                    }
                 }
             };
         }
