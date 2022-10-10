@@ -1,4 +1,4 @@
-namespace Dtos.AuctionDto
+namespace AuctionApplication.DTOs
 {
     public class UserDto
     {

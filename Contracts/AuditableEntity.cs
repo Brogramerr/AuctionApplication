@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using AuctionApp.Contracts;
 
 namespace AuctionApplication.Contracts
