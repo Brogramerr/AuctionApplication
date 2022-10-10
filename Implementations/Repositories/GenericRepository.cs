@@ -7,22 +7,9 @@ using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Context;
 using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Implementations.Repositories
-{ 
-    public class BaseRepository<T>: IGenericRepository<T> where T : class, new()
-=======
 namespace AuctionApplication.Implementations.Repositories
 { 
     public class GenericRepository<T>: IGenericRepository<T> where T : class, new()
->>>>>>> master
-=======
-namespace AuctionApplication.Implementations.Repositories
-{ 
-    public class GenericRepository<T>: IGenericRepository<T> where T : class, new()
->>>>>>> master
     {
         protected ApplicationContext _Context;
         public async Task<T> CreateAsync(T entity)

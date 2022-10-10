@@ -88,13 +88,33 @@ namespace AuctionApplication.Implementation.Services
                 return new BaseResponse
                 {
                     Success = true,
-                    Message = "Auction Expiry Date Extended Sucessfully",
+                    Message = "Auction Asset Updated Sucessfully",
                 };
             }
             return new BaseResponse
             {
                 Success = false,
-                Message = "Auction Expiry Date Extention Failed",
+                Message = "Auction Asset Update Failed",
+            };
+        }
+        public BaseResponse ChangeAuctionType(int id, AuctionType AuctionType)
+        {
+
+            var auction = _repository.GetAsync(id);
+            if (action = !null)
+            {
+                auction.AuctionType = AuctionType;
+                _repository.UpdateAsync(auction);
+                return new BaseResponse
+                {
+                    Success = true,
+                    Message = "Auction Type Updated Sucessfully",
+                };
+            }
+            return new BaseResponse
+            {
+                Success = false,
+                Message = "Auction Type Update Failed",
             };
         }
     }

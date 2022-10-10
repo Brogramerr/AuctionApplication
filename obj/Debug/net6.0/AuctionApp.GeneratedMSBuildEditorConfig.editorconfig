@@ -15,30 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\USER\Documents\MVC\AuctionApp\AuctionApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 [c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/AuctionApplication/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXVjdGlvbkFwcGxpY2F0aW9uXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-ld26orzt3k
 
 [c:/Users/USER/Documents/MVC/AuctionApp/AuctionApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
