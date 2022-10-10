@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
 namespace Implementations.Repositories
 {
-    public class BiddingRepository: BaseRepository<Bidding>, IBiddingRepository
+    public class BiddingRepository: GenericRepository<Bidding>, IBiddingRepository
     {
         
         public BiddingRepository(ApplicationContext Context)
@@ -19,7 +19,7 @@ namespace Implementations.Repositories
             var bidding = await _Context.Biddings.Where(a => a.AuctionId == id).Include(auction=> auction.Auction).Include(customer => customer.Customer).SingleOrDefaultAsync();
             return bidding;
         }
-      
+    
 
     }
 }
