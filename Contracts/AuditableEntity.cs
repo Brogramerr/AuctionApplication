@@ -1,6 +1,4 @@
 ﻿using System;
-using AuctionApp.Contracts;
-
 namespace AuctionApplication.Contracts
 {
     public class AuditableEntity : BaseEntity, IAuditableEntity, ISoftDelete
@@ -12,7 +10,7 @@ namespace AuctionApplication.Contracts
         public DateTime? DeletedOn { get ; set; }
         public int? DeletedBy { get ; set ; }
         public bool? IsDeleted { get ; set ; }
-        DateTime? IAuditableEntity.CreatedOn { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        DateTime? IAuditableEntity.LastModifiedOn { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        DateTime? IAuditableEntity.CreatedOn { get;   set;    }
+        DateTime? IAuditableEntity.LastModifiedOn { get; set; }
     }
 }
