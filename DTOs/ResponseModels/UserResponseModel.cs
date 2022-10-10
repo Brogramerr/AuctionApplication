@@ -1,4 +1,4 @@
-using Dtos.AuctionDto;
+using AuctionApplication.DTOs;
 
 namespace AuctionApplication.DTOs.ResponseModels
 {

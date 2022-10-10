@@ -1,12 +1,11 @@
 ﻿using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
-using Implementations.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
-    public class CustomerRepository : BaseRepository<Customer>, ICustomerRepository
+    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
     {
 
         public CustomerRepository(ApplicationContext Context)

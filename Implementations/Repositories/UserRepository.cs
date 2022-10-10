@@ -2,7 +2,6 @@ using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Entities.Identity;
 using AuctionApplication.Interface.Repositories;
-using Implementations.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
@@ -19,12 +18,10 @@ namespace AuctionApplication.Implementations.Repositories
             return user;
         }
 
-        public async Task<User> GetUserbyIdRoleAsync(int id, string role)
+        public async Task<User> GetUserByRoleName(int id, string role)
         {
             var result = await _Context.Users.Include(user => user.UserRoles).ThenInclude(x => x.Role).FirstOrDefaultAsync(x => x.Id == id && x.UserRoles.Any(y => y.Role.Name == role));
             return result;
         }
-
-         
     }
 }
