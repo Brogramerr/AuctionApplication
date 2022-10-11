@@ -30,7 +30,7 @@ namespace AuctionApplication.Implementation.Services
                     Message = "Email Already Exist",
                     Success = false,
                 };
-            }
+             }
 
             var custm  = new Customer()
             {

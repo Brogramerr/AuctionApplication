@@ -43,4 +43,4 @@ namespace AuctionApplication.Implementation.Services
             };
         }
     }
-}
+} 
