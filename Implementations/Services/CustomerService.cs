@@ -58,7 +58,7 @@ namespace AuctionApplication.Implementation.Services
             else
             {
                 
-                  return new BaseResponse()
+                return new BaseResponse()
                 {
                     Message = "Successfully Registered",
                     Success = true,

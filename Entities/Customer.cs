@@ -15,6 +15,8 @@ namespace AuctionApplication.Entities
         public int UserId { get; set; }
         public User User { get; set; }
         public Wallet Wallet { get; set; }
-        
+        public List<Asset> Assets {get; set;}
+        public List<Bidding> Biddings {get; set;}
+
     }
 }
