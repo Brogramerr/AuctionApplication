@@ -15,7 +15,7 @@ namespace AuctionApplication.Entities
         public int BuyerId {get;set;}
         public Customer Buyer {get;set;}
         public List<Bidding> Biddings{get; set;} = new List<Bidding>();
-       
+        public bool IsAuctioned {get; set;}
         
     }
 }

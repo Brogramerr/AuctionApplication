@@ -14,7 +14,7 @@ namespace AuctionApplication.Interface.Repositories
         Task<T> GetAsync(Expression<Func<T, bool>> expression);
         Task<IEnumerable<T>> GetAllAsync();
         Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression);
-        void DeleteAsync(T entity);
+        Task<bool> DeleteAsync(T entity);
 
 
 

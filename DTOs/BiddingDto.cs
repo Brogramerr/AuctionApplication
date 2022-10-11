@@ -1,6 +1,6 @@
 ﻿using System;
 using AuctionApplication.Entities;
-using AuctionApplication.Enum;
+
 
 namespace AuctionApplication.DTOs
 {
