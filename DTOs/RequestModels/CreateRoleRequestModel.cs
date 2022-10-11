@@ -1,6 +1,6 @@
 namespace AuctionApp.DTOs.RequestModels
 {
-    public class RoleRequestmodel
+    public class CreateRoleRequestmodel
     {
         public string Name { get; set; }
         public string Description { get; set; }

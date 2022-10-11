@@ -21,7 +21,7 @@ namespace AuctionApplication.Implementations.Repositories
         }
 
         public async Task<T> UpdateAsync(T entity)
-        {
+        { 
             _Context.Set<T>().Update(entity);
             await _Context.SaveChangesAsync();
             return entity;

@@ -747,19 +747,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zafrullah\\.nuget\\packages\\": {}
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj",
+      "projectUniqueName": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
       "projectName": "AuctionApp",
-      "projectPath": "c:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj",
-      "packagesPath": "C:\\Users\\Zafrullah\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\obj\\",
+      "projectPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+      "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -819,5 +819,13 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
