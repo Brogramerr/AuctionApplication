@@ -14,9 +14,8 @@ namespace AuctionApplication.Implementations.Repositories
         public async Task<Auction> GetAsync(int id)
         {
             return await _Context.Auctions
-            .Include(auction => auction.Customer)
-            .Include(auction => auction.Biddings)
+            .Include(auction => auction.Assets)
             .SingleOrDefaultAsync(x => x.Id == id);
-        } 
+        }
     }
 } 

@@ -7,6 +7,6 @@ public class Bidding : AuditableEntity
     public int CustomerId {get; set;}
     public Customer Customer {get; set;}
     public int AssetId {get; set;}
-    public Auction Asset {get;}
+    public Asset Asset {get;}
     
 }

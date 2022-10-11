@@ -16,7 +16,7 @@ namespace Implementations.Repositories
 
         public async Task<Bidding> GetBiddingByAuctionIdAsync(int id)
         {
-            var bidding = await _Context.Biddings.Where(a => a.AuctionId == id).Include(auction=> auction.Auction).Include(customer => customer.Customer).SingleOrDefaultAsync();
+            var bidding = await _Context.Biddings.Where(a => a.AssetId == id).Include(auction=> auction.Asset).Include(customer => customer.Customer).SingleOrDefaultAsync();
             return bidding;
         }
     

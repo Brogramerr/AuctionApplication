@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
 
 namespace AuctionApplication.Implementations.Repositories
-{ 
-    public class GenericRepository<T>: IGenericRepository<T> where T : class, new()
+{
+    public class GenericRepository<T> : IGenericRepository<T> where T : class, new()
     {
         protected ApplicationContext _Context;
         public async Task<T> CreateAsync(T entity)
@@ -25,11 +25,6 @@ namespace AuctionApplication.Implementations.Repositories
             _Context.Set<T>().Update(entity);
             await _Context.SaveChangesAsync();
             return entity;
-        }
-        public void DeleteAsync(T entity)
-        {
-            _Context.Set<T>().Remove(entity);
-            _Context.SaveChanges();
         }
         public async Task<T> GetAsync(int id)
         {
@@ -50,8 +45,11 @@ namespace AuctionApplication.Implementations.Repositories
             return await _Context.Set<T>().Where(expression).ToListAsync();
         }
 
-
-
-
+        public async Task<bool>  DeleteAsync(T entity)
+        {
+            _Context.Set<T>().Remove(entity);
+           await _Context.SaveChangesAsync();
+           return true;
+        }
     }
 }
