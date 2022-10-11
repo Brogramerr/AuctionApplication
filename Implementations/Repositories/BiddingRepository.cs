@@ -26,14 +26,5 @@ namespace AuctionApplication.Implementations.Repositories
             .Include(c => c.Asset)
             .OrderBy(c => c.Price).ToListAsync();
         }
-
-        public async Task<Bidding> GetHighestBidderAsync(int id)
-        {
-            var bids = await GetAllBiddings();
-
-            return bids[0];
-        }
-
-
     }
 }
