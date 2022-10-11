@@ -6,11 +6,9 @@ namespace AuctionApplication.Interface.Services
 {
     public interface IAuctionService
     {
-        Task<BaseResponse> ApproveAuction(int id);
-        Task<BaseResponse> DisApproveAuction(int id);
-        Task<BaseResponse> ExtendAuctionExpiryDate(int id, DateTime ExpiryDate);
+        Task<BaseResponse> ChangeAuctionOpeningDateAsync(int id, DateTime ExpiryDate);
         Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModels model);
         Task<BaseResponse> DeleteAuctionAsync(int id);
-        Task<BaseResponse> ChangeAuctionPriceAsync(int id, decimal price);
+        Task<BaseResponse> ChangeAuctionDurationAsync(int id, int days);
     }
 }

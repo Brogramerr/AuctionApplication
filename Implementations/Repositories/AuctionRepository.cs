@@ -1,7 +1,6 @@
 using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
-using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
@@ -16,6 +15,12 @@ namespace AuctionApplication.Implementations.Repositories
             return await _Context.Auctions
             .Include(auction => auction.Assets)
             .SingleOrDefaultAsync(x => x.Id == id);
+        }
+        public async Task<IList<Auction>> GetAssetsByDate(DateTime date)
+        {
+            return await _Context.Auctions
+            .Include(auction => auction.Assets)
+            .Where(x => x.OpeningDate == date).ToListAsync();
         }
     }
 } 
