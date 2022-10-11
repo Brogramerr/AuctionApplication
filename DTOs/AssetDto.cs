@@ -1,11 +1,9 @@
 using System;
-using System.Collections.Generic;
-using AuctionApplication.Contracts;
+using AuctionApplication.Entities;
 
-
-namespace AuctionApplication.Entities
+namespace AuctionApplication.DTOs
 {
-    public class Asset: AuditableEntity
+    public class AssetDto
     {
         public decimal StartingPrice { get; set; }
         public string AssetName { get; set; }
@@ -16,6 +14,5 @@ namespace AuctionApplication.Entities
         public Customer Buyer {get;set;}
         public List<Bidding> Biddings{get; set;} = new List<Bidding>();
         public bool IsAuctioned {get; set;}
-        
     }
 }

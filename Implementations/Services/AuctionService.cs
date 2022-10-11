@@ -8,6 +8,7 @@ using AuctionApplication.Interface.Repositories;
 
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.Entities;
+using AuctionApplication.DTOs;
 
 namespace AuctionApplication.Implementation.Services
 {
@@ -19,12 +20,6 @@ namespace AuctionApplication.Implementation.Services
         {
             _repository = repository;
         }
-
-
-
-
-
-        
         public async Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModels model)
         {
             var auction = await _repository.GetAsync(model => model.Assets == model.Assets);
@@ -61,7 +56,6 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
         }
-
         public async Task<BaseResponse> DeleteAuctionAsync(int id)
         {
             var auction = await _repository.GetAsync(id);
@@ -74,7 +68,7 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
             var result = await _repository.DeleteAsync(auction);
-            if (result == null)
+            if (result == false)
             {
                 return new BaseResponse()
                 {
@@ -91,8 +85,8 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
         }
-
-        public async Task<BaseResponse> ChangeAuctionPriceAsync(int id, decimal price)
+        
+        public async Task<BaseResponse> ChangeAuctionOpeningDateAsync(int id, DateTime date)
         {
             var auction = await _repository.GetAsync(id);
             if (auction == null)
@@ -104,13 +98,13 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
 
-            
+            auction.OpeningDate = date;
             var result = await _repository.UpdateAsync(auction);
             if (result == null)
             {
                 return new BaseResponse()
                 {
-                    Message = "Auction Price Change Failed",
+                    Message = "Auction Date Change Failed",
                     Success = false,
                 };
             }
@@ -118,25 +112,41 @@ namespace AuctionApplication.Implementation.Services
             {
                 return new BaseResponse()
                 {
-                    Message = "Auction Price Changed Successfully",
+                    Message = "Auction Date Changed Successfully",
                     Success = true,
                 };
             }
         }
-
-        public Task<BaseResponse> ApproveAuction(int id)
+        public async Task<BaseResponse> ChangeAuctionDurationAsync(int id, int days)
         {
-            throw new NotImplementedException();
-        }
+            var auction = await _repository.GetAsync(id);
+            if (auction == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Not Found",
+                    Success = false,
+                };
+            }
 
-        public Task<BaseResponse> DisApproveAuction(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<BaseResponse> ExtendAuctionExpiryDate(int id, DateTime ExpiryDate)
-        {
-            throw new NotImplementedException();
+            auction.Duration = days;
+            var result = await _repository.UpdateAsync(auction);
+            if (result == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Duration Extention Failed",
+                    Success = false,
+                };
+            }
+            else
+            {
+                return new BaseResponse()
+                {
+                    Message = "Auction Duration Extended Successfully",
+                    Success = true,
+                };
+            }
         }
     }
 }
