@@ -7,6 +7,7 @@ namespace AuctionApplication.Interface.Repositories
     {
         Task<User> ExistsByEmailAsync(string Email, string Password);
         Task<User> GetUserByRoleName(int id, string role);
+        
 
     }
 }

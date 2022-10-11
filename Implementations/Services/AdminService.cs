@@ -25,7 +25,12 @@ namespace AuctionApp.Implementations.Services
 
         }
 
-        public Task<BaseResponse> ApproveAuction(int auctionId)
+        public Task<BaseResponse> DeleteAdmin(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<BaseResponse> GetAllAdmin()
         {
             throw new NotImplementedException();
         }
