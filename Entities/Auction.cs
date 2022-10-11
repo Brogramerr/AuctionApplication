@@ -9,7 +9,7 @@ namespace AuctionApplication.Entities
         public DateTime OpeningDate { get; set; }
         public int Duration {get; set;}
         public List<Asset> Assets{get; set;} = new List<Asset>();
-       
+    
         public decimal StartingPrice { get; set; }
         public string AssetName { get; set; }
         public DateTime ExpiryDate { get;set; }

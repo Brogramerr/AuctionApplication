@@ -6,6 +6,8 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Enum;
+using AuctionApplication.DTOs.RequestModels;
+using AuctionApplication.Entities;
 
 namespace AuctionApplication.Implementation.Services
 {
@@ -139,7 +141,7 @@ namespace AuctionApplication.Implementation.Services
             };
         }
 
-        public async Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModel model)
+        public async Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModels model)
         {
             var auction = await _repository.GetAsync(model => model.AssetName == model.AssetName);
             if (auction != null)
@@ -151,18 +153,17 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
 
-            var auc = new Auction
+            var auc = new Auction()
             {
                 AssetName = model.AssetName,
                 AuctionType = model.AuctionType,
                 ExpiryDate = model.ExpiryDate,
                 IsApproved = false,
                 IsClosed = false,
-                StartDate = model.StartDate,
-                UserId = model.UserId,
+                
             };
 
-            var result = await _repository.AddAsync(auc);
+            var result = await _repository.CreateAsync(auc);
             if (result == null)
             {
                 return new BaseResponse()
@@ -192,7 +193,6 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
-
             var result = await _repository.DeleteAsync(auction);
             if (result == null)
             {
@@ -224,7 +224,7 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
 
-            auction.CurrentPrice = price;
+            auction.StartingPrice = price;
             var result = await _repository.UpdateAsync(auction);
             if (result == null)
             {
