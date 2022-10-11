@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
 namespace AuctionApplication.Implementations.Repositories
 {
-    public class BiddingRepository: GenericRepository<Bidding>, IBiddingRepository
+    public class BiddingRepository : GenericRepository<Bidding>, IBiddingRepository
     {
-        
+
         public BiddingRepository(ApplicationContext Context)
         {
             _Context = Context;
@@ -16,7 +16,7 @@ namespace AuctionApplication.Implementations.Repositories
 
         public async Task<Bidding> GetBiddingByAuctionIdAsync(int id)
         {
-            var bidding = await _Context.Biddings.Where(a => a.AssetId == id).Include(auction=> auction.Asset).Include(customer => customer.Customer).SingleOrDefaultAsync();
+            var bidding = await _Context.Biddings.Where(a => a.AssetId == id).Include(auction => auction.Asset).Include(customer => customer.Customer).SingleOrDefaultAsync();
             return bidding;
         }
         public async Task<List<Bidding>> GetAllBiddings()
@@ -29,11 +29,11 @@ namespace AuctionApplication.Implementations.Repositories
 
         public async Task<Bidding> GetHighestBidderAsync(int id)
         {
-           var bids = await GetAllBiddings();
-           
+            var bids = await GetAllBiddings();
+
             return bids[0];
         }
-    
+
 
     }
 }

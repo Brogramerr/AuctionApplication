@@ -14,30 +14,31 @@ namespace AuctionApplication.Implementation.Services
 
     {
         private readonly IBiddingRepository _biddingRepository;
-       
-        
+
+
         public BiddingService(IBiddingRepository biddingRepository)
         {
             _biddingRepository = biddingRepository;
         }
-       
+
 
         public async Task<BaseResponse> GetBidderByAuctionIdAsync(int id)
         {
-             var bid = await _biddingRepository.GetBiddingByAuctionIdAsync(id);
+            var bid = await _biddingRepository.GetBiddingByAuctionIdAsync(id);
             if (bid == null)
             {
-                return new BaseResponse{
+                return new BaseResponse
+                {
                     Message = "Bidders could not be found",
                     Success = false,
                 };
-                            
+
             }
             return new BiddingResponse
             {
                 Data = new BiddingDto
                 {
-                   
+
                     Price = bid.Price,
 
                 },
@@ -49,24 +50,24 @@ namespace AuctionApplication.Implementation.Services
 
         public async Task<BiddingResponse> GetHighestBidderAsync(int id)
         {
-             var bidder = await _biddingRepository.GetHighestBidderAsync(id);
-             if(bidder == null)
-             {
+            var bidder = await _biddingRepository.GetHighestBidderAsync(id);
+            if (bidder == null)
+            {
                 return new BiddingResponse()
                 {
                     Message = "Highest bidder was not found",
                     Success = false,
                 };
-             }
-             return new BiddingResponse()
-             {
+            }
+            return new BiddingResponse()
+            {
                 Message = "Highest bidder Found",
                 Success = true,
-             };
-            
+            };
+
         }
 
-          public async Task<BaseResponse> TerminateBiddingAsync(int id)
+        public async Task<BaseResponse> TerminateBiddingAsync(int id)
         {
             var bid = await _biddingRepository.GetAsync(bid => bid.IsDeleted == false && bid.Id == id);
             if (bid == null)
@@ -79,7 +80,8 @@ namespace AuctionApplication.Implementation.Services
             }
             bid.IsDeleted = true;
             await _biddingRepository.UpdateAsync(bid);
-            return new BaseResponse{
+            return new BaseResponse
+            {
                 Message = "Bid Successfully Terminated",
                 Success = true
             };
@@ -87,44 +89,50 @@ namespace AuctionApplication.Implementation.Services
 
         public async Task<BaseResponse> CreateBiddingAsync(CreateBiddingRequestModels createBidding)
         {
-           var bidding = new Bidding{
-            Price = createBidding.Price,
-            AssetId = createBidding.AuctionId,
-            CustomerId = createBidding.CustomerId
+            var bidding = new Bidding
+            {
+                Price = createBidding.Price,
+                AssetId = createBidding.AuctionId,
+                CustomerId = createBidding.CustomerId
 
-           };
-           var response = await _biddingRepository.CreateAsync(bidding);
-           if(bidding == null)
-           {
-            return new BaseResponse{
-                Message = "Couldn't place bid",
-                Success = false,
             };
-           }
-           return new BaseResponse{
-            Message = "You've successfully placed a bid",
-            Success = true,
-           };
+            var response = await _biddingRepository.CreateAsync(bidding);
+            if (bidding == null)
+            {
+                return new BaseResponse
+                {
+                    Message = "Couldn't place bid",
+                    Success = false,
+                };
+            }
+            return new BaseResponse
+            {
+                Message = "You've successfully placed a bid",
+                Success = true,
+            };
         }
 
         public async Task<BaseResponse> IncreaseBiddingPriceAsync(int id, UpdateBiddingRequestModels updateBidding)
         {
-               var bid = await _biddingRepository.GetAsync(bid => bid.IsDeleted == false && bid.Id == id);
-               var bidding = new Bidding{
+            var bid = await _biddingRepository.GetAsync(bid => bid.IsDeleted == false && bid.Id == id);
+            var bidding = new Bidding
+            {
                 Price = updateBidding.Price
-               };
-                var response = await _biddingRepository.UpdateAsync(bidding);
-           if(bidding == null)
-           {
-            return new BaseResponse{
-                Message = "Couldn't update bid",
-                Success = false,
             };
-           }
-           return new BaseResponse{
-            Message = "You've successfully increased your bidding price",
-            Success = true,
-           };
+            var response = await _biddingRepository.UpdateAsync(bidding);
+            if (bidding == null)
+            {
+                return new BaseResponse
+                {
+                    Message = "Couldn't update bid",
+                    Success = false,
+                };
+            }
+            return new BaseResponse
+            {
+                Message = "You've successfully increased your bidding price",
+                Success = true,
+            };
         }
-    }   
-} 
+    }
+}
