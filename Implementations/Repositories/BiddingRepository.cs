@@ -4,7 +4,7 @@ using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Implementations.Repositories;
 using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
-namespace Implementations.Repositories
+namespace AuctionApplication.Implementations.Repositories
 {
     public class BiddingRepository: GenericRepository<Bidding>, IBiddingRepository
     {
@@ -18,6 +18,20 @@ namespace Implementations.Repositories
         {
             var bidding = await _Context.Biddings.Where(a => a.AssetId == id).Include(auction=> auction.Asset).Include(customer => customer.Customer).SingleOrDefaultAsync();
             return bidding;
+        }
+        public async Task<List<Bidding>> GetAllBiddings()
+        {
+            return await _Context.Biddings
+            .Include(x => x.Customer)
+            .Include(c => c.Asset)
+            .OrderBy(c => c.Price).ToListAsync();
+        }
+
+        public async Task<Bidding> GetHighestBidderAsync(int id)
+        {
+           var bids = await GetAllBiddings();
+           
+            return bids[0];
         }
     
 
