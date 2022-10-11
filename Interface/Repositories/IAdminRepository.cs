@@ -6,6 +6,6 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IAdminRepository : IGenericRepository<Admin>
     {
-        Task<Admin> GetAllAdminsAsync(int id);
+        Task <List<Admin>> GetAllAdminsAsync();
     }
 }
