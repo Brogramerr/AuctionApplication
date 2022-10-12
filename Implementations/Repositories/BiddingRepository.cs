@@ -2,7 +2,6 @@ using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Implementations.Repositories;
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
 namespace AuctionApplication.Implementations.Repositories
 {

@@ -4,7 +4,6 @@ using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.Implementations.Repositories;
 using AuctionApplication.Interface.Services;
 using AuctionApplication.Interface.Repositories;
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
 using AuctionApplication.Entities;
 

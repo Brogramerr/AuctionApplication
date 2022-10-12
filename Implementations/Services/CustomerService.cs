@@ -2,8 +2,6 @@ using AuctionApplication.Entities.Identity;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Implementations.Repositories;
 using AuctionApplication.Interface.Services;
-
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.Interface.Repositories;
@@ -91,6 +89,41 @@ namespace AuctionApplication.Implementation.Services
                         PhoneNumber = customer.User.PhoneNumber,
                 }
             };
+        }
+        public async Task<BaseResponse> Update(UpdateCustomerRequestModels model, int id)
+        {
+            var customer = await _customerRepository.GetCustomerById(id);
+            if(customer == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Could'nt Update Customer",
+                    Success = false,
+                };
+            }
+
+            customer.FirstName = model.FirstName;
+            customer.LastName = model.LastName;
+            customer.Username = model.Username;
+            customer.PhoneNumber = model.PhoneNumber;
+            var custom = await _customerRepository.UpdateAsync(customer);
+            if(custom == null)
+            {
+                return new BaseResponse()
+                {
+                    Message = "Unable To Update Customer",
+                    Success = false,
+                };
+            }
+            else
+            {
+                
+                return new BaseResponse()
+                {
+                    Message = "Customer Updated Successfully",
+                    Success = true,
+                };
+            }
         }
     }
 }

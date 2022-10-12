@@ -1,13 +1,13 @@
 using System;
-
+using AuctionApplication.Entities;
 
 namespace AuctionApplication.DTOs
 {
     public class AuctionDto
     {
-        public decimal StartingPrice { get; set; }
-        public string AssetName { get; set; }
-        public DateTime ExpiryDate { get;set; }
+        public DateTime OpeningDate { get; set; }
+        public List<Asset> Assets { get; set; } = new List<Asset>();
+        public int Duration { get; set; }
     
 
     }

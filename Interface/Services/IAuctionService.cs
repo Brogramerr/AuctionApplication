@@ -8,7 +8,6 @@ namespace AuctionApplication.Interface.Services
     {
         Task<BaseResponse> ChangeAuctionOpeningDateAsync(int id, DateTime ExpiryDate);
         Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModels model);
-        Task<BaseResponse> DeleteAuctionAsync(int id);
         Task<BaseResponse> ChangeAuctionDurationAsync(int id, int days);
     }
 }
