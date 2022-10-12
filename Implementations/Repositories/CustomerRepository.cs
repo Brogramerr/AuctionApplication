@@ -47,7 +47,6 @@ namespace AuctionApplication.Implementations.Repositories
         public async Task<Customer> ChangeAssetsPriceAsync(int id, decimal price)
         {
             var customer = await _Context.Customers.Include(c => c.Assets).FirstOrDefaultAsync(c => c.Id == id && c.Assets.Price != price);
->>>>>>> 0ea5be8 (update)
         }
         public async Task<Customer> ExistsByEmailAsync(string Email, string passWord)
         {
