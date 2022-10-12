@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Context;
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
 namespace AuctionApplication.Implementations.Repositories
 {
