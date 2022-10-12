@@ -25,8 +25,8 @@ namespace AuctionApp.Implementations.Services
 
         public async Task<BaseResponse> AddAdmin(CreateAdminRequestModel model)
         {
-            throw new NotImplementedException();
-            var admin = await _adminRepository.GetAsync(admin => admin.User.Email == model.Email);
+            
+            var admin = await _adminRepository.GetAsync(a => a.User.Email == model.Email);
             if (admin != null)
             {
                 return new BaseResponse()
