@@ -5,6 +5,6 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IWalletRepository : IGenericRepository<Wallet>
     {
-        
+        Task<Wallet> GetWalletAsync(int id);
     }
 }
