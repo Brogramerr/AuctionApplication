@@ -13,7 +13,7 @@ namespace AuctionApplication.Implementation.Services
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IUserRepository _userRepository;
-        public CustomerService(ICustomerRepository customerRepository, IRoleRepository roleRepository)
+        public CustomerService(ICustomerRepository customerRepository, IUserRepository userRepository)
         {
             _customerRepository = customerRepository;
             _userRepository = userRepository;
@@ -44,9 +44,6 @@ namespace AuctionApplication.Implementation.Services
                     LastName = model.LastName,
                     Email = model.Email,
                     PhoneNumber = model.PhoneNumber,
-                    CreatedBy = adduser.UserId,
-                    LastModifiedBy = adduser.UserId,
-                    IsDeleted = false,
             };
             var custom = await _customerRepository.CreateAsync(custm);
             if(custom == null)
@@ -70,7 +67,7 @@ namespace AuctionApplication.Implementation.Services
 
         public async Task<CustomerResponse> GetById(int id)
         {
-            var customer = await _customerRepository.GetCustomerById(id);
+            var customer = await _customerRepository.GetById(id);
             if(customer == null)
             {
                 return new CustomerResponse()

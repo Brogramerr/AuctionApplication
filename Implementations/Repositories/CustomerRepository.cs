@@ -13,7 +13,11 @@ namespace AuctionApplication.Implementations.Repositories
         {
             _Context = Context;
         }
-
+        public async Task<Customer> GetById(int id)
+        {
+            var customer = await _Context.Customers.Include(c => c.User).FirstOrDefaultAsync(c => c.Id == id);
+            return customer;
+        }
         public async Task<Customer> ExistsByEmailAsync(string Email, string passWord)
         {
             var customer = await _Context.Customers.Include(c => c.User).FirstOrDefaultAsync(c => c.Email == Email && c.Password == passWord);
