@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj": {}
+    "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj": {
+    "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+        "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
         "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
-        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\",
+        "projectPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
+        "packagesPath": "C:\\Users\\HI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

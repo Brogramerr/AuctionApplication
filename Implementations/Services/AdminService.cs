@@ -25,7 +25,6 @@ namespace AuctionApp.Implementations.Services
 
         public async Task<BaseResponse> AddAdmin(CreateAdminRequestModel model)
         {
-            
             var admin = await _adminRepository.GetAsync(a => a.User.Email == model.Email);
             if (admin != null)
             {
@@ -42,6 +41,13 @@ namespace AuctionApp.Implementations.Services
             };
             var adduser = await _userRepository.CreateAsync(user);
             var role = await _roleRepository.GetRoleByNameAsync("Admin");
+            if(role == null)
+            {
+                return new BaseResponse{
+                    Message = "Role not found",
+                    Success = false 
+                };
+            }
 
             var userRole = new UserRole
             {
@@ -68,11 +74,6 @@ namespace AuctionApp.Implementations.Services
                 Success = true,
             };
 
-        }
-
-        public Task<BaseResponse> AddAdmin(CreateUserRequestModels model)
-        {
-            throw new NotImplementedException();
         }
 
         public async Task<BaseResponse> DeleteAdmin(int Id)

@@ -42,7 +42,7 @@ namespace AuctionApp.Implementations.Services
         }
 
         public async Task<RolesResponse> GetAllRoleAsync(CreateRoleRequestmodel model)
-        {
+        { 
             var role = await _roleRepository.GetAllAsync();
             if (role == null)
             {

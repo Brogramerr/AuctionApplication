@@ -7,6 +7,5 @@ namespace AuctionApplication.DTOs.RequestModels
     {
         public DateTime OpeningDate { get; set; }
         public int Duration { get; set; }
-        
     }
 }

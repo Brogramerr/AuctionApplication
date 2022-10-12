@@ -8,7 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuctionApp
 build_property.RootNamespace = AuctionApp
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\SAMSUNG\Desktop\AuctionApplication\
+=======
+build_property.ProjectDir = c:\Users\HI\Desktop\App\AuctionApp\
+>>>>>>> 65e518cc710225b9be76421412b33865745f7f98
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -39,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [c:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Shared/_Layout.cshtml]
+=======
+[c:/Users/HI/Desktop/App/AuctionApp/Views/Shared/_Layout.cshtml]
+>>>>>>> 65e518cc710225b9be76421412b33865745f7f98
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-x4f96869tu
