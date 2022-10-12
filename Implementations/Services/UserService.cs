@@ -21,26 +21,19 @@ namespace AuctionApplication.Implementation.Services
         public async Task<UserResponseModel> Login(string email, string passWord)
         {
 
-            var user = await _repository.ExistsByEmailAsync(email, passWord);
+            var user = _repository.GetAsync(x=> x.Email == email && x.Password == passWord);
             if (user != null)
             {
                 return new UserResponseModel
                 {
-                    Data = new UserDto{
-                        Email = user.Email,
-                        FirstName = user.FirstName,
-                        LastName = user.LastName,
-                        PhoneNumber = user.PhoneNumber,
-                        Username = user.Username
-                    },
                     Success = true,
                     Message = "Sucessfully logged in",
                 };
             }
             return new UserResponseModel
             {
-                Success = true,
-                Message = "User not found",
+                Success = false,
+                Message = "Loggin Failed",
             };
         }
     }
