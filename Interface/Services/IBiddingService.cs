@@ -14,8 +14,7 @@ namespace AuctionApplication.Interface.Services
         Task<BaseResponse> CreateBiddingAsync(CreateBiddingRequestModels createBidding);
         Task<BaseResponse> IncreaseBiddingPriceAsync(int id, UpdateBiddingRequestModels updateBidding);
         Task<BaseResponse> TerminateBiddingAsync(int id);
-        Task<BiddingResponse> GetHighestBidderAsync(int id);
-        Task<BaseResponse> GetBidderByAuctionIdAsync(int id);
+        Task<BiddingsResponseModel> GetBiddingByAssetIdAsync(int id);
      
     }
 }
