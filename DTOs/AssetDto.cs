@@ -15,4 +15,4 @@ namespace AuctionApplication.DTOs
         public List<Bidding> Biddings{get; set;} = new List<Bidding>();
         public bool IsAuctioned {get; set;}
     }
-}
+} 

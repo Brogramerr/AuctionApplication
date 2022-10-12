@@ -75,7 +75,7 @@ namespace AuctionApplication.Implementation.Services
             {
                 return new BaseResponse()
                 {
-                    Message = "Asset Price Change Failed",
+                       Message = "Asset Price Change Failed",
                     Success = false,
                 };
             }
