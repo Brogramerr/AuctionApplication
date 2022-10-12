@@ -3,6 +3,8 @@ using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Implementations.Repositories;
 using AuctionApplication.Contracts;
+using Microsoft.EntityFrameworkCore;
+
 namespace AuctionApplication.Implementations.Repositories
 {
     public class BiddingRepository : GenericRepository<Bidding>, IBiddingRepository
