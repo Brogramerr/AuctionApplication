@@ -5,7 +5,8 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IAssetRepository : IGenericRepository<Asset>
     {
-       
+       Task<List<Asset>> GetAssetsByAuctionDateAsync(DateTime AuctionDate);
+       Task<List<Asset>> GetAssetsToDisplayAsync();
         
 
     }
