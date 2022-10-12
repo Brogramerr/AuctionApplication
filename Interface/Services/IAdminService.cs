@@ -9,7 +9,7 @@ namespace AuctionApp.Interface.Services
 {
     public interface IAdminService
     {
-        Task<BaseResponse> AddAdmin(CreateUserRequestModels model);
+        Task<BaseResponse> AddAdmin(CreateAdminRequestModel model);
         Task<BaseResponse> DeleteAdmin(int Id);
         
     }

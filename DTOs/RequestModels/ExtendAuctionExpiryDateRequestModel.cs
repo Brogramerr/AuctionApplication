@@ -4,8 +4,7 @@
 {
     public class ExtendAuctionExpiryDateRequestModel
     {
-        
-        public string AuctionId { get; set; }
-        public DateTime AuctionExpiryDate { get; set; }
+        public int AuctionId { get; set; }
+        public int Duration { get; set; }
     }
 }
