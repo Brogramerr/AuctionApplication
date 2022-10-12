@@ -1,11 +1,7 @@
 ﻿using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
-<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore;
-=======
-
->>>>>>> cc1490e (Bidding Service)
 
 namespace AuctionApplication.Implementations.Repositories
 {
