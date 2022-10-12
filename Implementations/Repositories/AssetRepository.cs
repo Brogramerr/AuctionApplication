@@ -11,7 +11,5 @@ namespace AuctionApplication.Implementations.Repositories
         {
             _Context = Context;
         }
-
-        
     }
 }
