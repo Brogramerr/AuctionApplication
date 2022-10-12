@@ -6,6 +6,8 @@ using System;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Context;
 using AuctionApplication.Contracts;
+using Microsoft.EntityFrameworkCore;
+
 namespace AuctionApplication.Implementations.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class, new()
