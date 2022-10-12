@@ -12,9 +12,11 @@ namespace AuctionApplication.Implementation.Services
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;
-        public CustomerService(ICustomerRepository customerRepository)
+        private readonly IUserRepository _userRepository;
+        public CustomerService(ICustomerRepository customerRepository, IRoleRepository roleRepository)
         {
             _customerRepository = customerRepository;
+            _userRepository = userRepository;
         }
 
         public async Task<BaseResponse> Register(CreateCustomerRequestModel model)
@@ -28,21 +30,23 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
-
+            var user = new User
+            {
+                Email = model.Email,
+                Password = model.Password,
+            };
+            var adduser = await _userRepository.CreateAsync(user);
             var custm  = new Customer()
             {
-                User = new User()
-                {
+
                     Username = model.Username,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     Email = model.Email,
                     PhoneNumber = model.PhoneNumber,
-                    Password = model.Password,
-                    CreatedBy = model.UserId,
-                    LastModifiedBy = model.UserId,
+                    CreatedBy = adduser.UserId,
+                    LastModifiedBy = adduser.UserId,
                     IsDeleted = false,
-                }
             };
             var custom = await _customerRepository.CreateAsync(custm);
             if(custom == null)
