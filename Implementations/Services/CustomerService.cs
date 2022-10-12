@@ -14,9 +14,11 @@ namespace AuctionApplication.Implementation.Services
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;
-        public CustomerService(ICustomerRepository customerRepository)
+        private readonly IUserRepository _userRepository;
+        public CustomerService(ICustomerRepository customerRepository, IUserRepository userRepository)
         {
             _customerRepository = customerRepository;
+            _userRepository = userRepository;
         }
 
         public async Task<BaseResponse> Register(CreateCustomerRequestModel model)
@@ -30,21 +32,20 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
-
+            var user = new User
+            {
+                Email = model.Email,
+                Password = model.Password,
+            };
+            var adduser = await _userRepository.CreateAsync(user);
             var custm  = new Customer()
             {
-                User = new User()
-                {
+
                     Username = model.Username,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     Email = model.Email,
                     PhoneNumber = model.PhoneNumber,
-                    Password = model.Password,
-                    CreatedBy = model.UserId,
-                    LastModifiedBy = model.UserId,
-                    IsDeleted = false,
-                }
             };
             var custom = await _customerRepository.CreateAsync(custm);
             if(custom == null)
@@ -68,7 +69,7 @@ namespace AuctionApplication.Implementation.Services
 
         public async Task<CustomerResponse> GetById(int id)
         {
-            var customer = await _customerRepository.GetCustomerById(id);
+            var customer = await _customerRepository.GetById(id);
             if(customer == null)
             {
                 return new CustomerResponse()
@@ -84,11 +85,11 @@ namespace AuctionApplication.Implementation.Services
                 Success = false,
                 Data = new CustomerDto()
                 {
-                        FirstName = customer.User.FirstName,
-                        LastName = customer.User.LastName,
-                        Username = customer.User.Username,
-                        Email = customer.User.Email,
-                        PhoneNumber = customer.User.PhoneNumber,
+                        FirstName = customer.FirstName,
+                        LastName = customer.LastName,
+                        Username = customer.Username,
+                        Email = customer.Email,
+                        PhoneNumber = customer.PhoneNumber,
                 }
             };
         }

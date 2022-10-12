@@ -7,5 +7,6 @@ namespace AuctionApplication.Interface.Services
     public interface ICustomerService
     {
         Task<BaseResponse> Register(CreateCustomerRequestModel model);
+        
     }
 }
