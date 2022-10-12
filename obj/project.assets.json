@@ -747,26 +747,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HI\\.nuget\\packages\\": {}
+    "C:\\Users\\Zafrullah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
+      "projectUniqueName": "c:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj",
       "projectName": "AuctionApp",
-      "projectPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
-      "packagesPath": "C:\\Users\\HI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\",
+      "projectPath": "c:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj",
+      "packagesPath": "C:\\Users\\Zafrullah\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -818,7 +816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

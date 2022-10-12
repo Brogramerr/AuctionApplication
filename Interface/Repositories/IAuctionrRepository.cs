@@ -5,7 +5,7 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IAuctionRepository : IGenericRepository<Auction>
     {
-        Task<Auction> GetAsync(int id);
-        Task<IList<Auction>> GetAssetsByDate(DateTime date);
+        Task<IList<Auction>> GetAuctionByDate(DateTime date);
+        Task<Auction> GetAuctionById(int id);
     }
 }
