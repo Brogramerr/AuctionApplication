@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-﻿using AuctionApplication.Contracts;
+using AuctionApplication.Contracts;
 
 
 namespace AuctionApplication.Entities
@@ -11,6 +11,7 @@ namespace AuctionApplication.Entities
         public string AssetName { get; set; }
         public bool IsOpened { get; set; }
         public int AutioneerId {get;set;}
+        public Auction Auction {get;set;}
         public Customer Auctioneer {get;set;}
         public int BuyerId {get;set;}
         public Customer Buyer {get;set;}

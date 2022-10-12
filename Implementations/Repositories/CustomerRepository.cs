@@ -1,6 +1,7 @@
 ﻿using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
@@ -13,18 +14,10 @@ namespace AuctionApplication.Implementations.Repositories
             _Context = Context;
         }
 
-        public async Task<bool> CreateCustomer(Customer customer)
+        public async Task<Customer> ExistsByEmailAsync(string Email, string passWord)
         {
-            await _Context.Customers.AddAsync(customer);
-            await _Context.SaveChangesAsync();
-            return true;
-        }
-
-        public  async Task<Customer> GetCustomerById(int Id)
-        {
-            var Customer = await _Context.Customers.Include(x => x.UserRoles).ThenInclude(us => us.User).SingleOrDefaultAsync(x => x.Id == Id);
-            return Customer;
-
+            var customer = await _Context.Customers.Include(c => c.User).FirstOrDefaultAsync(c => c.Email == Email && c.Password == passWord);
+            return customer;
         }
     }
 }
