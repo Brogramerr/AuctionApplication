@@ -15,7 +15,7 @@ namespace AuctionApplication.Implementations.Repositories
 
         public async Task<List<Admin>> GetAllAdminsAsync()
         {
-              return await _Context.Admins
+            return await _Context.Admins
             .Include(admin => admin.User)
             .ToListAsync();
         }
