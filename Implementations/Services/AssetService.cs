@@ -161,12 +161,12 @@ namespace AuctionApplication.Implementation.Services
             };
         }
 
-        public async Task<BaseResponseModel> ChangAssetStatusToSold(int id)
+        public async Task<BaseResponse> ChangAssetStatusToSold(int id)
         {
             var asset = await _assetRepository.GetAsync(id);
             if (asset == null)
             {
-                return new BaseResponseModel
+                return new BaseResponse
                 {
                     Message = "Asset not found",
                     Success = false
@@ -174,7 +174,7 @@ namespace AuctionApplication.Implementation.Services
             }
             asset.AssetStatus = AssetStatus.Sold;
             await _assetRepository.UpdateAsync(asset);
-            return new BaseResponseModel
+            return new BaseResponse
             {
                 Message = "Asset status change to sold",
                 Success = true
