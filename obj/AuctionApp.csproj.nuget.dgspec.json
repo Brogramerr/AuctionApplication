@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj": {}
+    "c:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj": {
+    "c:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj",
+        "projectUniqueName": "c:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj",
         "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj",
+        "projectPath": "c:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj",
         "packagesPath": "C:\\Users\\Kenny Allen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\obj\\",
+        "outputPath": "c:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kenny Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
