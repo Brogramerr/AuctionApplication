@@ -182,7 +182,6 @@ namespace AuctionApplication.Implementation.Services
                 Success = true
             };
         }
-
     }
 
 }
