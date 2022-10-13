@@ -146,16 +146,18 @@ namespace AuctionApplication.Implementation.Services
         public async Task<BaseResponse> ChangeAssetStatusToAuctioned(int id)
         {
             var toAuctioned = await _assetRepository.GetAsync(id);
-            if(toAuctioned.AssetStatus == AssetStatus.NotAuctioned && toAuctioned.IsDeleted == false && toAuctioned.AssetStatus != AssetStatus.Sold)
+            if (toAuctioned.AssetStatus == AssetStatus.NotAuctioned && toAuctioned.IsDeleted == false && toAuctioned.AssetStatus != AssetStatus.Sold)
             {
                 toAuctioned.AssetStatus = AssetStatus.Auctioned;
                 await _assetRepository.UpdateAsync(toAuctioned);
-                return new BaseResponse{
+                return new BaseResponse
+                {
                     Message = "Asset is now Auctioned",
                     Success = true,
                 };
             }
-            return new BaseResponse{
+            return new BaseResponse
+            {
                 Message = "Unable to put asset up for auction",
                 Success = false,
             };
@@ -179,6 +181,50 @@ namespace AuctionApplication.Implementation.Services
                 Message = "Asset status change to sold",
                 Success = true
             };
+        }
+        public async Task<BaseResponse> AddAssetForAuctionAsync(string AssetName, decimal Price)
+        {
+            var asset = await _assetRepository.AddAssetForAuctionAsync();
+            if (asset == null)
+            {
+                return new BaseResponse
+                {
+                    Message = "Asset not added",
+                    Success = false
+                };
+            }
+            asset.AssetName = asset.AssetName;
+            asset.Price = asset.Price;
+            await _assetRepository.UpdateAsync(asset);
+            return new BaseResponse
+            {
+                Message = "Asset added successfully",
+                Success = true
+            };
+        }
+        public async Task<AssetsResponseModel> AddAssetsForAuctionAsync()
+        {
+            var asset = await _assetRepository.AddAssetsForAuctionAsync();
+            if (asset.Count == 0)
+            {
+                return new AssetsResponseModel
+                {
+                    Message = "No Assets added",
+                    Success = false
+                };
+            }
+            return new AssetsResponseModel
+            {
+                Data = assetToDisplay.Select(a => new AssetDto
+                {
+
+                    AssetName = a.AssetName,
+                    Price = a.Price,
+                }).ToListAsync(),
+                Message = "Assets available for auction today",
+                Success = true
+            };
+
         }
     }
 }
