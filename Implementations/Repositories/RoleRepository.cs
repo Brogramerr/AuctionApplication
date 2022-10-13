@@ -16,11 +16,5 @@ namespace AuctionApplication.Implementations.Repositories
         {
             _Context = Context;
         }
-
-        public async Task<Role> GetRoleByNameAsync(string name)
-        {
-        var role = await _Context.Roles.SingleOrDefaultAsync(x=> x.Name == name);
-        return role;
-        } 
     }
 }

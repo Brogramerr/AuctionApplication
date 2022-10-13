@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.DTOs.ResponseModels;
 
-namespace AuctionApp.Interface.Services
+namespace AuctionApplication.Interface.Services
 {
     public interface IAdminService
     {

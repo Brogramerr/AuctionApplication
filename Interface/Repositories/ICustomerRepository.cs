@@ -5,8 +5,7 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface ICustomerRepository : IGenericRepository<Customer>
     {
-        Task<BaseResponse> ExistsByEmailAsync(string Email, string passWord);
-        Task<BaseResponse> GetById(int id);
+         Task<Customer> GetCustomer(int id);
     }
 }
 

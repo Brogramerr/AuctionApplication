@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AuctionApp.DTOs.RequestModels
+namespace AuctionApplication.DTOs.RequestModels
 {
     public class UpdateUserRoleRequestModel
     {

@@ -33,22 +33,10 @@ namespace AuctionApplication.Implementations.Repositories
             };
         }
         
-        public async Task<BaseResponse> GetById(int id)
+        public async Task<Customer> GetCustomer(int id)
         {
-            var customer = await _Context.Customers.FirstOrDefaultAsync(c => c.Id == id);
-            if (customer == null)
-            {
-                return new BaseResponse()
-                {
-                    Message = "Customer Not Found",
-                    Success = false,
-                };
-            }
-            return new BaseResponse()
-            {
-                Message = "Customer Found",
-                Success = true,
-            };
+            var customer = await _Context.Customers.Include(x => x.User).Include(x => x.Wallet).SingleOrDefaultAsync(c => c.Id == id);
+            return customer;
         }
     }
 }

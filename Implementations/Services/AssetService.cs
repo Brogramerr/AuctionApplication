@@ -7,7 +7,7 @@ using AuctionApplication.DTOs;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Entities;
 using AuctionApplication.DTOs.RequestModels;
-using AuctionApp.Entities.Enums;
+using AuctionApplication.Entities.Enums;
 
 
 namespace AuctionApplication.Implementation.Services
@@ -79,7 +79,6 @@ namespace AuctionApplication.Implementation.Services
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
                     Auctioneer = asset.Auctioneer.Username,
-                    Buyer = asset.Buyer.Username,
                     AssetStatus = asset.AssetStatus,
                 }).ToList(),
                 Message = "Assets found successfully",
@@ -146,6 +145,11 @@ namespace AuctionApplication.Implementation.Services
         public async Task<BaseResponse> ChangeAssetStatusToAuctioned(int id)
         {
             var toAuctioned = await _assetRepository.GetAsync(id);
+            if (toAuctioned == null) return new BaseResponse
+            {
+                Message = "Asset not found",
+                Success = false,
+            };
             if (toAuctioned.AssetStatus == AssetStatus.NotAuctioned && toAuctioned.IsDeleted == false && toAuctioned.AssetStatus != AssetStatus.Sold)
             {
                 toAuctioned.AssetStatus = AssetStatus.Auctioned;
@@ -174,57 +178,83 @@ namespace AuctionApplication.Implementation.Services
                     Success = false
                 };
             }
-            asset.AssetStatus = AssetStatus.Sold;
-            await _assetRepository.UpdateAsync(asset);
+            if (asset.AssetStatus == AssetStatus.Auctioned && asset.IsDeleted == false && asset.AssetStatus != AssetStatus.Sold)
+            {
+                asset.AssetStatus = AssetStatus.Sold;
+                await _assetRepository.UpdateAsync(asset);
+                return new BaseResponse
+                {
+                    Message = "Asset status change to sold",
+                    Success = true
+                };
+            }
             return new BaseResponse
             {
-                Message = "Asset status change to sold",
-                Success = true
+                Message = "Asset is either not on any auction or sold",
+                Success = false
             };
         }
-        public async Task<BaseResponse> AddAssetForAuctionAsync(string AssetName, decimal Price)
+        public async Task<BaseResponse> AddAssetForAuctionAsync(int id)
         {
-            var asset = await _assetRepository.AddAssetForAuctionAsync();
+            var asset = await _assetRepository.GetAsync(id);
             if (asset == null)
             {
                 return new BaseResponse
                 {
-                    Message = "Asset not added",
+                    Message = "Asset not found",
                     Success = false
                 };
             }
-            asset.AssetName = asset.AssetName;
-            asset.Price = asset.Price;
-            await _assetRepository.UpdateAsync(asset);
+            if (asset.AssetStatus == AssetStatus.NotAuctioned && asset.IsDeleted == false)
+            {
+                asset.AssetStatus = AssetStatus.Auctioned;
+                await _assetRepository.UpdateAsync(asset);
+                return new BaseResponse
+                {
+                    Message = "Asset is now in an auction",
+                    Success = true
+                };
+            }
             return new BaseResponse
             {
-                Message = "Asset added successfully",
-                Success = true
+                Message = "Asset is already in an auction",
+                Success = false
             };
         }
-        public async Task<AssetsResponseModel> AddAssetsForAuctionAsync()
+        public async Task<IList<BaseResponse>> AddAssetsForAuctionAsync(HashSet<int> assetIds)
         {
-            var asset = await _assetRepository.AddAssetsForAuctionAsync();
-            if (asset.Count == 0)
+            List<BaseResponse> responses = new List<BaseResponse>();
+            foreach(var assetId in assetIds)
             {
-                return new AssetsResponseModel
+                var asset = await _assetRepository.GetAsync(assetId);
+                if (asset == null)
                 {
-                    Message = "No Assets added",
+                    responses.Add(new BaseResponse
+                    {
+                        Message = "Asset not found",
+                        Success = false
+                    });
+                }
+                if (asset.AssetStatus == AssetStatus.NotAuctioned && asset.IsDeleted == false)
+                {
+                    asset.AssetStatus = AssetStatus.Auctioned;
+                    await _assetRepository.UpdateAsync(asset);
+                    responses.Add(new BaseResponse
+                    {
+                        Message = $"{asset.AssetName} is now in an auction",
+                        Success = true
+                    });
+                }
+                responses.Add(new BaseResponse
+                {
+                    Message = "Asset is already in an auction",
                     Success = false
-                };
+                });
+                
             }
-            return new AssetsResponseModel
-            {
-                Data = assetToDisplay.Select(a => new AssetDto
-                {
-
-                    AssetName = a.AssetName,
-                    Price = a.Price,
-                }).ToListAsync(),
-                Message = "Assets  added successfully",
-                Success = true
-            };
-
+            return responses;
+        }
+    }
 }
 
 

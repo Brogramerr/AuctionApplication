@@ -8,5 +8,6 @@ namespace AuctionApplication.DTOs.RequestModels
     {
         public decimal Price { get; set; }
        public int CustomerId { get; set; }
+        public int BiddingId { get; set; }
     }
 }

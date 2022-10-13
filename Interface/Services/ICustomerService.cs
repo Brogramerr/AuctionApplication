@@ -7,6 +7,9 @@ namespace AuctionApplication.Interface.Services
     public interface ICustomerService
     {
         Task<BaseResponse> Register(CreateCustomerRequestModel model);
-        
+        Task<CustomerResponseModel> GetById(int id);
+        Task<BaseResponse> UpdateCustomer(UpdateCustomerRequestModels updatedCustomer);
+
+
     }
 }

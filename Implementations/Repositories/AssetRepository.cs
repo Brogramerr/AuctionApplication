@@ -1,4 +1,4 @@
-using AuctionApp.Entities.Enums;
+using AuctionApplication.Entities.Enums;
 using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
@@ -30,25 +30,6 @@ namespace AuctionApplication.Implementations.Repositories
             c.Auction.OpeningDate <= DateTime.Now && c.Auction.IsDeleted == false &&
             c.Auction.OpeningDate.AddHours(c.Auction.Duration) >= DateTime.Now).ToListAsync();
             return asset;
-        }
-
-        public async Task<Asset> AddAssetForAuctionAsync()
-        {
-            var asset = await _Context.Assets
-            .Include(c => c.Auction)
-            .Where(c => c.AssetName == AssetName && c.Price == Price);
-            return asset;
-            
-        }
-
-        public async Task<List<Asset>> AddAssetsForAuctionAsync()
-        {
-            var asset = await _Context.Assets
-            .Include(c => c.Auction)
-            .Where(c => c.AssetName == AssetName && c.Price == Price)
-            .ToListAsync();
-            return assets;
-            
         }
     }
 }
