@@ -15,12 +15,12 @@ namespace AuctionApplication.Implementations.Repositories
 
         public async Task<Customer> AddAssetsForAuctionAsync(int id, int auctionId)
         {
-            var customer = await _Context.Customers.Include(c => c.Assests).ThenInclude(a => a.Auction).FirstOrDefaultAsync(c => c.Id == id && c.Assests.Any(a => a.AuctionId == auctionId));
+            var customer = await _Context.Customers.Include(c => c.Assets).ThenInclude(a => a.Auction).FirstOrDefaultAsync(c => c.Id == id && c.Assets.Any(a => a.AuctionId == auctionId));
         }
 
         public async Task<Customer> ChangeAuctionAsync(int id, int auctionId)
         {
-            var customer = await _Context.Customers.Include(c => c.Assests).ThenInclude(a => a.Auction).FirstOrDefaultAsync(c => c.Id == id && c.Assests.Any(a => a.AuctionId == auctionId));
+            var customer = await _Context.Customers.Include(c => c.Assets).ThenInclude(a => a.Auction).FirstOrDefaultAsync(c => c.Id == id && c.Assets.Any(a => a.AuctionId == auctionId));
         }
         
         public async Task<Customer> ExistsByEmailAsync(string Email, string password)
