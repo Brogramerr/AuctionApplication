@@ -31,5 +31,24 @@ namespace AuctionApplication.Implementations.Repositories
             c.Auction.OpeningDate.AddHours(c.Auction.Duration) >= DateTime.Now).ToListAsync();
             return asset;
         }
+
+        public async Task<Asset> AddAssetForAuctionAsync()
+        {
+            var asset = await _Context.Assets
+            .Include(c => c.Auction)
+            .Where(c => c.AssetName == AssetName && c.Price == Price);
+            return asset;
+            
+        }
+
+        public async Task<List<Asset>> AddAssetsForAuctionAsync()
+        {
+            var asset = await _Context.Assets
+            .Include(c => c.Auction)
+            .Where(c => c.AssetName == AssetName && c.Price == Price)
+            .ToListAsync();
+            return assets;
+            
+        }
     }
 }
