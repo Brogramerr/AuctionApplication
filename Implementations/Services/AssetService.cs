@@ -221,7 +221,7 @@ namespace AuctionApplication.Implementation.Services
                     AssetName = a.AssetName,
                     Price = a.Price,
                 }).ToListAsync(),
-                Message = "Assets available for auction today",
+                Message = "Assets  added successfully",
                 Success = true
             };
 
