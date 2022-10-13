@@ -50,9 +50,9 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
 
-             asset.Price = Price;
+            asset.Price = Price;
             await _assetRepository.UpdateAsync(asset);
-           
+
             return new BaseResponse()
             {
                 Message = "Asset Price Changed Successfully",
@@ -73,7 +73,8 @@ namespace AuctionApplication.Implementation.Services
             }
             return new AssetsResponseModel
             {
-                Data = asset.Select(asset => new AssetDto{
+                Data = asset.Select(asset => new AssetDto
+                {
                     Price = asset.Price,
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
@@ -83,7 +84,7 @@ namespace AuctionApplication.Implementation.Services
                 }).ToList(),
                 Message = "Assets found successfully",
                 Success = true,
-                
+
             };
 
         }
@@ -99,7 +100,7 @@ namespace AuctionApplication.Implementation.Services
                 };
             }
             bool check = asset.Auction.OpeningDate == DateTime.Now;
-            if(check)
+            if (check)
             {
                 return new BaseResponse()
                 {
@@ -118,7 +119,7 @@ namespace AuctionApplication.Implementation.Services
         public async Task<AssetsResponseModel> GetAssetsToDisplayAsync()
         {
             var assetToDisplay = await _assetRepository.GetAssetsToDisplayAsync();
-            if(assetToDisplay.Count == 0)
+            if (assetToDisplay.Count == 0)
             {
                 return new AssetsResponseModel
                 {
@@ -188,9 +189,31 @@ namespace AuctionApplication.Implementation.Services
                 Success = true
             };
         }
+
+        public async Task<BaseResponseModel> ChangAssetStatusToSold(int id)
+        {
+            var asset = await _assetRepository.GetAsync(id);
+            if (asset == null)
+            {
+                return new BaseResponseModel
+                {
+                    Message = "Asset not found",
+                    Success = false
+                };
+            }
+            asset.AssetStatus = AssetStatus.Sold;
+            await _assetRepository.UpdateAsync(asset);
+            return new BaseResponseModel
+            {
+                Message = "Asset status change to sold",
+                Success = true
+            };
+        }
     }
-        
 }
+
+
+
 
 
 
