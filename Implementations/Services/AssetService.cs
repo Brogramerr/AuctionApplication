@@ -141,9 +141,57 @@ namespace AuctionApplication.Implementation.Services
                 Success = true
             };
         }
+
+        public async Task<AssetsResponseModel> AddAssetForAuctionAsync()
+        {
+            var addAsset = await _assetRepository.AddAssetForAuctionAsync();
+            if (Asset == null)
+            {
+                return new AssetsResponseModel
+                {
+                    Message = "Asset not added",
+                    Success = false
+                };
+            }
+            return new AssetsResponseModel
+            {
+                Data = addAsset.Select(a => new AssetDto
+                {
+                    
+                    AssetName = a.AssetName,
+                    Price = a.Price,
+                }).
+                Message = "Asset added successfully",
+                Success = true
+            };
+        }
+        public async Task<AssetsResponseModel> AddAssetsForAuctionAsync()
+        {
+            var addAsset = await _assetRepository.AddAssetsForAuctionAsync();
+            if (Asset.Count == 0)
+            {
+                return new AssetsResponseModel
+                {
+                    Message = "Assets not added",
+                    Success = false
+                };
+            }
+            return new AssetsResponseModel
+            {
+                Data = addAsset.Select(a => new AssetDto
+                {
+                    
+                    AssetName = a.AssetName,
+                    Price = a.Price,
+                }).ToListAsync(),
+                Message = "Assets added successfully",
+                Success = true
+            };
+        }
     }
         
 }
+
 
 
 
