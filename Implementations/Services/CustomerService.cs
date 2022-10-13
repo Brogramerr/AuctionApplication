@@ -67,19 +67,19 @@ namespace AuctionApplication.Implementation.Services
             }
         }
 
-        public async Task<CustomerResponse> GetById(int id)
+        public async Task<CustomerResponseModel> GetById(int id)
         {
             var customer = await _customerRepository.GetById(id);
             if(customer == null)
             {
-                return new CustomerResponse()
+                return new CustomerResponseModel()
                 {
                     Message = "Customer not found",
                     Success = false,
                 };
             }
 
-            return new CustomerResponse()
+            return new CustomerResponseModel()
             {
                 Message = "Customer Retrived Successfully",
                 Success = false,

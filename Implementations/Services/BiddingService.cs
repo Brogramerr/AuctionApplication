@@ -36,7 +36,7 @@ namespace AuctionApplication.Implementation.Services
             {
                 CustomerId = createBidding.CustomerId,
                 Price = createBidding.Price,
-                AssetId = createBidding.AssetsId,
+                AssetId = createBidding.AssestId,
             };
             var result = await _biddingRepository.CreateAsync(bidding);
             if (result == null)

@@ -2,13 +2,13 @@ using AuctionApplication.Entities.Identity;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Implementations.Repositories;
 using AuctionApplication.Interface.Services;
-
 using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Entities;
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApp.Entities.Enums;
+
 
 namespace AuctionApplication.Implementation.Services
 {
@@ -225,8 +225,6 @@ namespace AuctionApplication.Implementation.Services
                 Success = true
             };
 
-        }
-    }
 }
 
 

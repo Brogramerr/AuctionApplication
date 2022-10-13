@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj": {}
+    "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj": {
+    "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
         "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\AuctionApp.csproj",
-        "packagesPath": "C:\\Users\\Kenny Allen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application 3\\AuctionApplication\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kenny Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
