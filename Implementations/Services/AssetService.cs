@@ -141,6 +141,24 @@ namespace AuctionApplication.Implementation.Services
                 Success = true
             };
         }
+
+        public async Task<BaseResponse> ChangeAssetStatusToAuctioned(int id)
+        {
+            var toAuctioned = await _assetRepository.GetAsync(id);
+            if(toAuctioned.AssetStatus == AssetStatus.NotAuctioned && toAuctioned.IsDeleted == false && toAuctioned.AssetStatus != AssetStatus.Sold)
+            {
+                toAuctioned.AssetStatus = AssetStatus.Auctioned;
+                await _assetRepository.UpdateAsync(toAuctioned);
+                return new BaseResponse{
+                    Message = "Asset is now Auctioned",
+                    Success = true,
+                };
+            }
+            return new BaseResponse{
+                Message = "Unable to put asset up for auction",
+                Success = false,
+            };
+        }
     }
         
 }

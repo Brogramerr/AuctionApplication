@@ -11,6 +11,7 @@ namespace AuctionApplication.Interface.Services
         Task<AssetsResponseModel> GetAssetsByAuctionDateAsync(DateTime Date);
         Task<BaseResponse> DeleteAssetAsync(int id);
         Task<AssetsResponseModel> GetAssetsToDisplayAsync();
+        Task<BaseResponse> ChangeAssetStatusToAuctioned(int id);
 
     }
 }
