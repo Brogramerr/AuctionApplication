@@ -35,33 +35,39 @@ namespace AuctionApplication.Implementation.Services
                 Password = model.Password,
             };
             var adduser = await _userRepository.CreateAsync(user);
-            var custm = new Customer
+            var custm = new Customer()
             {
+
                 Username = model.Username,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 Email = model.Email,
                 PhoneNumber = model.PhoneNumber,
-                User = adduser,
-                UserId = adduser.Id
             };
             
             var custom = await _customerRepository.CreateAsync(custm);
-            var wallet = new Wallet
+            if (custom == null)
             {
-                Amount = 0,
-                CustomerId = custom.Id
-            };
-            return new BaseResponse
+                return new BaseResponse()
+                {
+                    Message = "Unable To Register Customer",
+                    Success = false,
+                };
+            }
+            else
             {
-                Message = "Successfully Registered",
-                Success = true,
-            };
+
+                return new BaseResponse()
+                {
+                    Message = "Successfully Registered",
+                    Success = true,
+                };
+            }
         }
 
         public async Task<CustomerResponseModel> GetById(int id)
         {
-            var customer = await _customerRepository.GetAsync(id);
+            var customer = await _customerRepository.GetById(id);
             if (customer == null)
             {
                 return new CustomerResponseModel
