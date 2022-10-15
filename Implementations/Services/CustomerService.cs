@@ -67,7 +67,7 @@ namespace AuctionApplication.Implementation.Services
 
         public async Task<CustomerResponseModel> GetById(int id)
         {
-            var customer = await _customerRepository.GetById(id);
+            var customer = await _customerRepository.GetAsync(id);
             if (customer == null)
             {
                 return new CustomerResponseModel

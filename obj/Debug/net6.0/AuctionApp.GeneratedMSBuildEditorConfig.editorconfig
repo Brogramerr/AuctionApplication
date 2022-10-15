@@ -15,16 +15,76 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/fullstackbeast/Desktop/NewProject/AuctionApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS80MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9hYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/buttons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9idXR0b25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/buy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9idXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/forms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9mb3Jtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/grid-system.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9ncmlkLXN5c3RlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/privacy-policy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wcml2YWN5LXBvbGljeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/progress-bars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wcm9ncmVzcy1iYXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/search-results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zZWFyY2gtcmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/sell.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zZWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/tables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90YWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/tabs-and-accordions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90YWJzLWFuZC1hY2NvcmRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/typography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90eXBvZ3JhcGh5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Shared/_progress-bars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19wcm9ncmVzcy1iYXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
