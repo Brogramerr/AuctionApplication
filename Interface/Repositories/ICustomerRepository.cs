@@ -5,7 +5,7 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface ICustomerRepository : IGenericRepository<Customer>
     {
-         Task<Customer> GetCustomer(int id);
+        Task<Customer> GetCustomer(int id);
     }
 }
 
