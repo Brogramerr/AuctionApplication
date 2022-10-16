@@ -1,64 +1,30 @@
-using AuctionApplication.Entities.Identity;
-using AuctionApplication.DTOs.ResponseModels;
-using AuctionApplication.Implementations.Repositories;
-using AuctionApplication.Interface.Services;
-
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
 using AuctionApplication.DTOs.RequestModels;
-using AuctionApplication.Interface.Repositories;
+using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Entities;
+using AuctionApplication.Interface.Repositories;
+using AuctionApplication.Interface.Services;
 
 namespace AuctionApplication.Implementation.Services
 {
     public class WalletService : IWalletService
     {
-         private readonly IWalletRepository _walletRepository;
-
-
-        public WalletService(IWalletRepository walletRepository)
+        private readonly IWalletRepository _walletRepository;
+        private readonly ICustomerRepository _customerRepository;
+        public WalletService(IWalletRepository walletRepository, ICustomerRepository customerRepository)
         {
             _walletRepository = walletRepository;
+            _customerRepository = customerRepository;
         }
 
-        public async Task<BaseResponse> CreateWalletAsync(CreateWalletRequestModel walletRequestModel)
+        
+       public async Task<BaseResponse> FundWalletAsync(FundWalletRequestModel fundWalletRequestModel)
         {
-             var wallet = new Wallet
-            {
-                Amount = walletRequestModel.Amount,
-                CustomerId = walletRequestModel.CustomerId
+            var customer = await _customerRepository.GetCustomer(fundWalletRequestModel.CustomerId);
+            customer.Wallet.Amount += fundWalletRequestModel.Amount;
 
-            };
-            var response = await _walletRepository.CreateAsync(wallet);
-            if (response == null)
-            {
-                return new BaseResponse
-                {
-                    Message = "Couldn't create wallet",
-                    Success = false,
-                };
-            }
-            return new BaseResponse
-            {
-                Message = "You've successfully created a wallet",
-                Success = true,
-            };
-        }
-
-        public async Task<BaseResponse> FundWalletAsync(int id, FundWalletRequestModel fundWalletRequestModel)
-        {
-             var wallet = await _walletRepository.GetWalletAsync(id);
-            wallet.Amount += fundWalletRequestModel.Amount;
+            await _walletRepository.UpdateAsync(customer.Wallet);
             
-            var response = await _walletRepository.UpdateAsync(wallet);
-            if (response == null)
-            {
-                return new BaseResponse
-                {
-                    Message = "Couldn't fund wallet",
-                    Success = false,
-                };
-            }
             return new BaseResponse
             {
                 Message = "You've successfully funded your wallet",
@@ -66,25 +32,15 @@ namespace AuctionApplication.Implementation.Services
             };
         }
 
-        public async Task<BaseResponse> GetWalletAsync(int id, WalletDto getWallet)
+        public async Task<WalletResponseModel> GetWalletBalance(int customerId)
         {
-             var balance = await _walletRepository.GetAsync(id);
-            if (balance == null)
-            {
-                return new BaseResponse
-                {
-                    Message = "Wallet could not be found",
-                    Success = false,
-                };
-
-            }
+            var customer = await _customerRepository.GetCustomer(customerId);
+            
             return new WalletResponseModel
             {
                 Data = new WalletDto
                 {
-
-                    Amount = balance.Amount
-
+                    Amount = customer.Wallet.Amount
                 },
                 Message = "Balance Successfully Retrieved",
                 Success = true,
@@ -92,24 +48,18 @@ namespace AuctionApplication.Implementation.Services
             };
         }
 
-        public async Task<BaseResponse> WithdrawFundsAsync(int id, WithdrawFundsRequestModel withdrawFundsRequestModel)
+        public async Task<BaseResponse> WithdrawFundsAsync(WithdrawFundsRequestModel withdrawFundsRequestModel)
         {
-              var wallet = await _walletRepository.GetWalletAsync(id);
-            wallet.Amount -= withdrawFundsRequestModel.Amount;
-            var response = await _walletRepository.UpdateAsync(wallet);
-            if (response == null)
-            {
-                return new BaseResponse
-                {
-                    Message = "Couldn't withdraw funds",
-                    Success = false,
-                };
-            }
+            var customer = await _customerRepository.GetCustomer(withdrawFundsRequestModel.CustomerId);
+            customer.Wallet.Amount -= withdrawFundsRequestModel.Amount;
+
+            await _walletRepository.UpdateAsync(customer.Wallet);
+
             return new BaseResponse
             {
-                Message = "You've successfully withdrawn money from your wallet",
+                Message = "You've successfully withdraw from your wallet",
                 Success = true,
             };
         }
     }
-}       
+}

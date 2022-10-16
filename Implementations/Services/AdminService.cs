@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AuctionApp.DTOs;
-using AuctionApp.Interface.Services;
+using AuctionApplication.DTOs;
+using AuctionApplication.Interface.Services;
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Entities.Identity;
 using AuctionApplication.Interface.Repositories;
 
-namespace AuctionApp.Implementations.Services
+namespace AuctionApplication.Implementations.Services
 {
     public class AdminService : IAdminService
     {
@@ -25,7 +25,6 @@ namespace AuctionApp.Implementations.Services
 
         public async Task<BaseResponse> AddAdmin(CreateAdminRequestModel model)
         {
-            
             var admin = await _adminRepository.GetAsync(a => a.User.Email == model.Email);
             if (admin != null)
             {
@@ -41,7 +40,14 @@ namespace AuctionApp.Implementations.Services
                 Password = model.Password,
             };
             var adduser = await _userRepository.CreateAsync(user);
-            var role = await _roleRepository.GetRoleByNameAsync("Admin");
+            var role = await _roleRepository.GetAsync(x=> x.Name.Equals("Admin"));
+            if(role == null)
+            {
+                return new BaseResponse{
+                    Message = "Role not found",
+                    Success = false 
+                };
+            }
 
             var userRole = new UserRole
             {
@@ -68,11 +74,6 @@ namespace AuctionApp.Implementations.Services
                 Success = true,
             };
 
-        }
-
-        public Task<BaseResponse> AddAdmin(CreateUserRequestModels model)
-        {
-            throw new NotImplementedException();
         }
 
         public async Task<BaseResponse> DeleteAdmin(int Id)

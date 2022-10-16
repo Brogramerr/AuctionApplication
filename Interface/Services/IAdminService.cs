@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.DTOs.ResponseModels;
 
-namespace AuctionApp.Interface.Services
+namespace AuctionApplication.Interface.Services
 {
     public interface IAdminService
     {
-        Task<BaseResponse> AddAdmin(CreateUserRequestModels model);
+        Task<BaseResponse> AddAdmin(CreateAdminRequestModel model);
         Task<BaseResponse> DeleteAdmin(int Id);
         
     }

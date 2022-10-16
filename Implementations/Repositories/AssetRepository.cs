@@ -1,6 +1,8 @@
+using AuctionApplication.Entities.Enums;
 using AuctionApplication.Context;
 using AuctionApplication.Entities;
 using AuctionApplication.Interface.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
@@ -16,14 +18,18 @@ namespace AuctionApplication.Implementations.Repositories
         {
             return await _Context.Assets
             .Include(x => x.Auction)
-            .Where(x => x.Auction.OpeningDate == date)
+            .Where(x => x.Auction.OpeningDate == date && x.IsDeleted == false)
             .ToListAsync();
         }
         
 
-        public Task<List<Asset>> GetAssetsToDisplayAsync()
+        public async Task<List<Asset>> GetAssetsToDisplayAsync()
         {
-            throw new NotImplementedException();
+            var asset = await _Context.Assets.Where(c => 
+            c.AssetStatus == AssetStatus.Auctioned &&
+            c.Auction.OpeningDate <= DateTime.Now && c.Auction.IsDeleted == false &&
+            c.Auction.OpeningDate.AddHours(c.Auction.Duration) >= DateTime.Now).ToListAsync();
+            return asset;
         }
     }
 }

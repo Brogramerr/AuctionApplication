@@ -1,4 +1,4 @@
-namespace AuctionApp.DTOs.RequestModels
+namespace AuctionApplication.DTOs.RequestModels
 {
     public class CreateRoleRequestmodel
     {

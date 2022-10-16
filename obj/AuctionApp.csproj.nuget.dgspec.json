@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj": {}
+    "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/AuctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj": {
+    "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/AuctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+        "projectUniqueName": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/AuctionApp.csproj",
         "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
-        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\",
+        "projectPath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/AuctionApp.csproj",
+        "packagesPath": "/home/fullstackbeast/.nuget/packages/",
+        "outputPath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/fullstackbeast/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

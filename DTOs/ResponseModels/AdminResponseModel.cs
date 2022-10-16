@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AuctionApplication.DTOs.ResponseModels;
 
-namespace AuctionApp.DTOs.ResponseModels
+namespace AuctionApplication.DTOs.ResponseModels
 {
     public class AdminResponseModel : BaseResponse
     {

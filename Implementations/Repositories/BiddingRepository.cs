@@ -15,10 +15,16 @@ namespace AuctionApplication.Implementations.Repositories
             _Context = Context;
         }
 
-        public async Task<IList<Bidding>> GetBiddingByAssetIdAsync(int id)
+        public async Task<IList<Bidding>> GetBiddingsByAssetIdAsync(int id)
         {
-            var bidding = await _Context.Biddings.Where(a => a.AssetId == id).Include(auction => auction.Asset).Include(customer => customer.Customer).ToListAsync();
+            var bidding = await _Context.Biddings.Where(a => a.AssetId == id).Include(a => a.Asset).Include(customer => customer.Customer).ToListAsync();
             return bidding;
+        }
+
+        public async Task<Bidding> GetHighestBidderAsync()
+        {
+            var bidder = await _Context.Biddings.Include(x => x.Customer).Include(x => x.Asset).OrderByDescending(x => x.Price).ToListAsync(); ;
+            return bidder[0];
         }
     }
 }

@@ -16298,6 +16298,11 @@
   "RootNamespace": "AuctionApp",
   "Documents": [
     {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/typography.cshtml",
+      "TargetPath": "Views\\Home\\typography.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16313,8 +16318,48 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/contacts.cshtml",
+      "TargetPath": "Views\\Home\\contacts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/tables.cshtml",
+      "TargetPath": "Views\\Home\\tables.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/buttons.cshtml",
+      "TargetPath": "Views\\Home\\buttons.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/sell.cshtml",
+      "TargetPath": "Views\\Home\\sell.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/grid-system.cshtml",
+      "TargetPath": "Views\\Home\\grid-system.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/progress-bars.cshtml",
+      "TargetPath": "Views\\Home\\progress-bars.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/privacy-policy.cshtml",
+      "TargetPath": "Views\\Home\\privacy-policy.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16323,8 +16368,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Shared/_progress-bars.cshtml",
+      "TargetPath": "Views\\Shared\\_progress-bars.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/404.cshtml",
+      "TargetPath": "Views\\Home\\404.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/buy.cshtml",
+      "TargetPath": "Views\\Home\\buy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/forms.cshtml",
+      "TargetPath": "Views\\Home\\forms.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/search-results.cshtml",
+      "TargetPath": "Views\\Home\\search-results.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fullstackbeast/Desktop/NewProject/AuctionApplication/Views/Home/tabs-and-accordions.cshtml",
+      "TargetPath": "Views\\Home\\tabs-and-accordions.cshtml",
       "FileKind": "mvc"
     },
     {

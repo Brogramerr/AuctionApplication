@@ -7,7 +7,5 @@ namespace AuctionApplication.Interface.Repositories
     {
        Task<List<Asset>> GetAssetsByAuctionDateAsync(DateTime AuctionDate);
        Task<List<Asset>> GetAssetsToDisplayAsync();
-        
-
     }
 }
