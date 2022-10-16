@@ -14,13 +14,15 @@ namespace AuctionApplication.Context
         {
 
         }
-
         public DbSet<User> Users {get; set;}
         public DbSet<Role> Roles{get;set;}
         public DbSet<UserRole> UserRoles{get;set;}
         public DbSet<Auction> Auctions{get;set;}
         public DbSet<Customer> Customers{get;set;}
         public DbSet<Bidding> Biddings {get; set;}
+        public DbSet<Asset> Assets {get; set;}
+        public DbSet<Admin> Admins {get; set;}
+        public DbSet<Wallet> Wallets {get; set;}
         
         
     }

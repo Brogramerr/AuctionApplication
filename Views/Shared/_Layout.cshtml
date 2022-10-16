@@ -1,49 +1,226 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - AuctionApplication</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/AuctionApplication.styles.css" asp-append-version="true" />
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewData["Title"] - Mvc</title>
+    <script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900%7CMontserrat:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="~/csss/bootstrap.css">
+    <link rel="stylesheet" href="~/csss/fonts.css">
+    <link rel="stylesheet" href="~/csss/style.css">
+    <script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0"></script>
+    <style>
+        .ie-panel {
+            display: none;
+            background: #212121;
+            padding: 10px 0;
+            box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+            clear: both;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        html.ie-10 .ie-panel,
+        html.lt-ie-10 .ie-panel {
+            display: block;
+        }
+    </style>
 </head>
+
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AuctionApplication</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+
+    <div class="ie-panel"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img
+                src="~/images/ie8-panel/warning_bar_0000_us.jpg"
+                height="4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVfree today."></a>
+    </div>
+    <div class="preloader">
+        <div class="preloader-body">
+            <div class="cssload-container">
+                <div class="cssload-speeding-wheel"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <header class="section page-header">
+            <!--RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+                    data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+                    data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
+                    data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static"
+                    data-lg-stick-up-offset="4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVtrue"
+                    data-xxl-stick-up="true">
+                    <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
+                        data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+                    <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-900">
+                        <div class="rd-navbar-aside">
+                            <div class="rd-navbar-aside-left">
+                                <ul class="list-inline list-inline-lg">
+                                    <li>
+                                        <div class="unit unit-spacing-sm align-items-center">
+                                            <div class="unit-left"><span
+                                                    class="icon icon-md text-middle fa-phone text-primary"></span>
+                                            </div>
+                                            <div class="unit-body header-phone-wrap">Freephone:&nbsp;<a
+                                                    class="header-phone" href="tel:#">800-2345-6789</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="header-hours">Opening Hours: 8am-8pm PST M-Th; 6am-3pm PST Fri</li>
+                                </ul>
+                            </div>
+                            <div class="rd-navbar-aside-right">
+                                <div class="group-sm"><a class="button button-sm button-secondary" href="#">Sign
+                                        In</a><a class="button button-sm button-primary-2" href="#">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <!--RD Navbar Panel-->
+                            <div class="rd-navbar-panel">
+                                <!--RD Navbar Toggle-->
+                                <button class="rd-navbar-toggle"
+                                    data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--RD Navbar Brand-->
+                                <div class="rd-navbar-brand">
+                                    <!--Brand--><a class="brand" href="index.html"><img
+                                            src="~/images/logo-default-658x114.png" alt="" width="329" height="57" /></a>
+                                </div>
+                            </div>
+                            <div class="rd-navbar-main-element">
+                                <div class="rd-navbar-nav-wrap">
+                                    <ul class="rd-navbar-nav">
+                                        <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="sell.html">Sell</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="buy.html">Buy</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link">Pages</a>
+                                            <ul class="rd-menu rd-navbar-dropdown">
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="404.html">404</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="typography.html">Typography</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="buttons.html">Buttons</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="forms.html">Forms</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="tabs-and-accordions.html">Tabs and accordions</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="progress-bars.html">Progress bars</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="tables.html">Tables</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="grid-system.html">Grid system</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="privacy-policy.html">Privacy policy</a>
+                                                </li>
+                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                                                        href="search-results.html">Search results</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="footer novi-bg novi-bg-img">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row row-30">
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-title">Information</h4>
+                            <ul class="footer-list list-xs">
+                                <li><a class="footer-link" href="#">About Us</a></li>
+                                <li><a class="footer-link" href="#">My Account</a></li>
+                                <li><a class="footer-link" href="#">Price List</a></li>
+                                <li><a class="footer-link" href="#">Contacts</a></li>
+                                <li><a class="footer-link" href="#">Registration</a></li>
+                                <li><a class="footer-link" href="#">News</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-title">Help Center</h4>
+                            <ul class="footer-list list-xs">
+                                <li><a class="footer-link" href="#">Assistance</a></li>
+                                <li><a class="footer-link" href="#">FAQ</a></li>
+                                <li><a class="footer-link" href="#">Testimonials</a></li>
+                                <li><a class="footer-link" href="#">Account Refill</a></li>
+                                <li><a class="footer-link" href="#">Payments</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-title">Partners</h4>
+                            <ul class="footer-list list-xs">
+                                <li><a class="footer-link" href="#">iStep</a></li>
+                                <li><a class="footer-link" href="#">Artex</a></li>
+                                <li><a class="footer-link" href="#">Style Shop</a></li>
+                                <li><a class="footer-link" href="#">CrystalTech</a></li>
+                                <li><a class="footer-link" href="#">VIP Fashion</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-title">Facebook</h4>
+                            <div class="fw_facebook">
+                                <div class="fb-like-box fb_iframe_widget" id="fb-like-box" data-show-border="false"
+                                    data-stream="false" data-header="false" data-show-faces="true"
+                                    data-colorscheme="light" data-href="https://www.facebook.com/TemplateMonster"
+                                    data-width="270px"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+            <div class="footer-panel">
+                <div class="container">
+                    <p class="rights"><span>&copy;&nbsp; </span><span
+                            class="copyright-year"></span><span>&nbsp;</span><span>Online
+                            Auction</span><span>.&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a></p>
+                </div>
+            </div>
+        </footer>
     </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="~/jss/core.min.js"></script>
+    <script src="~/jss/script.js"></script>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - AuctionApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

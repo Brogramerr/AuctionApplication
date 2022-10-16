@@ -5,7 +5,10 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IBiddingRepository : IGenericRepository<Bidding>
     {
-        Task<Bidding> GetBiddingByAuctionIdAsync(int id);
+
+        Task<IList<Bidding>> GetBiddingsByAssetIdAsync(int id);
+        Task<Bidding> GetHighestBidderAsync();
+
 
     }
 }

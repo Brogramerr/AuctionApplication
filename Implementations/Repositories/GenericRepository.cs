@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Context;
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.Contracts;
+using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
@@ -21,7 +21,7 @@ namespace AuctionApplication.Implementations.Repositories
         }
 
         public async Task<T> UpdateAsync(T entity)
-        {
+        { 
             _Context.Set<T>().Update(entity);
             await _Context.SaveChangesAsync();
             return entity;
