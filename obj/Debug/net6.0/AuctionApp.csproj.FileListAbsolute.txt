@@ -44,3 +44,14 @@ C:/Users/HI/Desktop/App/AuctionApp/obj/Debug/net6.0/ref/AuctionApp.dll
 /home/fullstackbeast/Desktop/NewProject/AuctionApplication/obj/Debug/net6.0/AuctionApp.dll
 /home/fullstackbeast/Desktop/NewProject/AuctionApplication/obj/Debug/net6.0/ref/AuctionApp.dll
 /home/fullstackbeast/Desktop/NewProject/AuctionApplication/obj/Debug/net6.0/AuctionApp.pdb
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.csproj.AssemblyReference.cache
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.AssemblyInfoInputs.cache
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.AssemblyInfo.cs
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.csproj.CoreCompileInputs.cache
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.RazorAssemblyInfo.cache
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.RazorAssemblyInfo.cs
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.dll
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\refint\AuctionApp.dll
+C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.pdb
