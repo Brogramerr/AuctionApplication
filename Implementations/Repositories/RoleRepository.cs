@@ -8,6 +8,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Entities;
+using AuctionApplication.Entities;
 using Microsoft.EntityFrameworkCore;
 namespace AuctionApplication.Implementations.Repositories
 {
