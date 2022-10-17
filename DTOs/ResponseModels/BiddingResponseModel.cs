@@ -4,6 +4,6 @@ namespace AuctionApplication.DTOs.ResponseModels
 {
     public class BiddingResponseModel : BaseResponse
     {
-        public List<BiddingDto> Data { get; set; } = new List<BiddingDto>();
+        public BiddingDto Data { get; set; }
     }
 }

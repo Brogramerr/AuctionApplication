@@ -1,5 +1,5 @@
 using System;
-using AuctionApp.Entities.Enums;
+using AuctionApplication.Entities.Enums;
 using AuctionApplication.Entities;
 
 namespace AuctionApplication.DTOs

@@ -1,11 +1,7 @@
-using AuctionApplication.Entities.Identity;
-using AuctionApplication.DTOs.ResponseModels;
-using AuctionApplication.Implementations.Repositories;
-using AuctionApplication.Interface.Services;
-
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs;
+using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Interface.Repositories;
+using AuctionApplication.Interface.Services;
 
 namespace AuctionApplication.Implementation.Services
 {
@@ -18,14 +14,19 @@ namespace AuctionApplication.Implementation.Services
             _repository = repository;
         }
 
-        public async Task<UserResponseModel> Login(string email, string passWord)
+        public async Task<UserResponseModel> Login(string email, string password)
         {
 
-            var user = _repository.GetAsync(x=> x.Email == email && x.Password == passWord);
+            var user = await _repository.GetAsync(x => x.Email == email && x.Password == password);
             if (user != null)
             {
                 return new UserResponseModel
                 {
+                    Data = new UserDto(){
+                        Email = user.Email,
+                        Password = user.Password,
+                        Id = user.Id
+                    },
                     Success = true,
                     Message = "Sucessfully logged in",
                 };

@@ -1,4 +1,4 @@
-using AuctionApp.DTOs.RequestModels;
+using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Entities;
 using AuctionApplication.Entities.Identity;
@@ -8,8 +8,6 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IRoleRepository : IGenericRepository<Role>
     {
-        Task<Role> GetRoleByNameAsync(string name);
-    
-
+        Task<User> GetRoleByUserId(int id);
     }
 }

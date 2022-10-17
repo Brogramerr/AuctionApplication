@@ -1,0 +1,2578 @@
+{
+  "Version": 1,
+<<<<<<< HEAD
+  "Hash": "+uUkL+cOygN2/mWIagcxFYBPCkXlM0dyPdfzyq8BMHc=",
+=======
+  "Hash": "pfx0THeDwziKqUFV8pDVv9PiJvPBckpCg2DXqfzQC2Q=",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+  "Source": "AuctionApp",
+  "BasePath": "_content/AuctionApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AuctionApp\\wwwroot",
+      "Source": "AuctionApp",
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "AuctionApp.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "AuctionApp.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\css\\site.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\css\\site.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\csss\\bootstrap.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\bootstrap.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "csss/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\csss\\bootstrap.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\csss\\css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "csss/css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\csss\\css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\csss\\fonts.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\fonts.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "csss/fonts.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\csss\\fonts.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\csss\\style.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\style.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "csss/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\csss\\style.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\favicon.ico",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\favicon.ico",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\about-01-370x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\about-01-370x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/about-01-370x270.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about-01-370x270.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\about-03-171x148.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\about-03-171x148.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/about-03-171x148.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about-03-171x148.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\banner-arrow-184x147.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\banner-arrow-184x147.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/banner-arrow-184x147.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner-arrow-184x147.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-01-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-01-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-01-270x270.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-01-270x270.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-02-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-02-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-02-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-02-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-03-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-03-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-03-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-03-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-04-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-04-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-04-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-04-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-05-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-05-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-05-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-05-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-06-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-06-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-06-270x270.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-06-270x270.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-07-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-07-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-07-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-07-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-08-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-08-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-08-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-08-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-09-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-09-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-09-270x270.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-09-270x270.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-10-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-10-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-10-270x270.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-10-270x270.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-11-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-11-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-11-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-11-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-12-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-12-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-12-120x120.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-12-120x120.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\box-image-13-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-13-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/box-image-13-270x270.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\box-image-13-270x270.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\buy-01-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-01-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/buy-01-270x189.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\buy-01-270x189.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\buy-02-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-02-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/buy-02-270x189.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\buy-02-270x189.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\buy-03-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-03-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/buy-03-270x189.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\buy-03-270x189.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\buy-04-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-04-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/buy-04-270x189.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\buy-04-270x189.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\buy-05-1920x570.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-05-1920x570.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/buy-05-1920x570.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\buy-05-1920x570.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\home-01-1920x570.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\home-01-1920x570.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/home-01-1920x570.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home-01-1920x570.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\logo-default-658x114.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\logo-default-658x114.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/logo-default-658x114.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo-default-658x114.png"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic1-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic1-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic1-270x271.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic1-270x271.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic2-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic2-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic2-270x271.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic2-270x271.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic3-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic3-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic3-270x271.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic3-270x271.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic4-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic4-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic4-270x271.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic4-270x271.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic5-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic5-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic5-270x217.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic5-270x217.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic6-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic6-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic6-270x217.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic6-270x217.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic7-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic7-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic7-270x217.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic7-270x217.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\page1_pic8-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic8-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/page1_pic8-270x217.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\page1_pic8-270x217.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\sell-01-470x339.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\sell-01-470x339.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/sell-01-470x339.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sell-01-470x339.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\team-01-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-01-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/team-01-270x270.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team-01-270x270.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\team-02-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-02-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/team-02-270x270.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team-02-270x270.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\team-03-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-03-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/team-03-270x270.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team-03-270x270.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\team-04-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-04-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/team-04-270x270.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\team-04-270x270.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\typography-01-770x480.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\typography-01-770x480.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/typography-01-770x480.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\typography-01-770x480.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\images\\typography-02-370x230.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\typography-02-370x230.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/typography-02-370x230.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\typography-02-370x230.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\js\\site.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\js\\site.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\jss\\core.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\jss\\core.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "jss/core.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jss\\core.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\jss\\script.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\jss\\script.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "jss/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jss\\script.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/bootstrap/LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery/dist/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    }
+  ]
+}

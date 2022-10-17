@@ -1,29 +1,24 @@
-using AuctionApplication.Entities.Identity;
-using AuctionApplication.DTOs.ResponseModels;
-using AuctionApplication.Implementations.Repositories;
-using AuctionApplication.Interface.Services;
-using System;
-using Microsoft.EntityFrameworkCore;
 using AuctionApplication.DTOs.RequestModels;
-using AuctionApplication.Interface.Repositories;
+using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Entities;
-using AuctionApplication.DTOs;
+using AuctionApplication.Interface.Repositories;
+using AuctionApplication.Interface.Services;
 
 namespace AuctionApplication.Implementation.Services
 {
     public class AuctionService : IAuctionService
 
     {
-        private readonly IAuctionRepository _repository;
-        public AuctionService(IAuctionRepository repository)
+        private readonly IAuctionRepository _auctionRepository;
+        public AuctionService(IAuctionRepository auctionRepository)
         {
-            _repository = repository;
+            _auctionRepository = auctionRepository;
         }
 
         public async Task<BaseResponse> ChangeAuctionDurationAsync(int id, int days)
         {
-            var auction = await  _repository.GetAsync(x => x.Id == id);
-            if(auction == null)
+            var auction = await _auctionRepository.GetAsync(x => x.Id == id);
+            if (auction == null)
             {
                 return new BaseResponse()
                 {
@@ -31,37 +26,28 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
-            if(auction.OpeningDate <= DateTime.Now)
+            if (auction.OpeningDate <= DateTime.Now)
             {
-                 return new BaseResponse()
+                return new BaseResponse()
                 {
                     Message = "Auction has Started",
                     Success = false,
                 };
             }
-            
-             auction.Duration = days;
-             var auct =  await _repository.UpdateAsync(auction);
 
-                 if(auct != null)
-                {
-                    return new BaseResponse()
-                    {
-                        Message = "Auction Updated Successfully",
-                        Success = true,
-                    };
-                }
-                    return new BaseResponse()
-                    {
-                        Message = "Auction Update Failed",
-                        Success = false,
-                    };
+            auction.Duration = days;
+            await _auctionRepository.UpdateAsync(auction);
+            return new BaseResponse()
+            {
+                Message = "Auction duration extended",
+                Success = true,
+            };
         }
 
         public async Task<BaseResponse> ChangeAuctionOpeningDateAsync(int id, DateTime openingDate)
         {
-            var auction = await  _repository.GetAsync(id);
-            if(auction == null)
+            var auction = await _auctionRepository.GetAsync(id);
+            if (auction == null)
             {
                 return new BaseResponse()
                 {
@@ -69,54 +55,37 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
-            if(auction.OpeningDate <= DateTime.Now)
+            if (auction.OpeningDate <= DateTime.Now)
             {
-                 return new BaseResponse()
+                return new BaseResponse()
                 {
                     Message = "Auction has Started",
                     Success = false,
                 };
             }
-            
-             auction.OpeningDate = openingDate;
-             var auct =  await _repository.UpdateAsync(auction);
 
-            if(auct != null)
-                {
-                    return new BaseResponse()
-                    {
-                        Message = "Auction Updated Successfully",
-                        Success = true,
-                    };
-                }
-                    return new BaseResponse()
-                    {
-                        Message = "Auction Update Failed",
-                        Success = false,
-                    };
+            auction.OpeningDate = openingDate;
+            await _auctionRepository.UpdateAsync(auction);
+            return new BaseResponse()
+            {
+                Message = "Auction opening date changed",
+                Success = true,
+            };
         }
 
         public async Task<BaseResponse> CreateAuctionAsync(CreateAuctionRequestModels model)
         {
-            var auction = new Auction()
+            var auction = new Auction
             {
                 OpeningDate = model.OpeningDate,
                 Duration = model.Duration,
             };
-             var create = await _repository.CreateAsync(auction);
-            if(create != null)
+            await _auctionRepository.CreateAsync(auction);
+            return new BaseResponse()
             {
-                return new BaseResponse()
-                {
-                    Message = "Auction Created Successfully",
-                    Success = true,
-                };
-            }
-                 return new BaseResponse()
-                {
-                    Message = "Auction Creation Failed",
-                    Success = false,
-                };
+                Message = "Auction Creation Success",
+                Success = false,
+            };
         }
 
 

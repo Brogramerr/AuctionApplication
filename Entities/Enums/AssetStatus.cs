@@ -1,4 +1,4 @@
-namespace AuctionApp.Entities.Enums
+namespace AuctionApplication.Entities.Enums
 {
     public enum AssetStatus
     {

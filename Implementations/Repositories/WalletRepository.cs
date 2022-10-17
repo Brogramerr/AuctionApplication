@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuctionApplication.Implementations.Repositories
 {
-    public class WalletRepository : GenericRepository<Wallet>
+    public class WalletRepository : GenericRepository<Wallet>, IWalletRepository
     {
         public WalletRepository(ApplicationContext Context)
         {
