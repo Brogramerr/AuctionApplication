@@ -1,23 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\AuctionApp.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\AuctionApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\AuctionApp.csproj",
-        "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\AuctionApp.csproj",
-        "packagesPath": "C:\\Users\\Kenny Allen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Kenny Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
     "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj": {}
   },
   "projects": {
@@ -32,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
         ],
         "originalTargetFrameworks": [
           "net6.0"
