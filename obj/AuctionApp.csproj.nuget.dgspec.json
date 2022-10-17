@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj": {}
+    "C:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj": {
+    "C:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+        "projectUniqueName": "C:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj",
         "projectName": "AuctionApp",
-        "projectPath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\obj\\",
+        "projectPath": "C:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\AuctionApp.csproj",
+        "packagesPath": "C:\\Users\\Zafrullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zafrullah\\Documents\\Auction\\AuctionApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
