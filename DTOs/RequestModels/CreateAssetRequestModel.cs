@@ -1,3 +1,5 @@
+using AuctionApplication.Entities.Enums;
+
 namespace AuctionApplication.DTOs.RequestModels
 {
     public class CreateAssetRequestModel
@@ -8,7 +10,7 @@ namespace AuctionApplication.DTOs.RequestModels
 
         public bool AuctionPriceIsOpened { get; set; }
 
-        public int AutioneerId {get;set;}
+        public AssetStatus AssetStatus{get; set;}
     }
 
 }

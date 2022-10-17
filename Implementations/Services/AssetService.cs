@@ -24,10 +24,8 @@ namespace AuctionApplication.Implementation.Services
             var ass = new Asset
             {
                 Price = model.Price,
-                SoldPrice = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
-                AutioneerId = model.AutioneerId,
                 AssetStatus = AssetStatus.NotAuctioned
             };
 
