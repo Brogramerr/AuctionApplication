@@ -57,6 +57,7 @@ namespace AuctionApplication.Implementations.Services
             {
                 Data = role.Select(x => new RoleDto
                 {
+                    Id = x.Id,
                     Name = x.Name,
                     Description = x.Description,
                 }).ToList(),
