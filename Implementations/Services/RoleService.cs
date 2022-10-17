@@ -65,6 +65,28 @@ namespace AuctionApplication.Implementations.Services
                 Success = true
             };
         }
+        public async Task<RoleResponseModel> GetRoleByUserId(int id)
+        {
+            var role = await _roleRepository.GetRoleByUserId(id);
+            if (role == null)
+            {
+                return new RoleResponseModel{
+                    Message = "Role not found",
+                    Success = false,
+                };
+            }
+            return new RoleResponseModel
+            {
+                Message = "Role found",
+                Success = true,
+                Data = new RoleDto
+                {
+                    Id = role.Id,
+                    Name = role.Name,
+                    Description = role.Description
+                }
+            };
+        }
 
         public async Task<BaseResponse> UpdateUserRole(UpdateUserRoleRequestModel model)
         {

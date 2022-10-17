@@ -8,5 +8,6 @@ namespace AuctionApplication.Interface.Repositories
 {
     public interface IRoleRepository : IGenericRepository<Role>
     {
+        Task<Role> GetRoleByUserId(int id);
     }
 }
