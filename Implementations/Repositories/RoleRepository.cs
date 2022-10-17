@@ -8,6 +8,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Entities;
+using AuctionApplication.Entities;
 using Microsoft.EntityFrameworkCore;
 namespace AuctionApplication.Implementations.Repositories
 {
@@ -17,10 +18,10 @@ namespace AuctionApplication.Implementations.Repositories
         {
             _Context = Context;
         }
-         public async Task<User> GetRoleByUserId(int id)
+         public async Task<Role> GetRoleByUserId(int id)
         {
-            var user = await _Context.Users.Include(c => c.UserRoles).ThenInclude(c => c.User).SingleOrDefaultAsync(x => x.Id == id);
-            return user;
+            var role = await _Context.UserRoles.Include(c => c.User).Include(x => x.Role).SingleOrDefaultAsync(x => x.Id == id);
+            return role.Role;
         }
 
      

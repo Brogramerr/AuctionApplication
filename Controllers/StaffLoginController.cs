@@ -11,34 +11,31 @@ using System.Web;
 
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 using AuctionApplication.Implementation.Services;
+using AuctionApplication.Interface.Services;
+using AuctionApplication.Interface.Repositories;
 
 namespace AuctionApplication.Controllers
 {
        
      
-    //    [RoutePrefix("test")]
     public class StaffLoginController : Controller
     {
         private readonly ApplicationContext dbContext;
       
-        private readonly UserService userService;
-
-        private readonly UserRepository userRepository;
-        private readonly RoleRepository roleRepository;
-        private readonly RoleService roleService;
-        public StaffLoginController(ApplicationContext context)
+        private readonly IUserService _userService;
+        private readonly IRoleService _roleService;
+        public StaffLoginController(IUserService userService, IRoleService roleService)
         {
             
-            userService = new UserService(userRepository);
-            roleService = new RoleService(roleRepository, userRepository);
-           
+            _userService = userService;
+           _roleService = roleService;
         }
         public async Task<IActionResult> LoginStaff(string email, string password)
         {
             if (HttpContext.Request.Method == "POST")
             {
-                var login = await userService.Login(email, password);
-                var role = await roleService.GetRoleByUserId(login.Data.Id);
+                var login = await _userService.Login(email, password);
+                var role = await _roleService.GetRoleByUserId(login.Data.Id);
                 
                 if (login == null)
                 {
@@ -55,10 +52,10 @@ namespace AuctionApplication.Controllers
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var authenticationProperties = new AuthenticationProperties();
                 var principal = new ClaimsPrincipal(claimsIdentity);
-                HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
+              await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
                 return RedirectToAction("Index", "Admin");
             }
-            return View(LoginStaff);
+            return View();
 
         }
         public IActionResult Logout()

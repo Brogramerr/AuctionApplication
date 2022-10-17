@@ -11,23 +11,21 @@ using System.Web;
 
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 using AuctionApplication.Implementation.Services;
+using AuctionApplication.Interface.Services;
 
 namespace AuctionApplication.Controllers
 {
        
      
-    //    [RoutePrefix("test")]
     public class LoginController : Controller
     {
         private readonly ApplicationContext dbContext;
       
-        private readonly UserService userService;
+        private readonly IUserService _userService;
 
-        private readonly UserRepository userRepository;
-        public LoginController(ApplicationContext context)
+        public LoginController(IUserService userService)
         {
-            context = dbContext;
-            userService = new UserService(userRepository);
+            _userService = userService;
            
         }
 
@@ -37,7 +35,7 @@ namespace AuctionApplication.Controllers
         {
             if (HttpContext.Request.Method == "POST")
             {
-                var login = await userService.Login(email, password);
+                var login = await _userService.Login(email, password);
                 if (login == null)
                 {
                     return Content("Email or Password does not exist ");
@@ -53,10 +51,10 @@ namespace AuctionApplication.Controllers
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var authenticationProperties = new AuthenticationProperties();
                 var principal = new ClaimsPrincipal(claimsIdentity);
-                HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
                 return RedirectToAction("Index", "Customer");
             }
-            return View(Login);
+            return View();
 
         }
      

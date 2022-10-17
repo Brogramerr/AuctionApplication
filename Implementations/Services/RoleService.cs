@@ -65,19 +65,26 @@ namespace AuctionApplication.Implementations.Services
                 Success = true
             };
         }
-        public async Task<RolesResponse> GetRoleByUserId(int id)
+        public async Task<RoleResponseModel> GetRoleByUserId(int id)
         {
-            var user = await _roleRepository.GetRoleByUserId(id);
-            if (user == null)
+            var role = await _roleRepository.GetRoleByUserId(id);
+            if (role == null)
             {
-                return new RolesResponse{
-                    Message = "User not found",
+                return new RoleResponseModel{
+                    Message = "Role not found",
                     Success = false,
                 };
             }
-            return new RolesResponse{
-                Message = "User found",
+            return new RoleResponseModel
+            {
+                Message = "Role found",
                 Success = true,
+                Data = new RoleDto
+                {
+                    Id = role.Id,
+                    Name = role.Name,
+                    Description = role.Description
+                }
             };
         }
 
