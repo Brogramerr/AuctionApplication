@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Kenny Allen\\Desktop\\Auction Application Final\\AuctionApplication\\AuctionApp.csproj": {}
   },
   "projects": {
@@ -16,12 +17,27 @@
         "configFilePaths": [
           "C:\\Users\\Kenny Allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+    "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj",
+        "projectName": "AuctionApp",
+        "projectPath": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj",
+        "packagesPath": "C:\\Users\\Zafrullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +90,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
         }
       }
     }

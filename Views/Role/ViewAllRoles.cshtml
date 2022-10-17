@@ -1,0 +1,40 @@
+@using AuctionApplication.DTOs.ResponseModels
+@model RolesResponse
+
+
+@if (@Model == null || @Model.Data.Count() == 0)
+{
+    <h1>No Role yet</h1>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table" id="list">
+            <caption>List of Available Roles</caption>
+            <thead>
+                <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Role Name</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var role in @Model.Data)
+                {
+                    <tr class="role">
+                        <th scope="row">@role.Id</th>
+                        <td>@role.Name</td>
+                        <td>@role.Description</td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn-warning btn" asp-action="EditStaff" asp-route-id=@role.Id>Edit</a>
+                                <a class="btn-danger btn" asp-action="DeleteStaff" asp-route-id=@role.Id>Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}

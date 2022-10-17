@@ -44,6 +44,7 @@ C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\scopedcss\projectbundle\Auct
 C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.csproj.CopyComplete
 C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\AuctionApp.genruntimeconfig.cache
 C:\Users\HI\Desktop\App\AuctionApp\obj\Debug\net6.0\ref\AuctionApp.dll
+<<<<<<< HEAD
 C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\bin\Debug\net6.0\appsettings.json
 C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\bin\Debug\net6.0\AuctionApp.staticwebassets.runtime.json
@@ -79,3 +80,40 @@ C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\obj\De
 C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\obj\Debug\net6.0\AuctionApp.pdb
 C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\obj\Debug\net6.0\AuctionApp.genruntimeconfig.cache
 C:\Users\Kenny Allen\Desktop\Auction Application Final\AuctionApplication\obj\Debug\net6.0\ref\AuctionApp.dll
+=======
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\appsettings.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\AuctionApp.staticwebassets.runtime.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\AuctionApp.exe
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\AuctionApp.deps.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\AuctionApp.runtimeconfig.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\AuctionApp.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\AuctionApp.pdb
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.csproj.AssemblyReference.cache
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.AssemblyInfoInputs.cache
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.AssemblyInfo.cs
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.csproj.CoreCompileInputs.cache
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.RazorAssemblyInfo.cache
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.RazorAssemblyInfo.cs
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\scopedcss\bundle\AuctionApp.styles.css
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\scopedcss\projectbundle\AuctionApp.bundle.scp.css
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.csproj.CopyComplete
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\refint\AuctionApp.dll
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.pdb
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.genruntimeconfig.cache
+C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\ref\AuctionApp.dll
+>>>>>>> bc82b760605e6dd60c84061aa37c6f5a656c9c00
