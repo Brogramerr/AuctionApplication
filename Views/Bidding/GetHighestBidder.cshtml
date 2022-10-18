@@ -1,0 +1,33 @@
+@using AuctionApplication.DTOs.RequestModels
+@model AuctionApplication.DTOs.ResponseModels.BiddingResponseModel
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <label for="CustomerName">
+                <h6>
+              CustomerName  : @Model.Data.CustomerName
+            </h6>
+            </div>
+            </label>
+
+            
+            <div>
+                <label for="Price">
+                <h6>
+                Price: @Model.Data.Price
+            </h6>
+            </label>
+            </div>
+            
+            <div>
+                <label for="AssetName">
+                <h6>
+                AssetName: @Model.Data.AssetName
+            </h6>
+            </label>
+            </div>
+            
+        </div>
+    </div>
+</div>
