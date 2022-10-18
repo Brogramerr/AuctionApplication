@@ -1,7 +1,11 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj": {}
+=======
+    "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj": {}
+>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
   },
   "projects": {
     "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj": {
@@ -14,14 +18,17 @@
         "outputPath": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\HI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +80,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
         }
       }
     }
