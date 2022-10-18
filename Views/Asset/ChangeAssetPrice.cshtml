@@ -1,0 +1,16 @@
+@using AuctionApplication.DTOs.ResponseModels
+@model AssetResponseModel
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Change Asset Price</h2>
+            <form asp-action="ChangeAssetPrice" asp-route-id=@Model.Data.AssetId>
+                <div class="form-group">
+                    <label for="Price">Asset New Price</label>
+                    <input for="Price" type="number" name="Price" id="name" class="form-control" />
+                </div>
+                
+                <button type="submit">Update</button>
+            </form>
+        </div>
+    </div>

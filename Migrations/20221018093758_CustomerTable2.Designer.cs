@@ -10,18 +10,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AuctionApp.Migrations
 {
-    [DbContext(typeof(ApplicationContext))]
-<<<<<<<< HEAD:Migrations/20221017225019_initial.Designer.cs
-    [Migration("20221017225019_initial")]
-    partial class initial
-========
-    [Migration("20221018093758_CustomerTable2")]
-    partial class CustomerTable2
->>>>>>>> 94d8c4c41c425d27ff1d858c4612201a52b68b1d:Migrations/20221018093758_CustomerTable2.Designer.cs
+    public partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "6.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
@@ -555,7 +547,6 @@ namespace AuctionApp.Migrations
                     b.Navigation("Wallet")
                         .IsRequired();
                 });
-#pragma warning restore 612, 618
         }
     }
 }
