@@ -6,6 +6,7 @@
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\USER\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.1.0</NuGetToolVersion>
@@ -17,6 +18,11 @@
 <<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\HI\.nuget\packages\</NuGetPackageFolders>
 =======
+=======
+<<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\HI\.nuget\packages\</NuGetPackageFolders>
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\SAMSUNG\.nuget\packages\</NuGetPackageFolders>
 >>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
@@ -35,6 +41,9 @@
 =======
     <SourceRoot Include="C:\Users\Zafrullah\.nuget\packages\" />
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -43,17 +52,26 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\USER\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\HI\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
 =======
+=======
+<<<<<<< HEAD
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\HI\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\SAMSUNG\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
 >>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Zafrullah\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
   </PropertyGroup>
 </Project>

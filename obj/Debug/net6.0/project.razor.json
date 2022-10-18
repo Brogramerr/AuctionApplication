@@ -17,13 +17,19 @@
     "TagHelpers": [
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1469859810,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1065816939,
 =======
         "HashCode": 61281203,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
@@ -102,13 +108,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1105694153,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1541014912,
 =======
         "HashCode": -1847085419,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
@@ -188,13 +200,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 791451078,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1426543046,
 =======
         "HashCode": -1130303041,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
@@ -226,14 +244,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -1294329768,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 308161965,
 =======
         "HashCode": -1877125665,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
@@ -267,13 +291,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1614748641,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 254469406,
 =======
         "HashCode": -425800034,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
@@ -294,13 +324,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 652913102,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 933735593,
 =======
         "HashCode": -1696898348,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
@@ -322,13 +358,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1176688071,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1304811949,
 =======
         "HashCode": 471380413,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
@@ -426,13 +468,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1182094167,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 472718610,
 =======
         "HashCode": -699778846,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
@@ -531,13 +579,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1201810352,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1983425438,
 =======
         "HashCode": -1825956998,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
@@ -569,14 +623,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": 2127220879,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 582878815,
 =======
         "HashCode": 1524238949,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
@@ -610,13 +670,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1005020004,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1793112107,
 =======
         "HashCode": 1765602049,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
@@ -648,14 +714,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -512167150,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1033551651,
 =======
         "HashCode": -2106276346,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
@@ -689,13 +761,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2106777086,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 988221316,
 =======
         "HashCode": 707813772,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
@@ -727,14 +805,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -853601592,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1673292037,
 =======
         "HashCode": -1870229093,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
@@ -768,13 +852,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1282370972,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -209287632,
 =======
         "HashCode": -701580663,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
@@ -795,13 +885,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1890928384,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 650326898,
 =======
         "HashCode": -686364320,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
@@ -823,13 +919,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -801653784,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1336844961,
 =======
         "HashCode": -1304458986,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
@@ -859,13 +961,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 458041907,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -540155129,
 =======
         "HashCode": 982565136,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
@@ -896,13 +1004,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1148331830,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -766584723,
 =======
         "HashCode": -1369529089,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
@@ -923,13 +1037,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 943409288,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 292603590,
 =======
         "HashCode": 378355047,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
@@ -951,13 +1071,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1387604487,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -876609937,
 =======
         "HashCode": 1343007996,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
@@ -1028,13 +1154,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1435069865,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -325519407,
 =======
         "HashCode": 1944711559,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
@@ -1106,13 +1238,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -234997362,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 909141050,
 =======
         "HashCode": -67615178,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
@@ -1133,13 +1271,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1072120934,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -700243708,
 =======
         "HashCode": -1829739624,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
@@ -1161,13 +1305,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1109262740,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2115894063,
 =======
         "HashCode": 356737617,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
@@ -1207,13 +1357,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1802314670,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1480007874,
 =======
         "HashCode": -1299512713,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
@@ -1254,13 +1410,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1229399825,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 536679193,
 =======
         "HashCode": 476909000,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
@@ -1300,13 +1462,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -474957471,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2015153527,
 =======
         "HashCode": 413054008,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
@@ -1347,13 +1515,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 503645788,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1879651112,
 =======
         "HashCode": -1598006712,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
@@ -1374,13 +1548,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1475761487,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1403492109,
 =======
         "HashCode": -748009925,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
@@ -1402,13 +1582,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -628632261,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 523116328,
 =======
         "HashCode": -532962785,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
@@ -1448,13 +1634,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1207749235,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -27991392,
 =======
         "HashCode": 719887226,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
@@ -1495,13 +1687,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1559390180,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -580882377,
 =======
         "HashCode": 1767541661,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
@@ -1602,13 +1800,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 785693659,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 596613777,
 =======
         "HashCode": -59237175,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
@@ -1710,13 +1914,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1813141531,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -806325141,
 =======
         "HashCode": 37214507,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
@@ -1736,14 +1946,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": 28318976,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1984749400,
 =======
         "HashCode": -1093445127,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
@@ -1765,13 +1981,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1056167375,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 477010062,
 =======
         "HashCode": -375529135,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
@@ -1803,14 +2025,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -1223298879,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1834393210,
 =======
         "HashCode": -904621019,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
@@ -1844,13 +2072,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1735432883,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1895447004,
 =======
         "HashCode": 1358750672,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
@@ -1871,13 +2105,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 447026606,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2136429748,
 =======
         "HashCode": 787072226,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
@@ -1899,13 +2139,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -446297667,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1570376398,
 =======
         "HashCode": -1918499763,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
@@ -1924,13 +2170,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 237096712,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1317134907,
 =======
         "HashCode": -1229849098,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
@@ -1950,13 +2202,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1326930462,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 489388353,
 =======
         "HashCode": 1265862794,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
@@ -2054,13 +2312,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1001080876,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2060682075,
 =======
         "HashCode": 224901336,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
@@ -2159,13 +2423,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -880977851,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1425395868,
 =======
         "HashCode": -812218882,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
@@ -2198,13 +2468,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -522696261,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 784153619,
 =======
         "HashCode": -1872487494,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
@@ -2238,13 +2514,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2050842964,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 164362640,
 =======
         "HashCode": -385663265,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
@@ -2311,13 +2593,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -892825474,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -652630124,
 =======
         "HashCode": -2082222309,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
@@ -2385,13 +2673,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1871616959,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -986492141,
 =======
         "HashCode": -1329754563,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
@@ -2492,13 +2786,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1654660945,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1944856036,
 =======
         "HashCode": -1187624481,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
@@ -2600,13 +2900,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2107882227,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1025022412,
 =======
         "HashCode": 1127417037,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
@@ -2646,13 +2952,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 392049946,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2147178435,
 =======
         "HashCode": 1996347722,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
@@ -2693,13 +3005,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 579510175,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1699035523,
 =======
         "HashCode": 778488711,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
@@ -2790,13 +3108,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -319164380,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1632351895,
 =======
         "HashCode": 159344796,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
@@ -2888,13 +3212,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 398369571,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -664962614,
 =======
         "HashCode": 1935753943,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
@@ -2955,13 +3285,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 331813271,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1819083398,
 =======
         "HashCode": 1219571274,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
@@ -3023,13 +3359,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1438073711,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 760802062,
 =======
         "HashCode": -422178444,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
@@ -3130,13 +3472,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1306403917,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1445657756,
 =======
         "HashCode": -1451301901,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
@@ -3238,13 +3586,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 959792195,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -5688087,
 =======
         "HashCode": -1182902820,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
@@ -3265,13 +3619,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1635695916,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -647344956,
 =======
         "HashCode": -1855013232,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
@@ -3293,13 +3653,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1705155420,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1743007156,
 =======
         "HashCode": 1274063098,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
@@ -3391,13 +3757,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1308259251,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2145449461,
 =======
         "HashCode": 619448282,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
@@ -3490,13 +3862,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -514458981,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1130157769,
 =======
         "HashCode": -1719347406,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
@@ -3517,13 +3895,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1459099055,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -662414230,
 =======
         "HashCode": -663561518,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
@@ -3545,13 +3929,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 25673681,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 450500785,
 =======
         "HashCode": 1725832596,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
@@ -3618,13 +4008,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1117157322,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1393980726,
 =======
         "HashCode": -315408511,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
@@ -3692,13 +4088,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2012860932,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1805793551,
 =======
         "HashCode": 1371897110,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
@@ -3765,13 +4167,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1279402818,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 942383338,
 =======
         "HashCode": 945176568,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
@@ -3839,13 +4247,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 533549615,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1397561445,
 =======
         "HashCode": -999963600,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
@@ -3897,13 +4311,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1917978263,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -183000960,
 =======
         "HashCode": -1822578064,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
@@ -3956,13 +4376,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -74336861,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 582290182,
 =======
         "HashCode": 608501596,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
@@ -4001,13 +4427,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 706812098,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 166280902,
 =======
         "HashCode": -1818049780,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
@@ -4047,13 +4479,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1459222608,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1637542045,
 =======
         "HashCode": -1216103700,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
@@ -4092,13 +4530,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1109429873,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1721241727,
 =======
         "HashCode": 833680772,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
@@ -4138,13 +4582,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1165303111,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -113796794,
 =======
         "HashCode": 805740496,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
@@ -4203,13 +4653,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2003218044,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1066662000,
 =======
         "HashCode": -1845891326,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
@@ -4269,13 +4725,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1789964317,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -386477367,
 =======
         "HashCode": 1643681182,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
@@ -4296,13 +4758,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -98611743,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 720148254,
 =======
         "HashCode": 1062168848,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
@@ -4324,13 +4792,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 591893085,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1253305294,
 =======
         "HashCode": 2040596307,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
@@ -4361,13 +4835,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1086969461,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 925449828,
 =======
         "HashCode": -167445192,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
@@ -4399,13 +4879,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -960853640,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1567531839,
 =======
         "HashCode": -1036076528,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
@@ -4426,13 +4912,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -683349846,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1208072112,
 =======
         "HashCode": 185011882,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
@@ -4454,13 +4946,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1726904802,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1593959033,
 =======
         "HashCode": -851800830,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
@@ -4479,13 +4977,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 647538097,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -34130624,
 =======
         "HashCode": -687425286,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
@@ -4505,13 +5009,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 550810921,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 681478386,
 =======
         "HashCode": 1114681623,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
@@ -4542,13 +5052,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1219363617,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1411648041,
 =======
         "HashCode": -1577718496,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
@@ -4580,13 +5096,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -704433879,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 206629272,
 =======
         "HashCode": 1721290122,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
@@ -4607,13 +5129,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1280258021,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2057572728,
 =======
         "HashCode": 824311956,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
@@ -4635,13 +5163,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 221266821,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1679170265,
 =======
         "HashCode": -303630070,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
@@ -4701,13 +5235,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2106897426,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -125378770,
 =======
         "HashCode": 2093156714,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
@@ -4768,13 +5308,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1810574682,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1991737880,
 =======
         "HashCode": -1025496970,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
@@ -4794,14 +5340,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -28372802,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1669670115,
 =======
         "HashCode": -835564946,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
@@ -4823,13 +5375,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 360060444,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -610365295,
 =======
         "HashCode": 506366861,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
@@ -4862,13 +5420,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -881088014,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1615753919,
 =======
         "HashCode": 299381849,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
@@ -4902,13 +5466,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1177192019,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 4186138,
 =======
         "HashCode": -1369000684,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
@@ -5022,13 +5592,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -522919664,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -103919751,
 =======
         "HashCode": -625974579,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
@@ -5143,13 +5719,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -236673110,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1321560795,
 =======
         "HashCode": -2029355473,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
@@ -5181,14 +5763,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -1116977751,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 463600014,
 =======
         "HashCode": 85681569,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
@@ -5222,13 +5810,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1315336921,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -179339345,
 =======
         "HashCode": -74603731,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
@@ -5260,14 +5854,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": 1052171766,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1289654327,
 =======
         "HashCode": 1946683246,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
@@ -5301,13 +5901,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -764096564,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1788259050,
 =======
         "HashCode": 681568096,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
@@ -5340,13 +5946,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2041460655,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 74259640,
 =======
         "HashCode": 1134615730,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
@@ -5380,13 +5992,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -714747536,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 186592043,
 =======
         "HashCode": -319274074,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
@@ -5469,13 +6087,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1538510867,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1655639245,
 =======
         "HashCode": -2104296531,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onblur",
@@ -5558,13 +6182,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 105496042,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1121151949,
 =======
         "HashCode": -56999593,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
@@ -5647,13 +6277,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 351348319,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1979636908,
 =======
         "HashCode": -23614708,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
@@ -5736,13 +6372,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -260788016,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1905724443,
 =======
         "HashCode": -1354648141,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
@@ -5825,13 +6467,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -377519464,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -892848959,
 =======
         "HashCode": 48292007,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
@@ -5914,13 +6562,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2025685987,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1446718439,
 =======
         "HashCode": -587362303,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
@@ -6003,13 +6657,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 39080637,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1588424014,
 =======
         "HashCode": -619768749,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
@@ -6092,13 +6752,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1383901570,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 868747197,
 =======
         "HashCode": -1548592827,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
@@ -6181,13 +6847,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -921802904,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 787426028,
 =======
         "HashCode": 1700006557,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onclick",
@@ -6270,13 +6942,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 628169523,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1313643291,
 =======
         "HashCode": -42038108,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
@@ -6359,13 +7037,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1115586622,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1902757884,
 =======
         "HashCode": -1069156946,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
@@ -6448,13 +7132,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1864448951,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1878369800,
 =======
         "HashCode": 1923846933,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
@@ -6537,13 +7227,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 178916098,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 442055878,
 =======
         "HashCode": -1895600038,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
@@ -6626,13 +7322,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 65436803,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1472062986,
 =======
         "HashCode": 32265152,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
@@ -6715,13 +7417,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -522264664,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 210482135,
 =======
         "HashCode": 1064215304,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
@@ -6804,13 +7512,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -726841041,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1450766640,
 =======
         "HashCode": 406260747,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
@@ -6893,13 +7607,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -27381040,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1747362364,
 =======
         "HashCode": -989968207,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
@@ -6982,13 +7702,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2117961061,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 169165660,
 =======
         "HashCode": -1616851950,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
@@ -7071,13 +7797,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -117014263,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -745044341,
 =======
         "HashCode": -1923134312,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
@@ -7160,13 +7892,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1167657904,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1139402182,
 =======
         "HashCode": 834867250,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
@@ -7249,13 +7987,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -261708796,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 976705603,
 =======
         "HashCode": -1720784901,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
@@ -7338,13 +8082,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2031977586,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 593278123,
 =======
         "HashCode": 981227830,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
@@ -7427,13 +8177,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 293943868,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1388389237,
 =======
         "HashCode": 1327352061,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
@@ -7516,13 +8272,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1398202998,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -821980582,
 =======
         "HashCode": -1354673770,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onchange",
@@ -7605,13 +8367,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -45478587,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1295922993,
 =======
         "HashCode": 117204255,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oninput",
@@ -7694,13 +8462,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 704511094,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 240224611,
 =======
         "HashCode": -557130466,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
@@ -7783,13 +8557,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1957454795,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1961592489,
 =======
         "HashCode": -208563451,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onreset",
@@ -7872,13 +8652,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -762130204,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1723223064,
 =======
         "HashCode": 745342007,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onselect",
@@ -7961,13 +8747,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 422292841,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -335010394,
 =======
         "HashCode": 1676379611,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
@@ -8050,13 +8842,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1297210968,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1490632599,
 =======
         "HashCode": -1226519017,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
@@ -8139,13 +8937,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1531835162,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 906527888,
 =======
         "HashCode": -545696665,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
@@ -8228,13 +9032,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1375490751,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -502713351,
 =======
         "HashCode": 1603548593,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
@@ -8317,13 +9127,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -250680698,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -955657122,
 =======
         "HashCode": -106678268,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
@@ -8406,13 +9222,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1329921335,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1907747834,
 =======
         "HashCode": -651956361,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
@@ -8495,13 +9317,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1573881740,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -411851640,
 =======
         "HashCode": -843379541,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
@@ -8584,13 +9412,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -437369681,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1392332545,
 =======
         "HashCode": -153862401,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oncut",
@@ -8673,13 +9507,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -849190076,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 578549584,
 =======
         "HashCode": 766355883,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
@@ -8762,13 +9602,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1108196981,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -537730330,
 =======
         "HashCode": 171232313,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
@@ -8851,13 +9697,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1236513018,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2104360724,
 =======
         "HashCode": 886486401,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
@@ -8940,13 +9792,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -672847607,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1358171059,
 =======
         "HashCode": 790240181,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
@@ -9029,13 +9887,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2006187749,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 974592162,
 =======
         "HashCode": 1478317745,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
@@ -9118,13 +9982,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1100375621,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1364108548,
 =======
         "HashCode": 1753991940,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
@@ -9207,13 +10077,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -278654654,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1526526883,
 =======
         "HashCode": -417923704,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
@@ -9296,13 +10172,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1174017199,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 304086471,
 =======
         "HashCode": -301327013,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
@@ -9385,13 +10267,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 779666725,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 862188923,
 =======
         "HashCode": 1760909046,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
@@ -9474,13 +10362,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2103958679,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 431891662,
 =======
         "HashCode": 532641989,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
@@ -9563,13 +10457,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -964644411,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1435287063,
 =======
         "HashCode": -904505069,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
@@ -9652,13 +10552,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1708427231,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2047867003,
 =======
         "HashCode": -474442800,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
@@ -9741,13 +10647,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1354616470,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1669894437,
 =======
         "HashCode": 965521875,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
@@ -9830,13 +10742,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -222198690,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 105655141,
 =======
         "HashCode": 1394403555,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
@@ -9919,13 +10837,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1132883154,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -54689486,
 =======
         "HashCode": 930281455,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
@@ -10008,13 +10932,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1127622051,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1805960553,
 =======
         "HashCode": -789134178,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
@@ -10097,13 +11027,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -566433317,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1284792013,
 =======
         "HashCode": 1059110388,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
@@ -10186,13 +11122,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -119617670,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -337109147,
 =======
         "HashCode": -1614133208,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
@@ -10275,13 +11217,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1407776569,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1137904826,
 =======
         "HashCode": -1994026036,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
@@ -10364,13 +11312,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2065793369,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -868689525,
 =======
         "HashCode": -931116217,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
@@ -10453,13 +11407,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1399837414,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1004520427,
 =======
         "HashCode": -1372549306,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
@@ -10542,13 +11502,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1855453873,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1620358731,
 =======
         "HashCode": 2110418245,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
@@ -10631,13 +11597,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -274457611,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -472682042,
 =======
         "HashCode": 1146728005,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpause",
@@ -10720,13 +11692,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1163347622,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1774201348,
 =======
         "HashCode": 464691071,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onplay",
@@ -10809,13 +11787,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2115085424,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2007368528,
 =======
         "HashCode": 605743781,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
@@ -10898,13 +11882,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 712986525,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1184999635,
 =======
         "HashCode": -229239914,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
@@ -10987,13 +11977,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1927798877,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 764619040,
 =======
         "HashCode": -2034793030,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
@@ -11076,13 +12072,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -722601378,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 859214160,
 =======
         "HashCode": 445038510,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
@@ -11165,13 +12167,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -666036385,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1801158310,
 =======
         "HashCode": 113362304,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
@@ -11254,13 +12262,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 564381203,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -353765892,
 =======
         "HashCode": -14669162,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onstop",
@@ -11343,13 +12357,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -864292691,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1950188589,
 =======
         "HashCode": 1775980774,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
@@ -11432,13 +12452,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1687816654,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -216696633,
 =======
         "HashCode": -17447277,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
@@ -11521,13 +12547,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1626670003,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1890949290,
 =======
         "HashCode": -1339831092,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
@@ -11610,13 +12642,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -814895021,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1544053299,
 =======
         "HashCode": 811709274,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
@@ -11699,13 +12737,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -956437619,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2076119368,
 =======
         "HashCode": 965569584,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
@@ -11788,13 +12832,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1657279390,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -734285010,
 =======
         "HashCode": -473075756,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
@@ -11877,13 +12927,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 810910204,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1391952131,
 =======
         "HashCode": 620304986,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onabort",
@@ -11966,13 +13022,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1370326442,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -324657617,
 =======
         "HashCode": -2041168794,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onload",
@@ -12055,13 +13117,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -537378367,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -173838871,
 =======
         "HashCode": 2043334014,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
@@ -12144,13 +13212,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2121279426,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -341682906,
 =======
         "HashCode": 285409213,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
@@ -12233,13 +13307,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -923321009,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1604151266,
 =======
         "HashCode": 442641242,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onerror",
@@ -12322,13 +13402,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1585991013,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1623512693,
 =======
         "HashCode": 969800535,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
@@ -12411,13 +13497,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -341707287,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1714354502,
 =======
         "HashCode": 503744541,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
@@ -12500,13 +13592,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -917203393,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 775998936,
 =======
         "HashCode": -974301256,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
@@ -12589,13 +13687,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -110158120,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2102367221,
 =======
         "HashCode": 1652035729,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
@@ -12678,13 +13782,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1800902695,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1987822902,
 =======
         "HashCode": -632547478,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onended",
@@ -12767,13 +13877,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 81996082,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1485114574,
 =======
         "HashCode": 2130341561,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
@@ -12856,13 +13972,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -62575198,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2003801423,
 =======
         "HashCode": -1725842247,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
@@ -12945,13 +14067,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -107451611,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -384664444,
 =======
         "HashCode": 1254369694,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
@@ -13034,13 +14162,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1832146212,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 410701632,
 =======
         "HashCode": 328783399,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
@@ -13123,13 +14257,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1834192141,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1911062033,
 =======
         "HashCode": 1361174007,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
@@ -13212,13 +14352,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1329081251,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1391094284,
 =======
         "HashCode": 1598768448,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
@@ -13301,13 +14447,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -217497358,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1058189993,
 =======
         "HashCode": 590233217,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
@@ -13390,13 +14542,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 63905894,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 85037801,
 =======
         "HashCode": -272588435,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
@@ -13479,13 +14637,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 195943121,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2025965901,
 =======
         "HashCode": 940495137,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
@@ -13568,13 +14732,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1181207577,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1183855237,
 =======
         "HashCode": 103237518,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Splat",
         "Name": "Attributes",
@@ -13615,13 +14785,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 132018854,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1132855933,
 =======
         "HashCode": 681691838,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -13938,13 +15114,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 236285000,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1779468348,
 =======
         "HashCode": 1262009994,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
@@ -14143,13 +15325,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2006337002,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1759759661,
 =======
         "HashCode": 1886977651,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
@@ -14278,13 +15466,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1436299765,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -327369146,
 =======
         "HashCode": 1433809429,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
@@ -14341,13 +15535,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1893942042,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1367150986,
 =======
         "HashCode": -1779418505,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
@@ -14481,13 +15681,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -677364400,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 885020507,
 =======
         "HashCode": 1960905579,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
@@ -14535,13 +15741,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2045824459,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1155389725,
 =======
         "HashCode": 529650807,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
@@ -14960,13 +16172,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1020865253,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -91825474,
 =======
         "HashCode": 91186705,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
@@ -15070,13 +16288,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1172613719,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -248207518,
 =======
         "HashCode": -1939143936,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
@@ -15124,13 +16348,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -409816879,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 101784419,
 =======
         "HashCode": 1680140393,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
@@ -15202,13 +16432,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -526052534,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1485244122,
 =======
         "HashCode": 1800133126,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
@@ -15243,13 +16479,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1217141707,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2142480928,
 =======
         "HashCode": 1360806583,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
@@ -15447,13 +16689,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2070372864,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1253548802,
 =======
         "HashCode": 618306535,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
@@ -15483,13 +16731,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2025611398,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 643572243,
 =======
         "HashCode": 1009424262,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
@@ -15572,13 +16826,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -122904013,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1470701497,
 =======
         "HashCode": 845671698,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
@@ -15609,13 +16869,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 903105854,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1884971208,
 =======
         "HashCode": 1338562663,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
@@ -15770,13 +17036,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -187524443,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1013644952,
 =======
         "HashCode": 2004512289,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
@@ -15837,13 +17109,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 171138978,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 906726600,
 =======
         "HashCode": 1912979044,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
@@ -15887,13 +17165,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 507407732,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -2082634604,
 =======
         "HashCode": 864442574,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
@@ -15928,13 +17212,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1610551848,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -887397812,
 =======
         "HashCode": -169204269,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
@@ -15970,13 +17260,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2135426758,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 141407075,
 =======
         "HashCode": -1749526153,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16047,13 +17343,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1905883667,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1135165520,
 =======
         "HashCode": -1217285108,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16133,13 +17435,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 62548776,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1432910606,
 =======
         "HashCode": -2022311184,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind_value",
@@ -16219,13 +17527,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1782727228,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -168823864,
 =======
         "HashCode": 129124727,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16311,13 +17625,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1092604441,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -424622683,
 =======
         "HashCode": 1859601985,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16403,13 +17723,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 392596565,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1632586745,
 =======
         "HashCode": 1844570935,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16494,14 +17820,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": 1091357250,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1603119386,
 =======
         "HashCode": -1734465342,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind_value",
@@ -16587,13 +17919,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1766846885,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1617849760,
 =======
         "HashCode": -1958083883,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16678,14 +18016,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": -1438491563,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1032959981,
 =======
         "HashCode": -719579105,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind_value",
@@ -16771,13 +18115,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 833745731,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 272177428,
 =======
         "HashCode": -1331600663,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16862,14 +18212,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": 1403055517,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1301266069,
 =======
         "HashCode": 1647866770,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind_value",
@@ -16955,13 +18311,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -75838200,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1494465513,
 =======
         "HashCode": -658516419,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -17046,14 +18408,20 @@
         }
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "HashCode": 1334657535,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1191265366,
 =======
         "HashCode": 1867025310,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind_value",
@@ -17139,13 +18507,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1917363411,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -676580572,
 =======
         "HashCode": 952041654,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -17231,13 +18605,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 727658554,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1475182035,
 =======
         "HashCode": -544870254,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind_value",
@@ -17323,13 +18703,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1231732089,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 590119871,
 =======
         "HashCode": -1570945914,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -17409,13 +18795,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1908988144,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1579814920,
 =======
         "HashCode": -1337146532,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -17495,13 +18887,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 689813573,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1962586894,
 =======
         "HashCode": -1653504596,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
@@ -17544,13 +18942,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 984394805,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1399675068,
 =======
         "HashCode": -172915998,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
@@ -17594,13 +18998,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 206194774,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1097895423,
 =======
         "HashCode": -1463249458,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
@@ -17643,13 +19053,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -1753259846,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1762180549,
 =======
         "HashCode": 1140791624,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
@@ -17693,13 +19109,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -488470252,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 503994948,
 =======
         "HashCode": 1590998251,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
@@ -17742,13 +19164,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2037680849,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1867010193,
 =======
         "HashCode": -437197566,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
@@ -17792,13 +19220,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -215746901,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1900368744,
 =======
         "HashCode": -2096305673,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
@@ -17841,13 +19275,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1384880284,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 955767402,
 =======
         "HashCode": 792087154,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
@@ -17891,13 +19331,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -2013103824,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1900299773,
 =======
         "HashCode": 1802201727,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
@@ -17940,13 +19386,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1432402572,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 150911277,
 =======
         "HashCode": 1044591718,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
@@ -17990,13 +19442,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 2086829956,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -1172267626,
 =======
         "HashCode": -856640237,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
@@ -18039,13 +19497,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 668889684,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 2043668605,
 =======
         "HashCode": -175752726,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
@@ -18089,13 +19553,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 231897326,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 736565861,
 =======
         "HashCode": -1738663681,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
@@ -18138,13 +19608,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 747620490,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": 1916311747,
 =======
         "HashCode": 930605560,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
@@ -18188,13 +19664,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": 1812410958,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -285528496,
 =======
         "HashCode": 2009373896,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Ref",
         "Name": "Ref",
@@ -18235,13 +19717,19 @@
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "HashCode": -325200176,
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "HashCode": -406693614,
 =======
         "HashCode": 120242435,
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
         "Kind": "Components.Key",
         "Name": "Key",
@@ -18287,6 +19775,7 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Home\\grid-system.cshtml",
       "TargetPath": "Views\\Home\\grid-system.cshtml",
       "FileKind": "mvc"
@@ -18302,6 +19791,15 @@
       "FileKind": "mvc"
     },
     {
+=======
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\contacts.cshtml",
+=======
+      "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Role\\ViewAllRoles.cshtml",
+      "TargetPath": "Views\\Role\\ViewAllRoles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -18340,14 +19838,20 @@
     },
     {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\Error.cshtml",
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Home\\forms.cshtml",
 =======
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\_progress-bars.cshtml",
 =======
       "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Home\\tabs-and-accordions.cshtml",
@@ -18422,6 +19926,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Login\\StaffLogin.cshtml",
       "TargetPath": "Views\\Login\\StaffLogin.cshtml",
       "FileKind": "mvc"
@@ -18459,6 +19964,18 @@
       "FileKind": "mvc"
     },
     {
+=======
+      "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Admin\\Admins.cshtml",
+      "TargetPath": "Views\\Admin\\Admins.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Home\\tables.cshtml",
+      "TargetPath": "Views\\Home\\tables.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Home\\about.cshtml",
       "TargetPath": "Views\\Home\\about.cshtml",
       "FileKind": "mvc"
@@ -18481,11 +19998,15 @@
     {
       "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Shared\\_progress-bars.cshtml",
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "TargetPath": "Views\\Shared\\_progress-bars.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Home\\search-results.cshtml",
       "TargetPath": "Views\\Home\\search-results.cshtml",
@@ -18552,10 +20073,14 @@
 <<<<<<< HEAD
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Auction\\ChangeAuctionOpeningDate.cshtml",
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Auction\\ChangeAuctionOpeningDate.cshtml",
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "TargetPath": "Views\\Auction\\ChangeAuctionOpeningDate.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Admin\\CreateAdmin.cshtml",
       "TargetPath": "Views\\Admin\\CreateAdmin.cshtml",
@@ -18619,6 +20144,8 @@
     {
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Admin\\DeleteAdmin.cshtml",
 =======
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\buy.cshtml",
 =======
       "FilePath": "c:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\Views\\Home\\typography.cshtml",
@@ -18639,14 +20166,20 @@
     },
     {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Admin\\DeleteAdmin.cshtml",
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "TargetPath": "Views\\Admin\\DeleteAdmin.cshtml",
       "FileKind": "mvc"
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Role\\ViewAllRoles.cshtml",
 =======
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\buttons.cshtml",
       "TargetPath": "Views\\Home\\buttons.cshtml",
       "FileKind": "mvc"
@@ -18702,6 +20235,9 @@
     },
     {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Role\\ViewAllRoles.cshtml",
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "TargetPath": "Views\\Role\\ViewAllRoles.cshtml",
 =======
@@ -18798,11 +20334,14 @@
     {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\typography.cshtml",
       "TargetPath": "Views\\Home\\typography.cshtml",
+<<<<<<< HEAD
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\USER\\Desktop\\AuctionApplication\\Views\\Home\\404.cshtml",
       "TargetPath": "Views\\Home\\404.cshtml",
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "FileKind": "mvc"
     }
   ],

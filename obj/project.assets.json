@@ -748,9 +748,16 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\USER\\.nuget\\packages\\": {}
 =======
 <<<<<<< HEAD
+    "C:\\Users\\HI\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Zafrullah\\.nuget\\packages\\": {}
+>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
     "C:\\Users\\HI\\.nuget\\packages\\": {}
 =======
     "C:\\Users\\Zafrullah\\.nuget\\packages\\": {}
@@ -760,6 +767,7 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
       "projectName": "AuctionApp",
@@ -773,6 +781,10 @@
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
 =======
+=======
+      "projectUniqueName": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\AuctionApp.csproj",
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       "projectUniqueName": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj",
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
       "projectName": "AuctionApp",
@@ -787,6 +799,9 @@
 =======
         "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
       ],
       "originalTargetFrameworks": [
@@ -845,10 +860,15 @@
           }
         },
 <<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86

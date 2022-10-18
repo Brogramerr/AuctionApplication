@@ -21,7 +21,10 @@ namespace AuctionApp.Migrations
     [Migration("20221018105742_initial")]
     partial class initial
 >>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86:Migrations/20221018105742_initial.Designer.cs
+<<<<<<< HEAD
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa:Migrations/20221018111009_AppMigration.Designer.cs
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -577,6 +580,7 @@ namespace AuctionApp.Migrations
 
                     b.Navigation("UserRoles");
                 });
+<<<<<<< HEAD
 <<<<<<< HEAD:Migrations/20221018093758_CustomerTable2.Designer.cs
 
             modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
@@ -589,6 +593,8 @@ namespace AuctionApp.Migrations
                         .IsRequired();
                 });
 =======
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
 #pragma warning restore 612, 618
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa:Migrations/20221018111009_AppMigration.Designer.cs
         }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\USER\Desktop\AuctionApplication\obj\Debug\net6.0\AuctionApp.csproj.AssemblyReference.cache
 C:\Users\USER\Desktop\AuctionApplication\obj\Debug\net6.0\AuctionApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\Desktop\AuctionApplication\obj\Debug\net6.0\AuctionApp.AssemblyInfoInputs.cache
@@ -36,6 +37,8 @@ C:\Users\USER\Desktop\AuctionApplication\obj\Debug\net6.0\AuctionApp.genruntimec
 C:\Users\USER\Desktop\AuctionApplication\obj\Debug\net6.0\ref\AuctionApp.dll
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
 C:\Users\HI\Desktop\App\AuctionApp\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\HI\Desktop\App\AuctionApp\bin\Debug\net6.0\appsettings.json
 C:\Users\HI\Desktop\App\AuctionApp\bin\Debug\net6.0\AuctionApp.staticwebassets.runtime.json
@@ -108,4 +111,7 @@ C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.
 C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\AuctionApp.genruntimeconfig.cache
 C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\obj\Debug\net6.0\ref\AuctionApp.dll
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
+<<<<<<< HEAD
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+=======
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa

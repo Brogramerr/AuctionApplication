@@ -6,16 +6,22 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AuctionApp.Migrations
 {
+<<<<<<< HEAD
 <<<<<<< HEAD:Migrations/20221018093138_CustomerTable.cs
 
     public partial class initial : Migration
 =======
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
 <<<<<<<< HEAD:Migrations/20221018111009_AppMigration.cs
     public partial class AppMigration : Migration
 ========
     public partial class initial : Migration
 >>>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86:Migrations/20221018105742_initial.cs
+<<<<<<< HEAD
 >>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa:Migrations/20221018111009_AppMigration.cs
+=======
+>>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
