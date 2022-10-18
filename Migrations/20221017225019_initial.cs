@@ -6,7 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AuctionApp.Migrations
 {
-    public partial class firstmigration : Migration
+<<<<<<<< HEAD:Migrations/20221017225019_initial.cs
+    public partial class initial : Migration
+========
+    public partial class CustomerTable : Migration
+>>>>>>>> 94d8c4c41c425d27ff1d858c4612201a52b68b1d:Migrations/20221018093138_CustomerTable.cs
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -144,6 +148,8 @@ namespace AuctionApp.Migrations
                     Price = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
                     SoldPrice = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
                     AssetName = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    ImageUrl = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     AuctionPriceIsOpened = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     AutioneerId = table.Column<int>(type: "int", nullable: false),

@@ -11,8 +11,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuctionApp.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20221013160157_firstmigration")]
-    partial class firstmigration
+<<<<<<<< HEAD:Migrations/20221017225019_initial.Designer.cs
+    [Migration("20221017225019_initial")]
+    partial class initial
+========
+    [Migration("20221018093758_CustomerTable2")]
+    partial class CustomerTable2
+>>>>>>>> 94d8c4c41c425d27ff1d858c4612201a52b68b1d:Migrations/20221018093758_CustomerTable2.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -60,6 +65,10 @@ namespace AuctionApp.Migrations
 
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<bool?>("IsDeleted")
                         .HasColumnType("tinyint(1)");

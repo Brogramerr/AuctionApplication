@@ -11,6 +11,6 @@ namespace AuctionApplication.Interface.Services
     {
         Task<BaseResponse> AddAdmin(CreateAdminRequestModel model);
         Task<BaseResponse> DeleteAdmin(int Id);
-        
+        Task<AdminsResponseModel> GetAllAdmin();
     }
 }

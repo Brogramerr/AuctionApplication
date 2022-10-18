@@ -24,10 +24,12 @@ namespace AuctionApplication.Implementation.Services
             var ass = new Asset
             {
                 Price = model.Price,
-                SoldPrice = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
-                AutioneerId = model.AutioneerId,
+<<<<<<< HEAD
+                AutioneerId = 1,
+=======
+>>>>>>> 94d8c4c41c425d27ff1d858c4612201a52b68b1d
                 AssetStatus = AssetStatus.NotAuctioned
             };
 
@@ -83,6 +85,33 @@ namespace AuctionApplication.Implementation.Services
                 }).ToList(),
                 Message = "Assets found successfully",
                 Success = true,
+
+            };
+
+        }
+        public async Task<AssetResponseModel> GetAssetsById(int id)
+        {
+            var asset = await _assetRepository.GetAsync(id);
+            if (asset == null)
+            {
+                return new AssetResponseModel
+                {
+                    Message = $"Asset not found",
+                    Success = false,
+                };
+            }
+            return new AssetResponseModel
+            {
+                Message = "Assets found successfully",
+                Success = true,
+                Data =  new AssetDto
+                {
+                    Price = asset.Price,
+                    AssetName = asset.AssetName,
+                    AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
+                    Auctioneer = asset.Auctioneer.Username,
+                    AssetStatus = asset.AssetStatus,
+                }
 
             };
 

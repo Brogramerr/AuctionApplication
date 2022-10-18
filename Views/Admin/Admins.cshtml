@@ -1,0 +1,43 @@
+@using AuctionApplication.DTOs.ResponseModels
+@model AdminsResponseModel
+
+
+@if (@Model == null || @Model.Data.Count() == 0)
+{
+    <h1>No Admin yet</h1>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table" id="list">
+            <caption>List Admin</caption>
+            <thead>
+                <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Firstname</th>
+                    <th scope="col">Lastname</th>
+                    <th scope="col">Phonenumber</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var admin in @Model.Data)
+                {
+                    <tr class="role">
+                        <th scope="row">@admin.Id</th>
+                        <td>@admin.UserName</td>
+                        <td>@admin.FirstName</td>
+                        <td>@admin.LastName</td>
+                        <td>@admin.PhoneNumber</td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn-danger btn" asp-action="DeleteAdmin" asp-route-id=@admin.Id>Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
