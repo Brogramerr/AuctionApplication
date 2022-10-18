@@ -47,7 +47,7 @@ namespace AuctionApplication.Implementations.Services
             var role = await _roleRepository.GetAllAsync();
             if (role == null)
             {
-                return new RolesResponse
+                 return new RolesResponse
                 {
                     Message = "No Roles Found",
                     Success = false,

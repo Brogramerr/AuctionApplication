@@ -17,7 +17,7 @@ namespace AuctionApplication.Implementations.Repositories
         
         public async Task<BaseResponse> ExistsByEmailAsync(string Email, string passWord)
         {
-            var customer = await _Context.Customers.FirstOrDefaultAsync(c => c.Email == Email && c.Password == passWord);
+            var customer = await _Context.Customers.FirstOrDefaultAsync(c => c.User.Email == Email && c.User.Password == passWord);
             if (customer == null)
             {
                 return new BaseResponse()

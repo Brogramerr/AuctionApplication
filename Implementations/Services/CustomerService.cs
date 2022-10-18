@@ -41,7 +41,6 @@ namespace AuctionApplication.Implementation.Services
                 Username = model.Username,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                Email = model.Email,
                 PhoneNumber = model.PhoneNumber,
             };
             
@@ -86,7 +85,7 @@ namespace AuctionApplication.Implementation.Services
                     FirstName = customer.FirstName,
                     LastName = customer.LastName,
                     Username = customer.Username,
-                    Email = customer.Email,
+                    Email = customer.User.Email,
                     PhoneNumber = customer.PhoneNumber,
                 }
             };

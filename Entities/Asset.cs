@@ -11,6 +11,7 @@ namespace AuctionApplication.Entities
         public decimal Price { get; set; }
         public decimal SoldPrice { get; set; }
         public string AssetName { get; set; }
+        public string ImageUrl { get; set; }
         public bool AuctionPriceIsOpened { get; set; }
         public int AutioneerId {get;set;}
         public Customer Auctioneer { get; set; }
