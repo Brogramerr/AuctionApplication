@@ -66,7 +66,7 @@ namespace AuctionApplication.Implementation.Services
             {
                 Message = "Bidding found",
                 Success = true,
-                Bidding = bidding.Select(x => new BiddingDto()
+                 Bidding = bidding.Select(x => new BiddingDto()
                 {
                     Price = x.Price,
                     CustomerName = x.Customer.FirstName + " " + x.Customer.LastName,

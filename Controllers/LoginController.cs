@@ -15,12 +15,10 @@ using AuctionApplication.Interface.Services;
 
 namespace AuctionApplication.Controllers
 {
-       
-     
+
     public class LoginController : Controller
     {
         private readonly ApplicationContext dbContext;
-      
         private readonly IUserService _userService;
 
         public LoginController(IUserService userService)

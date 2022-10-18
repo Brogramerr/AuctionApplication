@@ -1,0 +1,18 @@
+@using AuctionApplication.DTOs.RequestModels
+@model AuctionApplication.DTOs.ResponseModels.BiddingsResponseModel
+ <div class="row">
+        <div class="col-md-12">
+            <h2>Get Bidding</h2>
+            <form asp-action="GetBiddingsByAssetId">
+                <div class="form-group">
+                    <label for="Id">Id</label>
+                    <input for="Id" type="Number" name="Id" id="id" class="form-control" />
+                </div>
+                 
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    

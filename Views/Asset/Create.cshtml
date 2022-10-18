@@ -1,0 +1,48 @@
+
+              
+<script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900%7CMontserrat:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" href="~/csss/bootstrap.css">
+<link rel="stylesheet" href="~/csss/fonts.css">
+<link rel="stylesheet" href="~/csss/style.css">
+<script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0"></script>
+<style>
+    .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+        display: block;
+    }
+</style>
+
+<form  class="rd-form campaign-mailform rd-form-inline" data-form-output="form-output-global" asp-controller="Asset" asp-action="Create" 
+                            method="post">
+                            <div class="form-wrap">
+                                <input class="form-input" for="AssetName" id="campaign-email" type="text" name="AssetName" required placeholder="Asset Name">
+                            </div>
+                            <div class="form-wrap">
+                                <input class="form-input" for="Price" id="campaign-email" type="text" name="Price" required placeholder="Starting Price">
+                            </div>
+                            <div class="form-wrap">
+                                 <select class="form-input" id="campaign-email"  required name="AuctionPriceIsOpened"  for="AuctionPriceIsOpened" >
+                                 <option   value="none" disabled selected>Auction Type</option>
+                                <option   value="0">Opened</option>
+                                <option  value="1">Closed</option>
+                                </select>
+                                 </div>
+       
+                            <div class="form-button">
+                                <button class="button button-primary" type="submit">Create</button>
+                            </div>
+</form>
