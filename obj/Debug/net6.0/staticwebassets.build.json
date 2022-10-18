@@ -1,7 +1,11 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "YhwiJ/wtO+8gfU/8+zDlKw7ElQqNSP2c0HRw18zNSVE=",
+=======
+  "Hash": "sltiRiI6WMvjJWalZeNO0P0MDUvFaVLI69h3nyv1Flg=",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
   "Hash": "pfx0THeDwziKqUFV8pDVv9PiJvPBckpCg2DXqfzQC2Q=",
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
@@ -15,7 +19,11 @@
       "Name": "AuctionApp\\wwwroot",
       "Source": "AuctionApp",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
@@ -26,10 +34,17 @@
   "Assets": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css",
       "SourceId": "AuctionApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css",
       "SourceId": "AuctionApp",
@@ -47,7 +62,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css"
+=======
+      "OriginalItemSpec": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "OriginalItemSpec": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AuctionApp.styles.css"
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
@@ -72,7 +97,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css"
+=======
+      "OriginalItemSpec": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\css\\site.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "OriginalItemSpec": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuctionApp.bundle.scp.css"
 >>>>>>> 98aebd52fecebd2bf9188a3f2e77077878a55f86
@@ -100,10 +135,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\csss\\bootstrap.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\csss\\bootstrap.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\bootstrap.css",
       "SourceId": "AuctionApp",
@@ -124,10 +166,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\csss\\css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\csss\\css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\css",
       "SourceId": "AuctionApp",
@@ -148,10 +197,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\csss\\fonts.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\csss\\fonts.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\fonts.css",
       "SourceId": "AuctionApp",
@@ -172,10 +228,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\csss\\style.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\csss\\style.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\csss\\style.css",
       "SourceId": "AuctionApp",
@@ -196,10 +259,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\favicon.ico",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\favicon.ico",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\favicon.ico",
       "SourceId": "AuctionApp",
@@ -220,10 +290,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\about-01-370x270.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\about-01-370x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\about-01-370x270.jpg",
       "SourceId": "AuctionApp",
@@ -244,10 +321,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\about-03-171x148.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\about-03-171x148.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\about-03-171x148.jpg",
       "SourceId": "AuctionApp",
@@ -268,10 +352,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\banner-arrow-184x147.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\banner-arrow-184x147.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\banner-arrow-184x147.png",
       "SourceId": "AuctionApp",
@@ -292,10 +383,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-01-270x270.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-01-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-01-270x270.png",
       "SourceId": "AuctionApp",
@@ -316,10 +414,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-02-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-02-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-02-120x120.png",
       "SourceId": "AuctionApp",
@@ -340,10 +445,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-03-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-03-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-03-120x120.png",
       "SourceId": "AuctionApp",
@@ -364,10 +476,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-04-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-04-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-04-120x120.png",
       "SourceId": "AuctionApp",
@@ -388,10 +507,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-05-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-05-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-05-120x120.png",
       "SourceId": "AuctionApp",
@@ -412,10 +538,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-06-270x270.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-06-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-06-270x270.png",
       "SourceId": "AuctionApp",
@@ -436,10 +569,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-07-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-07-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-07-120x120.png",
       "SourceId": "AuctionApp",
@@ -460,10 +600,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-08-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-08-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-08-120x120.png",
       "SourceId": "AuctionApp",
@@ -484,10 +631,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-09-270x270.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-09-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-09-270x270.png",
       "SourceId": "AuctionApp",
@@ -508,10 +662,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-10-270x270.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-10-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-10-270x270.png",
       "SourceId": "AuctionApp",
@@ -532,10 +693,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-11-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-11-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-11-120x120.png",
       "SourceId": "AuctionApp",
@@ -556,10 +724,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-12-120x120.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-12-120x120.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-12-120x120.png",
       "SourceId": "AuctionApp",
@@ -580,10 +755,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\box-image-13-270x270.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\box-image-13-270x270.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\box-image-13-270x270.png",
       "SourceId": "AuctionApp",
@@ -604,10 +786,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\buy-01-270x189.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\buy-01-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-01-270x189.jpg",
       "SourceId": "AuctionApp",
@@ -628,10 +817,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\buy-02-270x189.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\buy-02-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-02-270x189.jpg",
       "SourceId": "AuctionApp",
@@ -652,10 +848,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\buy-03-270x189.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\buy-03-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-03-270x189.jpg",
       "SourceId": "AuctionApp",
@@ -676,10 +879,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\buy-04-270x189.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\buy-04-270x189.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-04-270x189.jpg",
       "SourceId": "AuctionApp",
@@ -700,10 +910,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\buy-05-1920x570.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\buy-05-1920x570.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\buy-05-1920x570.jpg",
       "SourceId": "AuctionApp",
@@ -724,10 +941,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\home-01-1920x570.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\home-01-1920x570.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\home-01-1920x570.jpg",
       "SourceId": "AuctionApp",
@@ -748,10 +972,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\logo-default-658x114.png",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\logo-default-658x114.png",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\logo-default-658x114.png",
       "SourceId": "AuctionApp",
@@ -772,10 +1003,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic1-270x271.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic1-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic1-270x271.jpg",
       "SourceId": "AuctionApp",
@@ -796,10 +1034,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic2-270x271.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic2-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic2-270x271.jpg",
       "SourceId": "AuctionApp",
@@ -820,10 +1065,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic3-270x271.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic3-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic3-270x271.jpg",
       "SourceId": "AuctionApp",
@@ -844,10 +1096,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic4-270x271.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic4-270x271.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic4-270x271.jpg",
       "SourceId": "AuctionApp",
@@ -868,10 +1127,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic5-270x217.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic5-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic5-270x217.jpg",
       "SourceId": "AuctionApp",
@@ -892,10 +1158,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic6-270x217.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic6-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic6-270x217.jpg",
       "SourceId": "AuctionApp",
@@ -916,10 +1189,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic7-270x217.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic7-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic7-270x217.jpg",
       "SourceId": "AuctionApp",
@@ -940,10 +1220,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\page1_pic8-270x217.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\page1_pic8-270x217.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\page1_pic8-270x217.jpg",
       "SourceId": "AuctionApp",
@@ -964,10 +1251,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\sell-01-470x339.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\sell-01-470x339.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\sell-01-470x339.jpg",
       "SourceId": "AuctionApp",
@@ -988,10 +1282,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\team-01-270x270.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\team-01-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-01-270x270.jpg",
       "SourceId": "AuctionApp",
@@ -1012,10 +1313,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\team-02-270x270.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\team-02-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-02-270x270.jpg",
       "SourceId": "AuctionApp",
@@ -1036,10 +1344,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\team-03-270x270.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\team-03-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-03-270x270.jpg",
       "SourceId": "AuctionApp",
@@ -1060,10 +1375,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\team-04-270x270.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\team-04-270x270.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\team-04-270x270.jpg",
       "SourceId": "AuctionApp",
@@ -1084,10 +1406,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\typography-01-770x480.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\typography-01-770x480.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\typography-01-770x480.jpg",
       "SourceId": "AuctionApp",
@@ -1108,10 +1437,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\images\\typography-02-370x230.jpg",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\images\\typography-02-370x230.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\typography-02-370x230.jpg",
       "SourceId": "AuctionApp",
@@ -1132,10 +1468,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\js\\site.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\js\\site.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\js\\site.js",
       "SourceId": "AuctionApp",
@@ -1156,10 +1499,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\jss\\core.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\jss\\core.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\jss\\core.min.js",
       "SourceId": "AuctionApp",
@@ -1180,10 +1530,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\jss\\script.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\jss\\script.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\jss\\script.js",
       "SourceId": "AuctionApp",
@@ -1204,10 +1561,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AuctionApp",
@@ -1228,10 +1592,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AuctionApp",
@@ -1252,10 +1623,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AuctionApp",
@@ -1276,10 +1654,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AuctionApp",
@@ -1300,10 +1685,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AuctionApp",
@@ -1324,10 +1716,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AuctionApp",
@@ -1348,10 +1747,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AuctionApp",
@@ -1372,10 +1778,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AuctionApp",
@@ -1396,10 +1809,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AuctionApp",
@@ -1420,10 +1840,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AuctionApp",
@@ -1444,10 +1871,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AuctionApp",
@@ -1468,10 +1902,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AuctionApp",
@@ -1492,10 +1933,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AuctionApp",
@@ -1516,10 +1964,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AuctionApp",
@@ -1540,10 +1995,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AuctionApp",
@@ -1564,10 +2026,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AuctionApp",
@@ -1588,10 +2057,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AuctionApp",
@@ -1612,10 +2088,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AuctionApp",
@@ -1636,10 +2119,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AuctionApp",
@@ -1660,10 +2150,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AuctionApp",
@@ -1684,10 +2181,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AuctionApp",
@@ -1708,10 +2212,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AuctionApp",
@@ -1732,10 +2243,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AuctionApp",
@@ -1756,10 +2274,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AuctionApp",
@@ -1780,10 +2305,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AuctionApp",
@@ -1804,10 +2336,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AuctionApp",
@@ -1828,10 +2367,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AuctionApp",
@@ -1852,10 +2398,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AuctionApp",
@@ -1876,10 +2429,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AuctionApp",
@@ -1900,10 +2460,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AuctionApp",
@@ -1924,10 +2491,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AuctionApp",
@@ -1948,10 +2522,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AuctionApp",
@@ -1972,10 +2553,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AuctionApp",
@@ -1996,10 +2584,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AuctionApp",
@@ -2020,10 +2615,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AuctionApp",
@@ -2044,10 +2646,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AuctionApp",
@@ -2068,10 +2677,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AuctionApp",
@@ -2092,10 +2708,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AuctionApp",
@@ -2116,10 +2739,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AuctionApp",
@@ -2140,10 +2770,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AuctionApp",
@@ -2164,10 +2801,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AuctionApp",
@@ -2188,10 +2832,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AuctionApp",
@@ -2212,10 +2863,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AuctionApp",
@@ -2236,10 +2894,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AuctionApp",
@@ -2260,10 +2925,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AuctionApp",
@@ -2284,10 +2956,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AuctionApp",
@@ -2308,10 +2987,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AuctionApp",
@@ -2332,10 +3018,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AuctionApp",
@@ -2356,10 +3049,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AuctionApp",
@@ -2380,10 +3080,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AuctionApp",
@@ -2404,10 +3111,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AuctionApp",
@@ -2428,10 +3142,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AuctionApp",
@@ -2452,10 +3173,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AuctionApp",
@@ -2476,10 +3204,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AuctionApp",
@@ -2500,10 +3235,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AuctionApp",
@@ -2524,10 +3266,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AuctionApp",
@@ -2548,10 +3297,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AuctionApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HI\\Desktop\\App\\AuctionApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\wwwroot\\",
+>>>>>>> 9148e360c7e72d30ace2f8ee527197f35640e4e3
 =======
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AuctionApp",

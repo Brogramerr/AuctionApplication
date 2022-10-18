@@ -1,0 +1,16 @@
+@using AuctionApplication.DTOs.ResponseModels
+@model BiddingResponseModel
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Increase Bidding Price</h2>
+            <form asp-action="IncreaseBiddingPrice" method="post">
+                <div class="form-group">
+                    <label for="Price">Price</label>
+                    <input for="Price" type="Number" name="Price" id="price" class="form-control" value="@Model.Data.Price"/>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
