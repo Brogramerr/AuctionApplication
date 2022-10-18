@@ -26,10 +26,6 @@ namespace AuctionApplication.Implementation.Services
                 Price = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
-<<<<<<< HEAD
-                AutioneerId = 1,
-=======
->>>>>>> 94d8c4c41c425d27ff1d858c4612201a52b68b1d
                 AssetStatus = AssetStatus.NotAuctioned
             };
 

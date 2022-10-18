@@ -16296,6 +16296,187 @@
     "CSharpLanguageVersion": 1000
   },
   "RootNamespace": "AuctionApp",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\contacts.cshtml",
+      "TargetPath": "Views\\Home\\contacts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Customer\\GetCustomer.cshtml",
+      "TargetPath": "Views\\Customer\\GetCustomer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\Privacy-policy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy-policy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\_progress-bars.cshtml",
+      "TargetPath": "Views\\Shared\\_progress-bars.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Auction\\ChangeAuctionOpeningDate.cshtml",
+      "TargetPath": "Views\\Auction\\ChangeAuctionOpeningDate.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\buy.cshtml",
+      "TargetPath": "Views\\Home\\buy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Admin\\DeleteAdmin.cshtml",
+      "TargetPath": "Views\\Admin\\DeleteAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\buttons.cshtml",
+      "TargetPath": "Views\\Home\\buttons.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\404.cshtml",
+      "TargetPath": "Views\\Home\\404.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\forms.cshtml",
+      "TargetPath": "Views\\Home\\forms.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\grid-system.cshtml",
+      "TargetPath": "Views\\Home\\grid-system.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Login\\StaffLogin.cshtml",
+      "TargetPath": "Views\\Login\\StaffLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Role\\CreateRole.cshtml",
+      "TargetPath": "Views\\Role\\CreateRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Customer\\Create.cshtml",
+      "TargetPath": "Views\\Customer\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Role\\ViewAllRoles.cshtml",
+      "TargetPath": "Views\\Role\\ViewAllRoles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\tables.cshtml",
+      "TargetPath": "Views\\Home\\tables.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\tabs-and-accordions.cshtml",
+      "TargetPath": "Views\\Home\\tabs-and-accordions.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\sell.cshtml",
+      "TargetPath": "Views\\Home\\sell.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Asset\\CreateAsset.cshtml",
+      "TargetPath": "Views\\Asset\\CreateAsset.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Login\\Login.cshtml",
+      "TargetPath": "Views\\Login\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\progress-bars.cshtml",
+      "TargetPath": "Views\\Home\\progress-bars.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Customer\\Update.cshtml",
+      "TargetPath": "Views\\Customer\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Auction\\CreateAuction.cshtml",
+      "TargetPath": "Views\\Auction\\CreateAuction.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Admin\\Admins.cshtml",
+      "TargetPath": "Views\\Admin\\Admins.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\search-results.cshtml",
+      "TargetPath": "Views\\Home\\search-results.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Admin\\CreateAdmin.cshtml",
+      "TargetPath": "Views\\Admin\\CreateAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Auction\\ChangeAuctionDuration.cshtml",
+      "TargetPath": "Views\\Auction\\ChangeAuctionDuration.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\typography.cshtml",
+      "TargetPath": "Views\\Home\\typography.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

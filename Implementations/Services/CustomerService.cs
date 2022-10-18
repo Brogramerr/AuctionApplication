@@ -42,6 +42,7 @@ namespace AuctionApplication.Implementation.Services
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 PhoneNumber = model.PhoneNumber,
+                UserId = adduser.Id,
             };
             
             var custom = await _customerRepository.CreateAsync(custm);
