@@ -15,6 +15,7 @@ namespace AuctionApplication.Interface.Services
         Task<BaseResponse> ChangeAssetStatusToAuctioned(int id);
         Task<BaseResponse> AddAssetForAuctionAsync(int id);
         Task<IList<BaseResponse>> AddAssetsForAuctionAsync(HashSet<int> ids);
+        Task<AssetResponseModel> GetAssetsById(int id);
 
     }
 }

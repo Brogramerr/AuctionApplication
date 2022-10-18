@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuctionApp.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20221013160157_firstmigration")]
-    partial class firstmigration
+    [Migration("20221018105742_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -60,6 +60,10 @@ namespace AuctionApp.Migrations
 
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<bool?>("IsDeleted")
                         .HasColumnType("tinyint(1)");
@@ -169,6 +173,60 @@ namespace AuctionApp.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("Biddings");
+                });
+
+            modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreatedOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int?>("DeletedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("LastModifiedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastModifiedOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("AuctionApplication.Entities.Identity.Admin", b =>
@@ -283,10 +341,6 @@ namespace AuctionApp.Migrations
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -307,8 +361,6 @@ namespace AuctionApp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("User");
                 });
 
             modelBuilder.Entity("AuctionApplication.Entities.Identity.UserRole", b =>
@@ -394,35 +446,6 @@ namespace AuctionApp.Migrations
                     b.ToTable("Wallets");
                 });
 
-            modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
-                {
-                    b.HasBaseType("AuctionApplication.Entities.Identity.User");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.HasDiscriminator().HasValue("Customer");
-                });
-
             modelBuilder.Entity("AuctionApplication.Entities.Asset", b =>
                 {
                     b.HasOne("AuctionApplication.Entities.Auction", "Auction")
@@ -457,6 +480,17 @@ namespace AuctionApp.Migrations
                     b.Navigation("Asset");
 
                     b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
+                {
+                    b.HasOne("AuctionApplication.Entities.Identity.User", "User")
+                        .WithOne("Customer")
+                        .HasForeignKey("AuctionApplication.Entities.Customer", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("AuctionApplication.Entities.Identity.Admin", b =>
@@ -500,17 +534,6 @@ namespace AuctionApp.Migrations
                     b.Navigation("Customer");
                 });
 
-            modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
-                {
-                    b.HasOne("AuctionApplication.Entities.Identity.User", "User")
-                        .WithOne("Customer")
-                        .HasForeignKey("AuctionApplication.Entities.Customer", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("AuctionApplication.Entities.Asset", b =>
                 {
                     b.Navigation("Biddings");
@@ -519,6 +542,16 @@ namespace AuctionApp.Migrations
             modelBuilder.Entity("AuctionApplication.Entities.Auction", b =>
                 {
                     b.Navigation("Assets");
+                });
+
+            modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
+                {
+                    b.Navigation("Assets");
+
+                    b.Navigation("Biddings");
+
+                    b.Navigation("Wallet")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("AuctionApplication.Entities.Identity.Role", b =>
@@ -535,16 +568,6 @@ namespace AuctionApp.Migrations
                         .IsRequired();
 
                     b.Navigation("UserRoles");
-                });
-
-            modelBuilder.Entity("AuctionApplication.Entities.Customer", b =>
-                {
-                    b.Navigation("Assets");
-
-                    b.Navigation("Biddings");
-
-                    b.Navigation("Wallet")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

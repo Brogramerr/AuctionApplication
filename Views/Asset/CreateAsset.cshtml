@@ -1,0 +1,35 @@
+@using AuctionApplication.DTOs.RequestModels
+@model CreateAssetRequestModel
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Add Asset For Auctioning</h2>
+            <form asp-action="CreateAsset">
+                <div class="form-group">
+                    <label for="Price">Asset Price</label>
+                    <input for="Price" type="number" name="Price" id="name" class="form-control" />
+                </div>
+                 <div class="form-group">
+                    <label for="AssetName">Asset Name</label>
+                    <input type="text" name="AssetName" id="AssetName" class="form-control"/>
+                </div>
+                 <div class="form-group">
+                    <label for="ImageUrl">Asset Name</label>
+                    <input type="file" name="ImageUrl" id="ImageUrl" class="form-control"/>
+                </div>
+                 <div class="form-group">
+                    <label for="AuctionPriceIsOpened">Do you like to put your asset for open auctioning</label>
+                    <br>
+                    <label for="AuctionPriceIsOpened">Yes</label>
+                    <input for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" class="form-control" value="true">
+                    <br>
+                    <label for="AuctionPriceIsOpened">No</label>
+                    <input for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" class="form-control" value="false">
+                </div>
+                @* <div class="form-group">
+                     <input type="hidden" name="AutioneerId" id="AutioneerId" class="form-control" value="@Context.Session.GetInt32(Id)"/>
+                </div> *@
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>

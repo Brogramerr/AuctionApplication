@@ -747,19 +747,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SAMSUNG\\.nuget\\packages\\": {}
+    "C:\\Users\\Zafrullah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+      "projectUniqueName": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj",
       "projectName": "AuctionApp",
-      "projectPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\AuctionApp.csproj",
-      "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SAMSUNG\\Desktop\\AuctionApplication\\obj\\",
+      "projectPath": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\AuctionApp.csproj",
+      "packagesPath": "C:\\Users\\Zafrullah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Zafrullah\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

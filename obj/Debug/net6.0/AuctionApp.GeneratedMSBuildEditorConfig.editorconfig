@@ -8,34 +8,42 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuctionApp
 build_property.RootNamespace = AuctionApp
-build_property.ProjectDir = C:\Users\SAMSUNG\Desktop\AuctionApplication\
+build_property.ProjectDir = C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\SAMSUNG\Desktop\AuctionApplication
+build_property.MSBuildProjectDirectory = C:\Users\Zafrullah\Desktop\AuctionApplication\AuctionApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Bidding/CreateBidding.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGluZ1xDcmVhdGVCaWRkaW5nLmNzaHRtbA==
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Admin/Admins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Bidding/GetBiddingsByAssetId.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGluZ1xHZXRCaWRkaW5nc0J5QXNzZXRJZC5jc2h0bWw=
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Admin/CreateAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Bidding/GetHighestBidder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGluZ1xHZXRIaWdoZXN0QmlkZGVyLmNzaHRtbA==
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Admin/DeleteAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Bidding/IncreaseBiddingPrice.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGluZ1xJbmNyZWFzZUJpZGRpbmdQcmljZS5jc2h0bWw=
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Asset/CreateAsset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcQ3JlYXRlQXNzZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Bidding/TerminateBidding.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlkZGluZ1xUZXJtaW5hdGVCaWRkaW5nLmNzaHRtbA==
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Auction/ChangeAuctionDuration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxDaGFuZ2VBdWN0aW9uRHVyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Home/404.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Auction/ChangeAuctionOpeningDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxDaGFuZ2VBdWN0aW9uT3BlbmluZ0RhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Auction/CreateAuction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxDcmVhdGVBdWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Home/404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVw0MDQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -71,11 +79,11 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LXBvbGljeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Home/Privacy.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Home/progress-bars.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Home/progress-bars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9ncmVzcy1iYXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -99,15 +107,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0eXBvZ3JhcGh5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Login/Login.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Login/StaffLogin.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Login/StaffLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU3RhZmZMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Role/CreateRole.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Role/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -135,6 +143,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SAMSUNG/Desktop/AuctionApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/Zafrullah/Desktop/AuctionApplication/AuctionApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-x4f96869tu

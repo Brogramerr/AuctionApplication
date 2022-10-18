@@ -97,5 +97,21 @@ namespace AuctionApplication.Implementations.Services
             };
         }
 
+
+        public async Task<AdminsResponseModel> GetAllAdmin()
+        {
+            var admins = await _adminRepository.GetAllAdminsAsync();
+            return new AdminsResponseModel
+            {
+                Data = admins.Select(x => new AdminDto
+                {
+                    Id = x.Id,
+                    UserName = x.Username,
+                    FirstName = x.FirstName,
+                    LastName = x.LastName,
+                    PhoneNumber = x.PhoneNumber,
+                }).ToList()
+            };
+        }
     }
 }
