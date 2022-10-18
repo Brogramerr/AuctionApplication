@@ -26,16 +26,9 @@ namespace AuctionApplication.Implementation.Services
                 Price = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
-<<<<<<< HEAD
-<<<<<<< HEAD
-                AssetStatus = AssetStatus.NotAuctioned,
-                ImageUrl = model.ImageUrl 
-=======
-=======
->>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
+                AssetStatus = AssetStatus.NotAuctioned, 
                 ImageUrl = model.ImageUrl,
                 AssetStatus = AssetStatus.NotAuctioned
->>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
             };
 
             var result = await _assetRepository.CreateAsync(ass);
