@@ -26,6 +26,7 @@ namespace AuctionApplication.Implementation.Services
                 Price = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
+                ImageUrl = model.ImageUrl,
                 AssetStatus = AssetStatus.NotAuctioned
             };
 
