@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using AuctionApplication.Entities.Identity;
+using AuctionApplication.Contracts;
 
 namespace AuctionApplication.Entities
 {
-    public class Customer : User
+    public class Customer : AuditableEntity
     {
         public string Username {get; set;}
         public string FirstName {get; set;}
