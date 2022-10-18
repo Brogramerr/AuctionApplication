@@ -40,12 +40,12 @@ namespace AuctionApplication.Controllers
                 {
                     return Content("Email or Password does not exist ");
                 }
-               
+                HttpContext.Session.SetInt32("Id",login.Data.Id);
                 var claims = new List<Claim>
                 {
                     
                     new Claim (ClaimTypes.NameIdentifier, login.Data.Email),
-                    new Claim (ClaimTypes.NameIdentifier, login.Data.Password)
+                    new Claim (ClaimTypes.NameIdentifier, login.Data.Password),
 
                 };
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
