@@ -16298,8 +16298,28 @@
   "RootNamespace": "AuctionApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\contacts.cshtml",
+      "TargetPath": "Views\\Home\\contacts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\Privacy-policy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy-policy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\_progress-bars.cshtml",
+      "TargetPath": "Views\\Shared\\_progress-bars.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\buy.cshtml",
+      "TargetPath": "Views\\Home\\buy.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16308,13 +16328,58 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\buttons.cshtml",
+      "TargetPath": "Views\\Home\\buttons.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\404.cshtml",
+      "TargetPath": "Views\\Home\\404.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\forms.cshtml",
+      "TargetPath": "Views\\Home\\forms.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\grid-system.cshtml",
+      "TargetPath": "Views\\Home\\grid-system.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\tables.cshtml",
+      "TargetPath": "Views\\Home\\tables.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\tabs-and-accordions.cshtml",
+      "TargetPath": "Views\\Home\\tabs-and-accordions.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\sell.cshtml",
+      "TargetPath": "Views\\Home\\sell.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\progress-bars.cshtml",
+      "TargetPath": "Views\\Home\\progress-bars.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16328,8 +16393,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\search-results.cshtml",
+      "TargetPath": "Views\\Home\\search-results.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Home\\typography.cshtml",
+      "TargetPath": "Views\\Home\\typography.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\HI\\Desktop\\App\\AuctionApp\\Views\\Customer\\index.cshtml",
+      "TargetPath": "Views\\Customer\\index.cshtml",
       "FileKind": "mvc"
     }
   ],
