@@ -47,7 +47,7 @@ namespace AuctionApplication.Implementations.Services
             var role = await _roleRepository.GetAllAsync();
             if (role == null)
             {
-                return new RolesResponse
+                 return new RolesResponse
                 {
                     Message = "No Roles Found",
                     Success = false,
@@ -57,11 +57,34 @@ namespace AuctionApplication.Implementations.Services
             {
                 Data = role.Select(x => new RoleDto
                 {
+                    Id = x.Id,
                     Name = x.Name,
                     Description = x.Description,
                 }).ToList(),
                 Message = "Roles Found Successfully",
                 Success = true
+            };
+        }
+        public async Task<RoleResponseModel> GetRoleByUserId(int id)
+        {
+            var role = await _roleRepository.GetRoleByUserId(id);
+            if (role == null)
+            {
+                return new RoleResponseModel{
+                    Message = "Role not found",
+                    Success = false,
+                };
+            }
+            return new RoleResponseModel
+            {
+                Message = "Role found",
+                Success = true,
+                Data = new RoleDto
+                {
+                    Id = role.Id,
+                    Name = role.Name,
+                    Description = role.Description
+                }
             };
         }
 

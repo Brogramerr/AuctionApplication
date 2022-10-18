@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\USER\\Documents\\MVC\\UpdatedAuctionApp\\AuctionApplication\\AuctionApp.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\USER\\Documents\\MVC\\UpdatedAuctionApp\\AuctionApplication\\AuctionApp.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\USER\\Documents\\MVC\\UpdatedAuctionApp\\AuctionApplication\\obj\\",
+=======
+    "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+        "projectName": "AuctionApp",
+        "projectPath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\obj\\",
+>>>>>>> 8224faf7cac62dd25c9c0851a9f3a446add1be56
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,5 +8,6 @@ namespace AuctionApplication.Interface.Repositories
         Task<BaseResponse> AddRoleAsync(CreateRoleRequestmodel model);
         Task<RolesResponse> GetAllRoleAsync();
         Task<BaseResponse> UpdateUserRole(UpdateUserRoleRequestModel model);
+        Task<RoleResponseModel> GetRoleByUserId(int id);
     }
 }

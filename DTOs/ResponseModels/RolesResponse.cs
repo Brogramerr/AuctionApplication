@@ -10,4 +10,9 @@ namespace AuctionApplication.DTOs.ResponseModels
     {
         public List<RoleDto> Data {get;set;} = new List<RoleDto>();
     } 
+
+    public class RoleResponseModel : BaseResponse
+    {
+        public RoleDto Data {get;set;}
+    }
 }

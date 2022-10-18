@@ -5,12 +5,22 @@ using AuctionApplication.Implementations.Services;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Interface.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseMySql(builder.Configuration.GetConnectionString("AuctionConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("AuctionConnection"))));
+builder.Services.AddAuthentication
+    (CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(config =>
+{
+    config.LoginPath = "/AuctionApplication/login";
+    config.Cookie.Name = "AuctionApplication";
+    config.LogoutPath = "/AuctionApplication/Logout";
+});
+builder.Services.AddAuthentication();
 //(ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("AuctionConnection"))));
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
@@ -52,9 +62,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseCookiePolicy();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

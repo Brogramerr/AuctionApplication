@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2RHKLKZ0R8jPoEwlthBYoyV4Brrj6/S2iyhaGdPWycQcBpOXe/AJbZ5dGwXyCA6RR7ZVYeUrf95gLN3o1orEGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Documents\\MVC\\UpdatedAuctionApp\\AuctionApplication\\AuctionApp.csproj",
+=======
+  "dgSpecHash": "l68ChxcnOiVJjLVmN+N0W+0J6/9xEc81OvMpPz61CDmdv49yfWf6M+XLOMKv9Zu29nOyrz2hR6f4ruaPxffoDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\AuctionApplication\\AuctionApp.csproj",
+>>>>>>> 8224faf7cac62dd25c9c0851a9f3a446add1be56
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
@@ -26,5 +32,12 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\USER\\Desktop\\AuctionApplication\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
