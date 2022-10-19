@@ -28,7 +28,7 @@ namespace AuctionApplication.Implementation.Services
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
                 AssetStatus = AssetStatus.NotAuctioned, 
                 ImageUrl = model.ImageUrl,
-                AssetStatus = AssetStatus.NotAuctioned
+                
             };
 
             var result = await _assetRepository.CreateAsync(ass);
