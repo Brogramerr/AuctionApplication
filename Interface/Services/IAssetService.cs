@@ -6,7 +6,7 @@ namespace AuctionApplication.Interface.Services
 {
     public interface IAssetService
     {
-        Task<BaseResponse> CreateAssetAsync(CreateAssetRequestModel model);
+        Task<BaseResponse> CreateAssetAsync(int AuctioneerId, CreateAssetRequestModel model);
         Task<BaseResponse> ChangeAssetPriceAsync(int id, decimal Price);
         Task<AssetsResponseModel> GetAssetsByAuctionDateAsync(DateTime Date);
         Task<BaseResponse> DeleteAssetAsync(int id);

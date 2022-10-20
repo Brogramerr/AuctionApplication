@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace AuctionApplication.Controllers
 {
@@ -35,7 +36,8 @@ namespace AuctionApplication.Controllers
         {
              if(HttpContext.Request.Method == "POST")
             {
-                var asset = await _assetService.CreateAssetAsync(model);
+                var context = Convert.ToInt32(HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value); 
+                var asset = await _assetService.CreateAssetAsync(context,model);
                 if(asset.Success == true)
                 {
                     return Content(asset.Message);

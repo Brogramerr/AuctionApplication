@@ -79,16 +79,15 @@ namespace AuctionApp.Controllers
             if (HttpContext.Request.Method == "POST")
             {
                 var login = await _userService.Login(email, password);
-                if (login == null)
+                if (login.Success == false)
                 {
                     return Content("Email or Password does not exist ");
                 }
-             
+            
                 var claims = new List<Claim>
                 {
                     new Claim (ClaimTypes.NameIdentifier, (login.Data.Id).ToString()),
-                    new Claim (ClaimTypes.NameIdentifier, login.Data.Email),
-                    new Claim (ClaimTypes.NameIdentifier, login.Data.Password),
+                    new Claim (ClaimTypes.Email, login.Data.Email),
 
                 };
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

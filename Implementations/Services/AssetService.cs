@@ -15,19 +15,23 @@ namespace AuctionApplication.Implementation.Services
     public class AssetService : IAssetService
     {
         private readonly IAssetRepository _assetRepository;
-        public AssetService(IAssetRepository repository)
+        private readonly ICustomerRepository _customerRepository;
+
+        public AssetService(IAssetRepository repository, ICustomerRepository customerRepository)
         {
             _assetRepository = repository;
+            _customerRepository = customerRepository;
         }
-        public async Task<BaseResponse> CreateAssetAsync(CreateAssetRequestModel model)
+        public async Task<BaseResponse> CreateAssetAsync(int autioneerId, CreateAssetRequestModel model)
         {
+            var customer = await _customerRepository.GetAsync(x => x.UserId == autioneerId);
             var ass = new Asset
             {
                 Price = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
                 AssetStatus = AssetStatus.NotAuctioned, 
-                AutioneerId = 1,
+                AutioneerId = customer.Id,
                 ImageUrl = model.ImageUrl,
                 
             };
@@ -79,7 +83,7 @@ namespace AuctionApplication.Implementation.Services
                     Price = asset.Price,
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
-                    Auctioneer = asset.Auctioneer.Username,
+                    Auctioneer = asset.Autioneer.Username,
                     AssetStatus = asset.AssetStatus,
                     ImageUrl = asset.ImageUrl 
                 }).ToList(),
@@ -109,7 +113,7 @@ namespace AuctionApplication.Implementation.Services
                     Price = asset.Price,
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
-                    Auctioneer = asset.Auctioneer.Username,
+                    Auctioneer = asset.Autioneer.Username,
                     ImageUrl = asset.ImageUrl, 
                     AssetStatus = asset.AssetStatus,
                 }
@@ -163,7 +167,7 @@ namespace AuctionApplication.Implementation.Services
                     AssetId = a.Id,
                     AssetName = a.AssetName,
                     AssetStatus = a.AssetStatus,
-                    Auctioneer = a.Auctioneer.Username,
+                    Auctioneer = a.Autioneer.Username,
                     ImageUrl = a.ImageUrl, 
                     AuctionPriceIsOpened = a.AuctionPriceIsOpened,
                     Price = a.Price,
