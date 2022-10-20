@@ -41,12 +41,19 @@ namespace AuctionApplication.Controllers
         }
         public async Task<IActionResult> DeleteAdmin(int id)
         {
+            if(HttpContext.Request.Method == "POST")
+            {
                 var admin = await _adminService.DeleteAdmin(id);
                 if(admin.Success == true)
                 {
                     return Content(admin.Message);
+                    
+                
                 }
                 return Content(admin.Message);
+            }
+            return View();
+                
         }
 
         public async Task<IActionResult> Admins()
@@ -59,7 +66,7 @@ namespace AuctionApplication.Controllers
             if (HttpContext.Request.Method == "POST")
             {
                 var login = await _userService.Login(email, password);
-                if (login == null)
+                if (login.Success == false)
                 {
                     return Content("Email or Password does not exist ");
                 }
@@ -75,7 +82,7 @@ namespace AuctionApplication.Controllers
                 var authenticationProperties = new AuthenticationProperties();
                 var principal = new ClaimsPrincipal(claimsIdentity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
-                return RedirectToRoute(new { controller = "Customer", action = "GetCustomer", id = $"{login.Data.Id}" });
+                return RedirectToRoute(new { controller = "Admin", action = "Admins", id = $"{login.Data.Id}" });
             }
             return View();
 

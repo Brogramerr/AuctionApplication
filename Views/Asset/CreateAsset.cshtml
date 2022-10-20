@@ -1,5 +1,6 @@
 @using AuctionApplication.DTOs.RequestModels
-@model CreateAssetRequestModel
+@using AuctionApplication.DTOs.ResponseModels
+@model CustomerResponseModel
 
     <div class="row">
         <div class="col-md-12">
@@ -12,16 +13,9 @@
                  <div class="form-group">
                     <label for="AssetName">Asset Name</label>
                     <input type="text" name="AssetName" id="AssetName" class="form-control"/>
-<<<<<<< HEAD
-                </div>
-                <div class="form-group">
-                    <label for="ImageUrl">Image URL</label>
-                    <input type="text" name="ImageUrl" id="description" class="form-control"/>
-=======
->>>>>>> df9002e6f2c27ce46b5277daa6ea9d5514dcf1aa
                 </div>
                  <div class="form-group">
-                    <label for="ImageUrl">Asset Name</label>
+                    <label for="ImageUrl">Asset Image</label>
                     <input type="file" name="ImageUrl" id="ImageUrl" class="form-control"/>
                 </div>
                  <div class="form-group">
@@ -33,8 +27,8 @@
                     <label for="AuctionPriceIsOpened">No</label>
                     <input for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" class="form-control" value="false">
                 </div>
-                @* <div class="form-group">
-                     <input type="hidden" name="AutioneerId" id="AutioneerId" class="form-control" value="@Context.Session.GetInt32(Id)"/>
+                @* <div class="form-group" type="hidden">
+                     <input  name="AutioneerId" id="AutioneerId" class="form-control" value="@Model.Data.Id"/>
                 </div> *@
                 <button type="submit">Submit</button>
             </form>

@@ -17,6 +17,12 @@ namespace AuctionApplication.Implementations.Repositories
             .Include(auction => auction.Assets)
             .Where(x => x.OpeningDate == date).ToListAsync();
         }
+        public async Task<IList<Auction>> GetAllAuction()
+        {
+            return await _Context.Auctions
+            .Include(auction => auction.Assets)
+            .ToListAsync();
+        }
 
        public async Task<Auction> GetAuctionById(int id)
         {

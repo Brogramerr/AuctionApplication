@@ -9,7 +9,7 @@ namespace AuctionApplication.DTOs.RequestModels
        public string ImageUrl { get; set; }
         public string AssetName { get; set; }
         public bool AuctionPriceIsOpened { get; set; }
-        
+        public int AuctioneerId {get;set;}
         public AssetStatus AssetStatus{get; set;}
     }
 

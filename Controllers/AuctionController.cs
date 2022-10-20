@@ -43,9 +43,9 @@ namespace AuctionApplication.Controllers
             {
                var response = await _auctionService.ChangeAuctionOpeningDateAsync(id, date);
                ViewBag.Info = TempData[$"{response.Message}"];
-               return Index();
+               return RedirectToAction("AllAuctions");
             }
-            return StatusCode(404);
+            return View();
         }
         public async Task<IActionResult> ChangeAuctionDuration(int id, int days)
         {
@@ -53,9 +53,16 @@ namespace AuctionApplication.Controllers
             {
                var response =  await _auctionService.ChangeAuctionDurationAsync(id, days);
                ViewBag.Info = TempData[$"{response.Message}"];
-               return Index();
+               return RedirectToAction("AllAuctions");
             }
-            return StatusCode(404);
+            return View();
+        }
+        public async Task<IActionResult> AllAuctions()
+        {
+               var response =  await _auctionService.GetAllAuctions();
+               ViewBag.Info = TempData[$"{response.Message}"];
+               return View(response);
+
         }
         public IActionResult Error()
         {

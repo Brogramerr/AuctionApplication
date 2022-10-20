@@ -51,6 +51,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRcQ3JlYXRlQXNzZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/Kenny Allen/Desktop/AuctionApp/AuctionApplication/Views/Auction/AllAuctions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxBbGxBdWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Kenny Allen/Desktop/AuctionApp/AuctionApplication/Views/Auction/ChangeAuctionDuration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxDaGFuZ2VBdWN0aW9uRHVyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -89,6 +93,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/Kenny Allen/Desktop/AuctionApp/AuctionApplication/Views/Customer/GetCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcR2V0Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Kenny Allen/Desktop/AuctionApp/AuctionApplication/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Kenny Allen/Desktop/AuctionApp/AuctionApplication/Views/Customer/Login.cshtml]

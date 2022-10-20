@@ -1,3 +1,4 @@
+using AuctionApplication.DTOs;
 using AuctionApplication.DTOs.RequestModels;
 using AuctionApplication.DTOs.ResponseModels;
 using AuctionApplication.Entities;
@@ -87,7 +88,22 @@ namespace AuctionApplication.Implementation.Services
                 Success = false,
             };
         }
+        public async Task<AuctionsResponseModel> GetAllAuctions()
+        {
+            var auction = await _auctionRepository.GetAllAuction();
 
+            var auctionList = auction.Select(auct => new AuctionDto (){
+                Id = auct.Id,
+                OpeningDate = auct.OpeningDate,
+                Duration = auct.Duration
+            }).ToList();
+            return new AuctionsResponseModel()
+            {
+                Data = auctionList,
+                Message = "Auction Creation Success",
+                Success = false,
+            };
+        }
 
     }
 }
