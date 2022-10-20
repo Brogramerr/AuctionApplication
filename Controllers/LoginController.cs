@@ -15,12 +15,10 @@ using AuctionApplication.Interface.Services;
 
 namespace AuctionApplication.Controllers
 {
-       
-     
+
     public class LoginController : Controller
     {
         private readonly ApplicationContext dbContext;
-      
         private readonly IUserService _userService;
 
         public LoginController(IUserService userService)
@@ -43,7 +41,7 @@ namespace AuctionApplication.Controllers
                 HttpContext.Session.SetInt32("Id",login.Data.Id);
                 var claims = new List<Claim>
                 {
-                    
+                     
                     new Claim (ClaimTypes.NameIdentifier, login.Data.Email),
                     new Claim (ClaimTypes.NameIdentifier, login.Data.Password),
 

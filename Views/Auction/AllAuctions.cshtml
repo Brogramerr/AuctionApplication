@@ -1,0 +1,44 @@
+@using AuctionApplication.DTOs.ResponseModels
+@model AuctionsResponseModel
+
+
+@if (@Model == null || @Model.Data.Count() == 0)
+{
+    <h1>No Admin yet</h1>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table" id="list">
+            <caption>Auctions</caption>
+            <thead>
+                <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Opening date</th>
+                    <th scope="col">Days</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var auction in @Model.Data)
+                {
+                    <tr class="role">
+                        <th scope="row">@auction.Id</th>
+                        <td>@auction.OpeningDate</td>
+                        <td>@auction.Duration</td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn-danger btn" asp-action="ChangeAuctionDuration" type="submit" asp-route-id=@auction.Id>Change Duration</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn-danger btn" asp-action="ChangeAuctionOpeningDate" type="submit" asp-route-id=@auction.Id>Change Opening Date</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}

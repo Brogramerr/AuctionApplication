@@ -1,72 +1,85 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using AuctionApplication.Context;
 using AuctionApplication.DTOs.RequestModels;
+using AuctionApplication.DTOs.ResponseModels;
+using AuctionApplication.Implementation.Services;
 using AuctionApplication.Interface.Repositories;
 using AuctionApplication.Interface.Services;
-using AuctionApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
+
+
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 using System.Security.Claims;
 using System.Web;
 
-
-using System.Diagnostics;
-
-namespace AuctionApplication.Controllers
+namespace AuctionApp.Controllers
 {
-    public class AdminController : Controller
+    public class CustomerController : Controller
     {
-        private readonly IAdminService _adminService;
+        private readonly ICustomerService _customerService;
         private readonly IUserService _userService;
-        public AdminController(IAdminService adminService, IUserService userService)
+
+        public CustomerController(ICustomerService customerService, IUserService userService)
         {
-            _adminService = adminService;
+            _customerService = customerService;
             _userService = userService;
         }
 
-        public async Task<IActionResult> CreateAdmin(CreateAdminRequestModel model)
+        public async Task<IActionResult> Create(CreateCustomerRequestModel model)
         {
-            if(HttpContext.Request.Method == "POST")
+            if (HttpContext.Request.Method == "POST")
             {
-                var admin = await _adminService.AddAdmin(model);
-                if(admin.Success == true)
+                var customer = await _customerService.Register(model);
+                if (customer.Success == true)
                 {
-                    return Content(admin.Message);
+                    return Content(customer.Message);
                 }
-                return Content(admin.Message);
+                return Content(customer.Message);
             }
             return View();
-        }
-        public async Task<IActionResult> DeleteAdmin(int id)
-        {
-            if(HttpContext.Request.Method == "POST")
-            {
-                var admin = await _adminService.DeleteAdmin(id);
-                if(admin.Success == true)
-                {
-                    return Content(admin.Message);
-                    
-                
-                }
-                return Content(admin.Message);
-            }
-            return View();
-                
         }
 
-        public async Task<IActionResult> Admins()
+        public async Task<IActionResult> GetCustomer(int Id)
         {
-            var admins = await _adminService.GetAllAdmin();
-            return View(admins);
+            if (HttpContext.Request.Method == "GET")
+            {
+                var customer = await _customerService.GetById(Id);
+                if (customer.Success == false)
+                {
+                    return Content(customer.Message);
+                }
+                return Content(customer.Message);
+
+            }
+            return View();
         }
-           public async Task<IActionResult> LoginAdmin(string email, string password)
+
+        public async Task<IActionResult> Update(UpdateCustomerRequestModels model)
+        {
+            if(HttpContext.Request.Method == "POST")
+            {
+                var customer = await _customerService.UpdateCustomer(model);
+                if(customer.Success == true)
+                {
+                    return Content(customer.Message);
+                }
+                return Content(customer.Message);
+            }
+            return View();
+        }
+          public async Task<IActionResult> Login(string email, string password)
         {
             if (HttpContext.Request.Method == "POST")
             {
                 var login = await _userService.Login(email, password);
-                if (login.Success == false)
+                if (login == null)
                 {
                     return Content("Email or Password does not exist ");
                 }
@@ -82,7 +95,7 @@ namespace AuctionApplication.Controllers
                 var authenticationProperties = new AuthenticationProperties();
                 var principal = new ClaimsPrincipal(claimsIdentity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, authenticationProperties);
-                return RedirectToRoute(new { controller = "Admin", action = "Admins", id = $"{login.Data.Id}" });
+                return RedirectToRoute(new { controller = "Customer", action = "GetCustomer", id = $"{login.Data.Id}" });
             }
             return View();
 
@@ -93,6 +106,7 @@ namespace AuctionApplication.Controllers
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login");
         }
+
 
 
     }

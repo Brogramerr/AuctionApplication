@@ -18,11 +18,11 @@ namespace AuctionApplication.Controllers
             _assetService = assetService;
         }
 
-        public async Task<IActionResult> ChangeAssetPrice(int id, decimal price)
+        public async Task<IActionResult> ChangeAssetPrice(int id, decimal Price)
         {
             if(HttpContext.Request.Method == "POST")
             {
-                var asset = await _assetService.ChangeAssetPriceAsync(id,price);
+                var asset = await _assetService.ChangeAssetPriceAsync(id,Price);
                 if(asset.Success == true)
                 {
                     return Content(asset.Message);
@@ -44,17 +44,17 @@ namespace AuctionApplication.Controllers
             return View();
         }
 
-        public async Task<IActionResult> ChangeAssetStatus(int id)
+       public async Task<IActionResult> Delete(int  id)
         {
-            if(HttpContext.Request.Method == "POST")
+            if (HttpContext.Request.Method == "POST")
             {
-                var asset = await _assetService.ChangeAssetStatusToAuctioned(id);
-                if(asset.Success == true)
+                var result = await _assetService.DeleteAssetAsync(id);
+                if (result.Success == true)
                 {
-                    return Content(asset.Message);
+                    return Content(result.Message);
                 }
             }
-            return View(await _assetService.ChangeAssetStatusToAuctioned(id));
+            return View();
         }
     }
 }

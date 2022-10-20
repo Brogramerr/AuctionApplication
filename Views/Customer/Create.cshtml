@@ -1,11 +1,15 @@
 @using AuctionApplication.DTOs.RequestModels
-@model CreateAdminRequestModel
+@model CreateCustomerRequestModel
+@{
+    ViewData["Title"] = "DashBoard";
+}
+
 
 
 <div class="row">
     <div class="col-md-12">
-        <h2>Add Admin</h2>
-        <form asp-action="CreateAdmin">
+        <h2>Add Customer</h2>
+        <form asp-action="Create">
             <div class="form-group">
                 <label for="Username">Username</label>
                 <input for="Username" type="text" name="Username" id="Username" class="form-control" />

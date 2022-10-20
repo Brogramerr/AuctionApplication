@@ -26,8 +26,10 @@ namespace AuctionApplication.Implementation.Services
                 Price = model.Price,
                 AssetName = model.AssetName,
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
+                AssetStatus = AssetStatus.NotAuctioned, 
+                AutioneerId = 1,
                 ImageUrl = model.ImageUrl,
-                AssetStatus = AssetStatus.NotAuctioned
+                
             };
 
             var result = await _assetRepository.CreateAsync(ass);
@@ -79,6 +81,7 @@ namespace AuctionApplication.Implementation.Services
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
                     Auctioneer = asset.Auctioneer.Username,
                     AssetStatus = asset.AssetStatus,
+                    ImageUrl = asset.ImageUrl 
                 }).ToList(),
                 Message = "Assets found successfully",
                 Success = true,
@@ -107,6 +110,7 @@ namespace AuctionApplication.Implementation.Services
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
                     Auctioneer = asset.Auctioneer.Username,
+                    ImageUrl = asset.ImageUrl, 
                     AssetStatus = asset.AssetStatus,
                 }
 
@@ -160,6 +164,7 @@ namespace AuctionApplication.Implementation.Services
                     AssetName = a.AssetName,
                     AssetStatus = a.AssetStatus,
                     Auctioneer = a.Auctioneer.Username,
+                    ImageUrl = a.ImageUrl, 
                     AuctionPriceIsOpened = a.AuctionPriceIsOpened,
                     Price = a.Price,
                 }).ToList(),
