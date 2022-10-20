@@ -14,7 +14,7 @@ namespace AuctionApplication.Entities
         public string ImageUrl { get; set; }
         public bool AuctionPriceIsOpened { get; set; }
         public int AutioneerId {get;set;}
-        public Customer Auctioneer { get; set; }
+        public Customer Autioneer { get; set; }
         public int? AuctionId {get; set;}
         public Auction Auction {get;set;}
         public int? BuyerId {get;set;}

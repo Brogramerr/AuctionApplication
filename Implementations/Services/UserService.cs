@@ -17,7 +17,7 @@ namespace AuctionApplication.Implementation.Services
         public async Task<UserResponseModel> Login(string email, string password)
         {
 
-            var user = await _repository.GetAsync(x => x.Email == email && x.Password == password);
+            var user = await _repository.GetAsync(x => x.Email.Equals(email) && x.Password.Equals(password));
             if (user != null)
             {
                 return new UserResponseModel
