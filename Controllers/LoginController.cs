@@ -41,7 +41,7 @@ namespace AuctionApplication.Controllers
                 HttpContext.Session.SetInt32("Id",login.Data.Id);
                 var claims = new List<Claim>
                 {
-                    
+                     
                     new Claim (ClaimTypes.NameIdentifier, login.Data.Email),
                     new Claim (ClaimTypes.NameIdentifier, login.Data.Password),
 
