@@ -11,10 +11,11 @@ namespace AuctionApplication.Interface.Services
 {
     public interface IBiddingService
     {
-        Task<BaseResponse> CreateBiddingAsync(CreateBiddingRequestModels createBidding);
-        Task<BaseResponse> IncreaseBiddingPriceAsync(UpdateBiddingRequestModels updateBidding);
+        Task<BaseResponse> CreateBiddingAsync(CreateBiddingRequestModels createBidding,int id);
+        Task<BaseResponse> IncreaseBiddingPriceAsync(UpdateBiddingRequestModels updateBidding,int id);
         Task<BaseResponse> TerminateBiddingAsync(int id);
         Task<BiddingsResponseModel> GetBiddingByAssetIdAsync(int id);
+        Task<BiddingResponseModel> GetBiddingByIdCustomerId(int id, int assetId);
         Task<BiddingResponseModel> GetHighestBidder();
 
 

@@ -24,11 +24,13 @@ namespace AuctionApplication.Controllers
             _biddingService = biddingService;
         }
 
-        public async Task<IActionResult> CreateBidding(CreateBiddingRequestModels model)
+        public async Task<IActionResult> CreateBidding(CreateBiddingRequestModels model,int id)
         {
             if(HttpContext.Request.Method == "POST")
             {
-                var bidding = await _biddingService.CreateBiddingAsync(model);
+                var context = Convert.ToInt32(HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value); 
+                model.CustomerId = context;
+                var bidding = await _biddingService.CreateBiddingAsync(model,id);
                 if(bidding.Success == true)
                 {
                     return Content(bidding.Message);
@@ -38,18 +40,22 @@ namespace AuctionApplication.Controllers
             return View();
         }
 
-         public async Task<IActionResult> IncreaseBiddingPrice(UpdateBiddingRequestModels updateBidding)
+         public async Task<IActionResult> IncreaseBiddingPrice(UpdateBiddingRequestModels updateBidding,int id)
          {
              if(HttpContext.Request.Method == "POST")
              {
-                 var price = await _biddingService.IncreaseBiddingPriceAsync(updateBidding);
+                 var context = Convert.ToInt32(HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value); 
+                 updateBidding.CustomerId = context;
+                 var price = await _biddingService.IncreaseBiddingPriceAsync(updateBidding,id);
                  if(price.Success == true)
                  {
                      return Content(price.Message);
                  }
                  return Content(price.Message);
-          }
-            return View();
+            }
+            var cont = Convert.ToInt32(HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value); 
+           var bid = await _biddingService.GetBiddingByIdCustomerId(cont, id);
+            return View(bid);
         }
 
          public async Task<IActionResult> TerminateBidding(UpdateBiddingRequestModels request)

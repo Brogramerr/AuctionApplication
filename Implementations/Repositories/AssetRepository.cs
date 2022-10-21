@@ -21,14 +21,16 @@ namespace AuctionApplication.Implementations.Repositories
             .Where(x => x.Auction.OpeningDate == date && x.IsDeleted == false)
             .ToListAsync();
         }
-        
 
         public async Task<List<Asset>> GetAssetsToDisplayAsync()
         {
             var asset = await _Context.Assets.Where(c => 
             c.AssetStatus == AssetStatus.Auctioned &&
             c.Auction.OpeningDate <= DateTime.Now && c.Auction.IsDeleted == false &&
-            c.Auction.OpeningDate.AddHours(c.Auction.Duration) >= DateTime.Now).ToListAsync();
+            c.Auction.OpeningDate.AddDays(c.Auction.Duration) >= DateTime.Now)
+            .Include(c => c.Auction).Include(x => x.Autioneer)
+            .Include(y => y.Biddings)
+            .ToListAsync();
             return asset;
         }
     }

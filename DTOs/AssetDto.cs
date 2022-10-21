@@ -8,6 +8,7 @@ namespace AuctionApplication.DTOs
     {
         public int AssetId { get; set; }
         public decimal Price { get; set; }
+        public decimal HighestBid { get; set; }
         public decimal? SoldPrice { get; set; }
         public string AssetName { get; set; }
          public string ImageUrl { get; set; }

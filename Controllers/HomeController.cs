@@ -1,4 +1,5 @@
-﻿using AuctionApplication.Models;
+﻿using AuctionApplication.Interface.Services;
+using AuctionApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
@@ -8,15 +9,17 @@ namespace AuctionApplication.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IAssetService _assetService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,IAssetService assetService)
         {
             _logger = logger;
+            _assetService = assetService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _assetService.GetAssetsToDisplayAsync());
         }
 
         public IActionResult Privacy()

@@ -8,6 +8,7 @@ namespace AuctionApplication.Interface.Repositories
 
         Task<IList<Bidding>> GetBiddingsByAssetIdAsync(int id);
         Task<Bidding> GetHighestBidderAsync();
+        decimal GetHighestBiddingPriceByAssetIdAsync(int id);
 
 
     }

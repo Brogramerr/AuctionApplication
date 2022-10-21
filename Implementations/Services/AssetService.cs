@@ -15,12 +15,14 @@ namespace AuctionApplication.Implementation.Services
     public class AssetService : IAssetService
     {
         private readonly IAssetRepository _assetRepository;
+        private readonly IBiddingRepository _biddingRepository;
         private readonly ICustomerRepository _customerRepository;
 
-        public AssetService(IAssetRepository repository, ICustomerRepository customerRepository)
+        public AssetService(IAssetRepository repository, ICustomerRepository customerRepository,IBiddingRepository biddingRepository)
         {
             _assetRepository = repository;
             _customerRepository = customerRepository;
+            _biddingRepository = biddingRepository;
         }
         public async Task<BaseResponse> CreateAssetAsync(int autioneerId, CreateAssetRequestModel model)
         {
@@ -80,7 +82,7 @@ namespace AuctionApplication.Implementation.Services
             {
                 Data = asset.Select(asset => new AssetDto
                 {
-                    Price = asset.Price,
+                    Price = Math.Ceiling(asset.Price),
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
                     Auctioneer = asset.Autioneer.Username,
@@ -104,18 +106,25 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
+            var bidding = await _biddingRepository.GetBiddingsByAssetIdAsync(asset.Id);
             return new AssetResponseModel
             {
                 Message = "Assets found successfully",
                 Success = true,
                 Data =  new AssetDto
                 {
-                    Price = asset.Price,
+                    AssetId = asset.Id,
+                    Price = Math.Ceiling(asset.Price),
                     AssetName = asset.AssetName,
                     AuctionPriceIsOpened = asset.AuctionPriceIsOpened,
                     Auctioneer = asset.Autioneer.Username,
                     ImageUrl = asset.ImageUrl, 
                     AssetStatus = asset.AssetStatus,
+                    HighestBid = Math.Ceiling(_biddingRepository.GetHighestBiddingPriceByAssetIdAsync(asset.Id)),
+                    Biddings = bidding.Select(bid => new BiddingDto(){
+                        CustomerName = bid.Customer.Username,
+                        Price = Math.Ceiling(bid.Price),
+                    }).ToList(),
                 }
 
             };
@@ -162,7 +171,7 @@ namespace AuctionApplication.Implementation.Services
             }
             return new AssetsResponseModel
             {
-                Data = assetToDisplay.Select(a => new AssetDto
+                Data = assetToDisplay.Select( a => new AssetDto
                 {
                     AssetId = a.Id,
                     AssetName = a.AssetName,
@@ -170,10 +179,9 @@ namespace AuctionApplication.Implementation.Services
                     Auctioneer = a.Autioneer.Username,
                     ImageUrl = a.ImageUrl, 
                     AuctionPriceIsOpened = a.AuctionPriceIsOpened,
-                    Price = a.Price,
+                    Price = Math.Ceiling(a.Price),   
+                    HighestBid = Math.Ceiling(_biddingRepository.GetHighestBiddingPriceByAssetIdAsync(a.Id))
                 }).ToList(),
-                Message = "Assets available for auction today",
-                Success = true
             };
         }
 

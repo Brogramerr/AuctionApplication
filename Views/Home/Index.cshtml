@@ -1,4 +1,5 @@
-﻿
+﻿@using AuctionApplication.DTOs.ResponseModels
+@model AssetsResponseModel
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -98,27 +99,44 @@
     <div class="container">
         <h2 class="text-center text-sm-left">Current <span class="h2-style">Auctions</span></h2>
         <div class="row row-50 mt-50">
+            @if (@Model.Data.Count == 0)
+            {
+                <div style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <p>No Asset For Auctioning</p>
+                </div>
+            }
+            else
+            {
+            @foreach (var item in @Model.Data)
+            {               
             <div class="col-xl-3 col-lg-4 col-sm-6">
                 <!-- Post Modern-->
                 <div class="post-modern">
+                    <a asp-controller="Asset" asp-action="Asset" asp-route-id="@item.AssetId">
                     <div class="post-modern-countdown countdown" data-format="HMS" data-until="+75500"></div>
-                    <figure class="post-modern-figure"><img src="~/images/page1_pic5-270x217.jpg" alt="" width="270"
+                    <figure class="post-modern-figure"><img src="~/images/@item.ImageUrl" alt="" width="270"
                             height="108" />
                     </figure>
                     <div class="post-modern-caption">
-                        <div class="post-modern-price">Price: $258</div>
-                        <div class="post-modern-price-value">386</div>
-                        <h5 class="post-modern-link"><a href="#">Apple MacBook Air 13'' 1.8GHz 128GB</a></h5><a
-                            class="button button-box-right button-primary" href="#">Submit a bid
+                            <div class="post-modern-price">Price: @item.Price</div>
+                         @if(item.AuctionPriceIsOpened == true)
+                         {
+                            <div class="post-modern-price-value">@item.HighestBid</div>
+                         }
+                        <h5 class="post-modern-link"><a href="#">@item.AssetName</a></h5><a
+                            class="button button-box-right button-primary" asp-controller="Bidding" asp-action="CreateBidding" asp-route-id="@item.AssetId">Submit a bid
                             <div class="button-box">
                                 <div class="button-box-text">X</div>
                                 <div class="button-box-count">3</div>
                             </div>
                         </a>
                     </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-sm-6">
+            } 
+            }
+            @* <div class="col-xl-3 col-lg-4 col-sm-6">
                 <!-- Post Modern-->
                 <div class="post-modern">
                     <div class="post-modern-countdown countdown" data-format="HMS" data-until="+25000"></div>
@@ -137,8 +155,8 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-sm-6">
+            </div> *@
+            @* <div class="col-xl-3 col-lg-4 col-sm-6">
                 <!-- Post Modern-->
                 <div class="post-modern">
                     <div class="post-modern-countdown countdown" data-format="HMS" data-until="+2500"></div>
@@ -157,8 +175,8 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-sm-6">
+            </div> *@
+            @* <div class="col-xl-3 col-lg-4 col-sm-6">
                 <!-- Post Modern-->
                 <div class="post-modern">
                     <div class="post-modern-countdown countdown" data-format="HMS" data-until="+65000"></div>
@@ -177,7 +195,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> *@
         </div>
         <div class="mt-xl-4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZVspan class="
             icon novi-icon fa fa-chevron-right"></span>View all auctions</a></div>

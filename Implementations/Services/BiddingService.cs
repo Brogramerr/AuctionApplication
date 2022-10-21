@@ -20,9 +20,9 @@ namespace AuctionApplication.Implementation.Services
             _assetRepository = assetRepository;
         }
 
-        public async Task<BaseResponse> CreateBiddingAsync(CreateBiddingRequestModels createBidding)
+        public async Task<BaseResponse> CreateBiddingAsync(CreateBiddingRequestModels createBidding, int id)
         {
-            var bid = await _biddingRepository.GetAsync(x => x.CustomerId == createBidding.CustomerId && x.AssetId == createBidding.AssestId);
+            var bid = await _biddingRepository.GetAsync(x => x.CustomerId == createBidding.CustomerId && x.AssetId == id);
             if (bid != null)
             {
                 return new BaseResponse()
@@ -31,7 +31,7 @@ namespace AuctionApplication.Implementation.Services
                     Success = false,
                 };
             }
-            var asset = await _assetRepository.GetAsync(createBidding.AssestId);
+            var asset = await _assetRepository.GetAsync(id);
             if(asset.AutioneerId == createBidding.CustomerId) return new BaseResponse()
             {
                 Message = "Auctioneer cannot bid on asset",
@@ -41,7 +41,7 @@ namespace AuctionApplication.Implementation.Services
             {
                 CustomerId = createBidding.CustomerId,
                 Price = createBidding.Price,
-                AssetId = createBidding.AssestId,
+                AssetId = id
             };
             await _biddingRepository.CreateAsync(bidding);
             return new BaseResponse()
@@ -74,9 +74,9 @@ namespace AuctionApplication.Implementation.Services
                 }).ToList(),
             };
         }
-        public async Task<BaseResponse> IncreaseBiddingPriceAsync(UpdateBiddingRequestModels updateBidding)
+        public async Task<BaseResponse> IncreaseBiddingPriceAsync(UpdateBiddingRequestModels updateBidding, int id)
         {
-            var bidding = await _biddingRepository.GetAsync(x => x.Id == updateBidding.BiddingId);
+            var bidding = await _biddingRepository.GetAsync(x => x.AssetId == id && x.CustomerId == updateBidding.CustomerId);
             if (bidding == null)
             {
                 return new BaseResponse()
@@ -125,6 +125,28 @@ namespace AuctionApplication.Implementation.Services
                 },
                 Message = $"Highest Bidder for this asset is {getBidder.Customer.Username}",
                 Success = true
+            };
+        }
+
+        public async Task<BiddingResponseModel> GetBiddingByIdCustomerId(int id, int assetId)
+        {
+            var bidding = await _biddingRepository.GetAsync(c => c.AssetId == assetId && c.CustomerId == id);
+            if(bidding == null)
+            {
+                return new BiddingResponseModel
+                {
+                    Message = "Bidding not found",
+                    Success = false
+                };
+            }
+            return new BiddingResponseModel
+            {
+                Message = "Bidding found",
+                Success = false,
+                Data = new BiddingDto
+                {
+                    Price = bidding.Price,
+                }
             };
         }
     }

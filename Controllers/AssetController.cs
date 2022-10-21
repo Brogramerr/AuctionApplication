@@ -45,6 +45,15 @@ namespace AuctionApplication.Controllers
             }
             return View();
         }
+        public async Task<IActionResult> Asset(int id)
+        {
+                var asset = await _assetService.GetAssetsById(id);
+                if(asset.Success == true)
+                {
+                    return View(asset);
+            }
+            return Content(asset.Message);
+        }
 
        public async Task<IActionResult> Delete(int  id)
         {
