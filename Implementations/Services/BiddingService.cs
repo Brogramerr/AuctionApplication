@@ -25,7 +25,7 @@ namespace AuctionApplication.Implementation.Services
             var bid = await _biddingRepository.GetAsync(x => x.CustomerId == createBidding.CustomerId && x.AssetId == id);
             if (bid != null)
             {
-                return new BaseResponse()
+                return new BaseResponse
                 {
                     Message = "You have already placed a bid on this asset",
                     Success = false,
@@ -44,7 +44,7 @@ namespace AuctionApplication.Implementation.Services
                 AssetId = id
             };
             await _biddingRepository.CreateAsync(bidding);
-            return new BaseResponse()
+            return new BaseResponse
             {
                 Message = "Bidding successfully created",
                 Success = true,
@@ -56,17 +56,17 @@ namespace AuctionApplication.Implementation.Services
             var bidding = await _biddingRepository.GetBiddingsByAssetIdAsync(id);
             if (bidding == null)
             {
-                return new BiddingsResponseModel()
+                return new BiddingsResponseModel
                 {
                     Message = "Bidding not found",
                     Success = false,
                 };
             }
-            return new BiddingsResponseModel()
+            return new BiddingsResponseModel
             {
                 Message = "Bidding found",
                 Success = true,
-                 Bidding = bidding.Select(x => new BiddingDto()
+                 Bidding = bidding.Select(x => new BiddingDto
                 {
                     Price = x.Price,
                     CustomerName = x.Customer.FirstName + " " + x.Customer.LastName,
@@ -79,7 +79,7 @@ namespace AuctionApplication.Implementation.Services
             var bidding = await _biddingRepository.GetAsync(x => x.AssetId == id && x.CustomerId == updateBidding.CustomerId);
             if (bidding == null)
             {
-                return new BaseResponse()
+                return new BaseResponse
                 {
                     Message = "Bidding not found",
                     Success = false,
@@ -87,7 +87,7 @@ namespace AuctionApplication.Implementation.Services
             }
             bidding.Price = updateBidding.Price;
             await _biddingRepository.UpdateAsync(bidding);
-            return new BaseResponse()
+            return new BaseResponse
             {
                 Message = "Bidding price increased successfully",
                 Success = true,
@@ -142,10 +142,10 @@ namespace AuctionApplication.Implementation.Services
             return new BiddingResponseModel
             {
                 Message = "Bidding found",
-                Success = false,
+                Success = true,
                 Data = new BiddingDto
                 {
-                    Price = bidding.Price,
+                    Price = Math.Ceiling(bidding.Price)
                 }
             };
         }

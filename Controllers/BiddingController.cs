@@ -55,6 +55,10 @@ namespace AuctionApplication.Controllers
             }
             var cont = Convert.ToInt32(HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value); 
            var bid = await _biddingService.GetBiddingByIdCustomerId(cont, id);
+           if(bid.Success == false)
+           {
+                return Content(bid.Message);
+           }
             return View(bid);
         }
 

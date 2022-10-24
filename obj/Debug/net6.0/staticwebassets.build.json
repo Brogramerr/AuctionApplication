@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pfx0THeDwziKqUFV8pDVv9PiJvPBckpCg2DXqfzQC2Q=",
+  "Hash": "PS3oc1tbBrV5BPxffb2+ZVgBPQIwIz7w8jnytOSBklM=",
   "Source": "AuctionApp",
   "BasePath": "_content/AuctionApp",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\4e863000-efeb-445a-9d68-b02a2470549b.jpeg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/4e863000-efeb-445a-9d68-b02a2470549b.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e863000-efeb-445a-9d68-b02a2470549b.jpeg"
     },
     {
       "Identity": "C:\\Users\\Zafrullah\\Desktop\\AuctionApplication\\AuctionApplication\\wwwroot\\images\\about-01-370x270.jpg",

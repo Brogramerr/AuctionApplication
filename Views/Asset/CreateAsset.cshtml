@@ -1,35 +1,31 @@
 @using AuctionApplication.DTOs.RequestModels
-@using AuctionApplication.DTOs.ResponseModels
-@model CustomerResponseModel
+@model CreateAssetRequestModel
 
     <div class="row">
         <div class="col-md-12">
             <h2>Add Asset For Auctioning</h2>
-            <form asp-action="CreateAsset">
+            <form asp-action="CreateAsset" method="post" asp-controller="Asset"  enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="Price">Asset Price</label>
-                    <input for="Price" type="number" name="Price" id="name" class="form-control" />
+                    <input for="Price" asp-for="Price" type="number" name="Price" id="name" class="form-control" />
                 </div>
                  <div class="form-group">
                     <label for="AssetName">Asset Name</label>
-                    <input type="text" name="AssetName" id="AssetName" class="form-control"/>
+                    <input type="text" asp-for="AssetName" name="AssetName" id="AssetName" class="form-control"/>
                 </div>
                  <div class="form-group">
                     <label for="ImageUrl">Asset Image</label>
-                    <input type="file" name="ImageUrl" id="ImageUrl" class="form-control"/>
+                    <input type="file" asp-for="ImageUrl" name="ImageUrl" id="ImageUrl" class="form-control"/>
                 </div>
                  <div class="form-group">
                     <label for="AuctionPriceIsOpened">Do you like to put your asset for open auctioning</label>
                     <br>
                     <label for="AuctionPriceIsOpened">Yes</label>
-                    <input for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" class="form-control" value="true">
+                    <input for="AuctionPriceIsOpened" asp-for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" value="true">
                     <br>
                     <label for="AuctionPriceIsOpened">No</label>
-                    <input for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" class="form-control" value="false">
+                    <input for="AuctionPriceIsOpened" asp-for="AuctionPriceIsOpened" name="AuctionPriceIsOpened" type="radio" id="AuctionPriceIsOpened" value="false">
                 </div>
-                @* <div class="form-group" type="hidden">
-                     <input  name="AutioneerId" id="AutioneerId" class="form-control" value="@Model.Data.Id"/>
-                </div> *@
                 <button type="submit">Submit</button>
             </form>
         </div>

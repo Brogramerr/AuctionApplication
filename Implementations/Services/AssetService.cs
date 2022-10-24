@@ -17,16 +17,40 @@ namespace AuctionApplication.Implementation.Services
         private readonly IAssetRepository _assetRepository;
         private readonly IBiddingRepository _biddingRepository;
         private readonly ICustomerRepository _customerRepository;
+         private readonly  IWebHostEnvironment _webHostEnvironment;
 
-        public AssetService(IAssetRepository repository, ICustomerRepository customerRepository,IBiddingRepository biddingRepository)
+        public AssetService(IAssetRepository repository, ICustomerRepository customerRepository,IBiddingRepository biddingRepository,IWebHostEnvironment webHostEnvironment)
         {
             _assetRepository = repository;
             _customerRepository = customerRepository;
             _biddingRepository = biddingRepository;
+            _webHostEnvironment = webHostEnvironment;
         }
         public async Task<BaseResponse> CreateAssetAsync(int autioneerId, CreateAssetRequestModel model)
         {
             var customer = await _customerRepository.GetAsync(x => x.UserId == autioneerId);
+            if(customer == null)
+            {
+                return new BaseResponse
+                {
+                    Message = "Auctioneer not found",
+                    Success = false
+                };
+            }
+            var imageName = "";
+            if(model.ImageUrl != null)
+            {
+                var imgPath = _webHostEnvironment.WebRootPath;
+                var imagePath  = Path.Combine(imgPath,"images");
+                Directory.CreateDirectory(imagePath);
+                var imageType = model.ImageUrl.ContentType.Split('/')[1];
+                imageName = $"{Guid.NewGuid()}.{imageType}";
+                var fullPath = Path.Combine(imagePath,imageName);
+                using(var fileStream = new FileStream(fullPath,FileMode.Create))
+                {
+                    model.ImageUrl.CopyTo(fileStream);
+                }
+            }
             var ass = new Asset
             {
                 Price = model.Price,
@@ -34,7 +58,7 @@ namespace AuctionApplication.Implementation.Services
                 AuctionPriceIsOpened = model.AuctionPriceIsOpened,
                 AssetStatus = AssetStatus.NotAuctioned, 
                 AutioneerId = customer.Id,
-                ImageUrl = model.ImageUrl,
+                ImageUrl = imageName
                 
             };
 
